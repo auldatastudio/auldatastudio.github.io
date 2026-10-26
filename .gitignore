@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies & build output
+node_modules/
+dist/
+build/
+.cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data & client files (jangan pernah di-push)
+data/
+clients/
+*.xlsx
+*.xls
+*.csv
+*.pbix
+*.pbit
+!docs/assets/**/*.xlsx
+!docs/assets/**/*.csv
+
+# Logs & temp
+*.log
+tmp/
