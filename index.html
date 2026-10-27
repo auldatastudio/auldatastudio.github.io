@@ -8,19 +8,21 @@
 <meta name="theme-color" content="#0F5132">
 <meta name="robots" content="index,follow">
 
-<!-- GANTI: ganti USERNAME dengan username GitHub Anda, atau hapus dua baris ini kalau memakai domain sendiri. -->
-<link rel="canonical" href="https://USERNAME.github.io/aul-data-studio/">
-<meta property="og:url" content="https://USERNAME.github.io/aul-data-studio/">
+<!-- URL situs. Dipakai di canonical, Open Graph, dan sitemap.
+     Kalau nama repo atau username GitHub berubah, ganti di 4 tempat:
+     baris ini, og:url, og:image, twitter:image, plus robots.txt & sitemap.xml. -->
+<link rel="canonical" href="https://chairulaulia1-dev.github.io/aul-data-studio/">
+<meta property="og:url" content="https://chairulaulia1-dev.github.io/aul-data-studio/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Aul Data Studio — Konsultan Data & Training untuk Usaha dan Lembaga">
 <meta property="og:description" content="Laporan bulanan selesai dalam satu klik. Dashboard, model pembiayaan, analitik, dan corporate training untuk usaha umum maupun lembaga syariah.">
-<meta property="og:image" content="assets/img/og-image.png">
+<meta property="og:image" content="https://chairulaulia1-dev.github.io/aul-data-studio/assets/img/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Aul Data Studio">
 <meta name="twitter:description" content="Konsultan data & training untuk usaha umum maupun lembaga syariah.">
-<meta name="twitter:image" content="assets/img/og-image.png">
+<meta name="twitter:image" content="https://chairulaulia1-dev.github.io/aul-data-studio/assets/img/og-image.png">
 
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +36,10 @@
   "@graph": [
     {
       "@type": "ProfessionalService",
+      "@id": "https://chairulaulia1-dev.github.io/aul-data-studio/#studio",
       "name": "Aul Data Studio",
+      "url": "https://chairulaulia1-dev.github.io/aul-data-studio/",
+      "image": "https://chairulaulia1-dev.github.io/aul-data-studio/assets/img/og-image.png",
       "description": "Konsultasi data, dashboard, analitik, dan corporate training untuk usaha dan lembaga di Indonesia — termasuk koperasi syariah, BMT, BPRS, dan lembaga zakat/wakaf.",
       "areaServed": { "@type": "Country", "name": "Indonesia" },
       "serviceType": [

@@ -14,7 +14,8 @@ Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan**
 | Fase 1b — Arsitektur langganan 4 tier + positioning ulang | ✅ Selesai |
 | Fase 1c — Program corporate training (28 modul, 8 program, Data Academy) | ✅ Selesai |
 | Fase 2 — Build website (`index.html`, CSS, JS, bilingual) | ✅ Selesai |
-| Fase 2b — Isi nomor WhatsApp, email, dan screenshot asli | ⏳ Perlu Anda |
+| Fase 2b — Isi kontak, portofolio asli, dan URL situs | ✅ Selesai |
+| Fase 2c — Push ke GitHub Pages | ⏳ Perlu Anda (langkahnya di bawah) |
 | Fase 3 — Aset jualan (1-pager PDF, silabus training, studi kasus) | ⏳ Belum dimulai |
 
 ---
@@ -34,7 +35,7 @@ Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan**
 
 | # | Apa | Di mana | Cara |
 |---|---|---|---|
-| 1 | **Username GitHub** | [index.html](index.html) (`canonical` & `og:url`), [robots.txt](robots.txt), [sitemap.xml](sitemap.xml) | Cari `USERNAME`, ganti dengan username Anda. Boleh dihapus kalau nanti pakai domain sendiri. |
+| 1 | **URL situs (kalau nama repo berubah)** | `index.html` (canonical, og:url, og:image, twitter:image, JSON-LD), `robots.txt`, `sitemap.xml` | Saat ini diisi `https://chairulaulia1-dev.github.io/aul-data-studio/`. Kalau repo diberi nama lain, cukup ganti string `aul-data-studio` di 3 file itu. |
 | 2 | **Screenshot tambahan** | `assets/img/` | Portofolio asli sudah terpasang: `work-superstore.png` (dashboard Power BI) dan `assets/portfolio/diad-final-report.pdf` (laporan). Kartu *pipeline* dan *aplikasi analitik* masih ilustrasi SVG — ganti dengan screenshot asli saat ada. |
 
 Untuk mengganti nomor WhatsApp atau tautan sosial nanti: cukup ubah objek `CONFIG` di baris-baris awal [assets/js/main.js](assets/js/main.js). Semua tombol di halaman ikut menyesuaikan sendiri.
@@ -43,37 +44,70 @@ Untuk mengganti nomor WhatsApp atau tautan sosial nanti: cukup ubah objek `CONFI
 
 Buka `index.html` langsung di browser. Tidak perlu `npm install`, tidak perlu server, tidak ada build step.
 
-## Deploy ke GitHub Pages (`username.github.io`)
+---
 
-Ada dua cara. **Cara A lebih rapi** karena URL-nya bersih tanpa nama repo.
+## Deploy: satu repo per usaha
 
-### Cara A — repo bernama `username.github.io`
+Rencana Anda: satu akun GitHub (`chairulaulia1-dev`), beberapa usaha, satu website per usaha. Itu **cara yang tepat** — setiap website jadi repo sendiri, punya URL sendiri, dan tidak saling mengganggu.
 
-Hasil: `https://username.github.io/`
+### Pola URL
 
-1. Buat repo baru di GitHub dengan nama **persis** `username.github.io` (ganti `username` dengan username Anda).
-2. Push repo ini ke sana:
+```
+https://chairulaulia1-dev.github.io/<nama-repo>/
+```
+
+| Repo | Hasil URL |
+|---|---|
+| `aul-data-studio` | `https://chairulaulia1-dev.github.io/aul-data-studio/` |
+| `nama-usaha-kedua` | `https://chairulaulia1-dev.github.io/nama-usaha-kedua/` |
+| `nama-usaha-ketiga` | `https://chairulaulia1-dev.github.io/nama-usaha-ketiga/` |
+
+Repo ini disiapkan untuk nama repo **`aul-data-studio`**. Semua path di dalamnya **relatif** (`assets/...`, `#paket`), jadi otomatis benar di dalam subfolder — tidak ada yang perlu diubah.
+
+### Langkah deploy (sekali saja per usaha)
+
+1. Buka https://github.com/new
+2. **Repository name:** `aul-data-studio`
+3. Pilih **Public** (wajib untuk GitHub Pages gratis), jangan centang "Add a README"
+4. Klik **Create repository**
+5. Jalankan di terminal:
 
    ```bash
    cd C:\Arul\Portfolio\Projects\data-consultant
-   git remote add origin https://github.com/USERNAME/USERNAME.github.io.git
+   git remote add origin https://github.com/chairulaulia1-dev/aul-data-studio.git
    git branch -M main
    git push -u origin main
    ```
 
-3. Tunggu 1–2 menit, buka `https://username.github.io/`.
+6. Di halaman repo: **Settings → Pages → Source: Deploy from a branch → Branch: `main` / folder `/ (root)` → Save**
+7. Tunggu 1–2 menit, buka **https://chairulaulia1-dev.github.io/aul-data-studio/**
 
-Setting Pages biasanya sudah otomatis (`main` / root) untuk repo jenis ini. Kalau belum: **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**.
+### Untuk usaha berikutnya
 
-### Cara B — repo dengan nama lain
+Salin folder ini, ganti isi `index.html` + `assets/`, lalu ulangi langkah di atas dengan nama repo berbeda. Jangan pakai satu repo untuk dua usaha — URL-nya akan bertingkat (`/repo/usaha-kedua/`) dan sulit dibagikan.
 
-Hasil: `https://username.github.io/aul-data-studio/`
+**Yang perlu diganti di setiap salinan:** `CONFIG` di `main.js` (nomor WA, Instagram, LinkedIn), URL di `index.html`/`robots.txt`/`sitemap.xml`, dan warna di `:root` pada `style.css` supaya tiap usaha punya identitas sendiri.
 
-1. Buat repo, misalnya `aul-data-studio`.
-2. Push seperti di atas, lalu **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**.
-3. Tunggu 1–2 menit, buka `https://username.github.io/aul-data-studio/`.
+### Nanti: halaman hub (opsional, jangan sekarang)
 
-Semua path di website memakai **path relatif**, jadi dua cara di atas sama-sama jalan tanpa perubahan kode.
+Kalau usaha sudah lebih dari dua, buat satu repo tambahan bernama **persis** `chairulaulia1-dev.github.io`. Repo itu akan tampil di akar domain (`https://chairulaulia1-dev.github.io/`) dan bisa menjadi halaman daftar: "Aul Data Studio →", "Usaha B →", "Usaha C →".
+
+Dua hal yang perlu diingat soal repo hub itu:
+
+- Nama repo harus **persis** `chairulaulia1-dev.github.io` — kalau salah satu huruf saja, tidak akan berfungsi sebagai akar.
+- Repo hub **tidak** bentrok dengan repo usaha; keduanya jalan bersamaan. Tapi selama repo hub belum ada, **jangan** memakai nama itu untuk usaha lain — nanti situs usahanya yang akan menempati akar domain, dan akan merepotkan saat dipindah.
+
+### Catatan teknis yang sudah disiapkan
+
+| Hal | Status |
+|---|---|
+| Path relatif (aman di subfolder) | ✅ tidak ada `href="/..."` sama sekali |
+| `canonical`, `og:url`, `og:image`, `twitter:image` | ✅ sudah absolut dengan URL lengkap (OG image harus absolut agar muncul saat link dibagikan) |
+| `sitemap.xml` | ✅ berisi URL lengkap |
+| `.nojekyll` | ✅ agar GitHub Pages tidak memproses Jekyll |
+| `404.html` | ✅ dipakai otomatis untuk path yang tidak ada di dalam repo ini |
+| `robots.txt` | ⚠️ dibaca crawler hanya di akar domain, bukan di subfolder — lihat catatan di dalam file |
+| HTTPS | ✅ otomatis (Let's Encrypt) setelah Pages aktif |
 
 ## Struktur
 
@@ -112,13 +146,14 @@ data-consultant/
 
 ## Checklist sebelum dibagikan
 
-- [ ] `USERNAME` diganti di `index.html`, `robots.txt`, `sitemap.xml`
-- [ ] Klik setiap tombol WhatsApp: pastikan chat terbuka ke **0812-8481-0608** dengan pesan terisi
-- [ ] Klik tautan Instagram di bagian kontak
-- [ ] Screenshot dashboard asli menggantikan ilustrasi SVG
+- [ ] Repo dibuat dengan nama `aul-data-studio` dan Pages diaktifkan
+- [ ] `https://chairulaulia1-dev.github.io/aul-data-studio/` terbuka tanpa error
+- [ ] Klik setiap tombol WhatsApp: chat terbuka ke **0812-8481-0608** dengan pesan terisi
+- [ ] Klik tautan Instagram, LinkedIn, GitHub, dan PDF portofolio
 - [ ] Coba di HP: tombol menu, pengalih bahasa, CTA lengket di bawah
-- [ ] `og-image.png` diganti dengan kartu 1200×630 berisi judul (opsional, tapi bagus saat tautan dibagikan)
-- [ ] Buka `404.html` untuk memastikan halaman error tampil rapi
+- [ ] Tes pratinjau tautan: tempel URL situs di WhatsApp/LinkedIn, pastikan `og-image.png` muncul
+- [ ] Buka URL yang tidak ada (mis. `/aul-data-studio/xyz`) untuk memastikan `404.html` tampil
+- [ ] Ganti kartu *pipeline* dan *aplikasi analitik* dengan screenshot asli saat ada
 
 ## Deploy alternatif
 

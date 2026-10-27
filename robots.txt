@@ -1,5 +1,13 @@
+# robots.txt — Aul Data Studio
+#
+# Catatan: crawler hanya membaca robots.txt di AKAR domain
+# (https://chairulaulia1-dev.github.io/robots.txt), bukan di dalam subfolder
+# seperti /aul-data-studio/. File ini tetap disertakan supaya lengkap dan
+# langsung berguna kalau nanti situs ini dipasang di domain sendiri.
+# Kalau nanti Anda membuat repo chairulaulia1-dev.github.io (halaman hub),
+# taruh robots.txt di sana untuk mengatur seluruh domain.
+
 User-agent: *
 Allow: /
 
-# GANTI: sesuaikan dengan URL GitHub Pages Anda setelah situs aktif.
-Sitemap: https://USERNAME.github.io/aulia-data-studio/sitemap.xml
+Sitemap: https://chairulaulia1-dev.github.io/aul-data-studio/sitemap.xml
