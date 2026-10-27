@@ -25,17 +25,19 @@ Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan**
 |---|---|
 | Nomor WhatsApp | **0812-8481-0608** (`6281284810608`) — diatur di [assets/js/main.js](assets/js/main.js) |
 | Instagram | **@auldatastudio** |
+| LinkedIn | **linkedin.com/in/chairul-aulia-aa380119b** |
+| GitHub | **github.com/chairulaulia1-dev** |
 | Brand | **Aul Data Studio** |
-| Email | Tidak dipakai. Kontak lewat WhatsApp & Instagram saja |
+| Email | Tidak dipakai. Kontak lewat WhatsApp, Instagram, LinkedIn, atau GitHub |
 
 ## ⚠️ Yang masih perlu diganti
 
 | # | Apa | Di mana | Cara |
 |---|---|---|---|
 | 1 | **Username GitHub** | [index.html](index.html) (`canonical` & `og:url`), [robots.txt](robots.txt), [sitemap.xml](sitemap.xml) | Cari `USERNAME`, ganti dengan username Anda. Boleh dihapus kalau nanti pakai domain sendiri. |
-| 2 | **Screenshot dashboard** | `assets/img/work-*.svg` dan `hero-report.svg` | Ganti dengan screenshot asli. Taruh file PNG/JPG di `assets/img/`, lalu ubah `src="assets/img/work-sales.svg"` menjadi nama file baru Anda. |
+| 2 | **Screenshot tambahan** | `assets/img/` | Portofolio asli sudah terpasang: `work-superstore.png` (dashboard Power BI) dan `assets/portfolio/diad-final-report.pdf` (laporan). Kartu *pipeline* dan *aplikasi analitik* masih ilustrasi SVG — ganti dengan screenshot asli saat ada. |
 
-Untuk mengganti nomor WhatsApp atau username Instagram nanti: cukup ubah objek `CONFIG` di baris-baris awal [assets/js/main.js](assets/js/main.js). Semua tombol di halaman ikut menyesuaikan sendiri.
+Untuk mengganti nomor WhatsApp atau tautan sosial nanti: cukup ubah objek `CONFIG` di baris-baris awal [assets/js/main.js](assets/js/main.js). Semua tombol di halaman ikut menyesuaikan sendiri.
 
 ## Menjalankan secara lokal
 
@@ -83,7 +85,8 @@ data-consultant/
 │   ├── css/style.css       # seluruh styling, tanpa framework
 │   ├── js/i18n.js          # kamus terjemahan Inggris
 │   ├── js/main.js          # CONFIG, bahasa, menu mobile, animasi
-│   └── img/                # ilustrasi SVG, favicon, og-image.png
+│   ├── img/                # screenshot & ilustrasi, favicon, og-image.png
+│   └── portfolio/          # file portofolio untuk diunduh (PDF)
 ├── docs/
 │   ├── PLAN.md             # strategi bisnis
 │   ├── LAYANAN.md          # katalog layanan & kurikulum training
@@ -103,6 +106,7 @@ data-consultant/
 | Warna, ukuran, jarak | `assets/css/style.css` (semua warna ada di blok `:root` paling atas) |
 | Harga / paket | `index.html` bagian `#paket` |
 | Program training | `index.html` bagian `#training` |
+| Portofolio | `assets/img/` + `assets/portfolio/` — lalu ubah `src`/`href` di `index.html` bagian `#bukti` |
 
 **Tentang bilingual:** Indonesia adalah default dan teksnya ada di HTML. Bahasa Inggris diambil dari `assets/js/i18n.js`. Saat pengunjung memilih EN, teks Indonesia disimpan di memori lalu dikembalikan saat memilih ID. Pilihan bahasa diingat lewat `localStorage`, dan bisa dipaksa lewat URL: `?lang=en` atau `?lang=id`.
 

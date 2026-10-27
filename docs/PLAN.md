@@ -50,7 +50,39 @@ Klien tidak membeli "data". Mereka membeli hilangnya salah satu dari enam kerugi
 ## 3. Positioning
 
 **Satu kalimat:**
-> "Saya membangun pelaporan dan model analitik yang dipakai untuk mengambil keputusan — dari harga dan stok sampai pembiayaan dan dampak program — untuk usaha dan lembaga syariah."
+> "Saya membangun pelaporan dan model analitik yang dipakai untuk mengambil keputusan — dari harga dan stok sampai pembiayaan dan dampak program — untuk usaha dan lembaga, umum maupun syariah."
+
+### 3.0 Kenapa "umum **dan** syariah", bukan "khusus syariah"
+
+Ini keputusan positioning yang paling menentukan jumlah prospek, jadi ditulis eksplisit.
+
+**Masalahnya:** menyebut diri "konsultan data syariah" terasa fokus, tapi menyaring keluar terlalu banyak. Ada tiga jenis calon klien, dan hanya yang pertama merasa "dipanggil":
+
+| Jenis calon klien | Reaksi terhadap label "khusus syariah" |
+|---|---|
+| Lembaga syariah formal (koperasi syariah, BMT, BPRS, LAZ) | Merasa tepat sasaran |
+| Usaha yang **praktiknya** menghindari riba & produk haram, tapi **tidak memakai label** | Ragu — "kami bukan lembaga syariah, mungkin bukan untuk kami" |
+| Usaha tanpa pertimbangan syariah sama sekali | Mundur |
+
+Jenis kedua justru sering klien terbaik: sudah disiplin secara praktik, tapi tidak menganggap dirinya "lembaga syariah" sehingga tidak pernah mencari konsultan syariah.
+
+**Solusinya: masalah dulu, sektor belakangan, syariah sebagai spesialisasi.**
+
+| Lapis | Isi | Fungsi |
+|---|---|---|
+| **Janji (headline)** | "Laporan bulanan selesai dalam satu klik" | Berlaku untuk semua usaha — tidak menyaring siapa pun |
+| **Sektor** | Retail, F&B, jasa, koperasi, **koperasi syariah, BMT, BPRS, LAZ** | Menunjukkan jangkauan; yang syariah melihat dirinya disebut |
+| **Spesialisasi** | Nisbah, akad, kolektibilitas, mustahik, maqashid | Nilai tambah **kalau relevan** — bukan syarat masuk |
+
+**Kalimat kunci yang harus ada di website** (sudah dipasang di section Layanan dan FAQ):
+
+> **Label bukan syarat.** Klien beragam: ada yang beroperasi dengan prinsip syariah secara formal, ada yang menghindari riba dan produk haram tanpa memakai label apa pun, dan ada yang tidak membahasnya sama sekali. Ketiganya mendapat layanan dan harga yang sama.
+
+**Aturan penulisan ke depan:**
+- Jangan pernah menulis "khusus syariah", "hanya untuk lembaga syariah", atau "spesialis syariah saja".
+- Boleh: "termasuk", "di antaranya", "kalau Anda memerlukannya".
+- Istilah syariah (nisbah, akad, mustahik) dipakai sebagai **kosakata**, bukan sebagai pintu masuk. Kalau muncul di dua paragraf pertama, orang non-syariah akan menyimpulkan "ini bukan untuk saya".
+- Modul & layanan syariah tetap dijual dengan percaya diri — tapi sebagai **pintu kedua**, bukan satu-satunya pintu.
 
 ### 3.1 Cara menyebut latar belakang
 
@@ -86,7 +118,7 @@ Homepage memakai **bahasa pembeli** (manajer koperasi, direktur LAZ, owner F&B).
 |---|---|
 | Kedalaman teknis | Sistem yang berjalan berbulan-bulan tanpa rusak, pipeline otomatis, dashboard yang dirawat — bukan file sekali jadi |
 | Ketajaman kuantitatif | Model proyeksi + tabel sensitivitas, forecast dengan error terukur, evaluasi dampak dengan sampling yang bisa diaudit |
-| Paham bahasa syariah | Bicara nisbah, akad mudharabah/musyarakah, kolektibilitas, mustahik, maqashid — tanpa perlu klien menjelaskan |
+| Paham bahasa syariah (kalau relevan) | Bicara nisbah, akad mudharabah/musyarakah, kolektibilitas, mustahik, maqashid — tanpa perlu klien menjelaskan. Ditawarkan sebagai kelebihan, bukan syarat |
 | Praktis, bukan akademik | Output: dashboard, template, model, memo 2 halaman — bukan tesis 80 halaman |
 | Harga masuk akal untuk kelas UKM | Harga 10–20% dari konsultan Jakarta, karena kerja remote, solo, dan produk yang sudah terstandarisasi |
 | Amanah data | Data tetap di akun klien, salinan mentah dihapus setelah project, nama klien hanya tampil dengan izin tertulis. **Tanpa klaim sertifikasi/kepatuhan hukum** — cukup komitmen praktis yang bisa dibuktikan |
@@ -114,6 +146,8 @@ Urutan berdasarkan **kecepatan closing dari jaringan**, bukan ukuran pasar.
 | 🥉 3 | **NGO/CSR & program donatur** | Butuh M&E, dashboard program | Program Manager | 10–30 jt | 1–3 bulan |
 
 **Profil pembeli yang paling gampang closing:** alumni Tazkia yang sekarang jadi **pengurus/manajer di koperasi syariah atau LAZ**, usia 28–40, sudah kenal kamu secara personal, punya masalah laporan bulanan, dan bisa memutuskan sendiri di bawah Rp 15 juta.
+
+**Catatan penting:** tabel di atas adalah urutan **prioritas upaya**, bukan batasan pasar. Usaha umum (retail, F&B, jasa, manufaktur kecil) yang punya masalah sama — laporan manual, margin tidak jelas, stok kacau — adalah klien yang sah dan dilayani dengan harga yang sama. Lihat [§3.0](#30-kenapa-umum-dan-syariah-bukan-khusus-syariah).
 
 ---
 
@@ -613,7 +647,7 @@ Spesifikasi lengkap + draft copy: [WEBSITE.md](WEBSITE.md).
 | Manajemen klien & project | Notion atau Trello + Google Drive per klien |
 | Invoice | Manual (template PDF/Sheets) dulu, nanti Jurnal/Mekari |
 | Komunikasi | WA Business (0812-8481-0608), Google Meet, Loom untuk handover |
-| Media sosial | Instagram [@auldatastudio](https://www.instagram.com/auldatastudio) — kanal konten & bukti kerja |
+| Media sosial | Instagram [@auldatastudio](https://www.instagram.com/auldatastudio) untuk konten & bukti kerja · [LinkedIn](https://www.linkedin.com/in/chairul-aulia-aa380119b/) untuk kredibilitas profesional · [GitHub](https://github.com/chairulaulia1-dev) untuk portofolio teknis |
 | Website analytics | Plausible/Umami (atau GA4) |
 
 **Template yang harus ada sebelum klien pertama (buat di Minggu 1–2):**
@@ -731,7 +765,8 @@ Dua angka pengawal untuk training: **% pendapatan dari training** (kalau >30%, k
 | Bundling | Langganan masuk ke proposal sejak awal sebagai satu paket — **dengan angka perbandingan** di [§6.4](#64-bundling-langganan-dijual-di-penawaran-yang-sama) |
 | Corporate training | Lini bisnis kedua: 28 modul / 5 jalur / 3 level + 8 program siap jual + Data Academy tahunan. Batas kapasitas 25–30%, target ≤25% pendapatan — lihat [§8](#8-corporate-training) |
 | Struktur kurikulum | Jalur A (literasi) · B (tools) · C (statistik & analitik) · D (engineering & tata kelola) · E (syariah & sektoral) + capstone end-to-end |
-| Kontak publik | WhatsApp **0812-8481-0608** (`6281284810608`) · Instagram **@auldatastudio**. Tanpa email di website |
+| Kontak publik | WhatsApp **0812-8481-0608** (`6281284810608`) · Instagram **@auldatastudio** · [LinkedIn](https://www.linkedin.com/in/chairul-aulia-aa380119b/) · [GitHub](https://github.com/chairulaulia1-dev). Tanpa email di website |
+| Positioning audiens | **Umum + syariah**, bukan khusus syariah. Janji di headline, sektor di daftar, syariah sebagai spesialisasi — lihat [§3.0](#30-kenapa-umum-dan-syariah-bukan-khusus-syariah) |
 | Klaim kepatuhan | **Tidak ada.** Website tidak menyebut UU PDP. Retensi dibangun lewat 4 komitmen praktis di [§12](#12-operasional) |
 
 **Belum diputuskan (dibutuhkan sebelum website live):**

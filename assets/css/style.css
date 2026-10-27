@@ -71,6 +71,60 @@ ul:last-child, ol:last-child { margin-bottom: 0; }
   border-radius: 4px;
 }
 
+/* ---------- chips "sektor yang dilayani" ---------- */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin: 1.4rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.chips li {
+  padding: .35em .8em;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+.section--alt .chips li { background: var(--bg); }
+
+/* ---------- catatan di bawah subhead ---------- */
+.subhead-note {
+  margin: -.7rem 0 1.25rem;
+  font-size: .88rem;
+  color: var(--muted);
+  max-width: 62ch;
+}
+
+/* ---------- callout lembut ---------- */
+.callout.callout--soft {
+  background: var(--brand-soft);
+  border-color: rgba(15, 81, 50, .18);
+  color: #24352B;
+}
+.callout.callout--soft strong { color: var(--brand); }
+
+/* ---------- kartu portfolio dengan tautan ---------- */
+.card__media--shot img { border-radius: 0; }
+.card__zoom { display: block; line-height: 0; }
+.card__zoom:hover img { opacity: .94; }
+.card__link { font-size: .85rem !important; padding-bottom: 1.1rem; }
+.card__link a { font-weight: 600; }
+
+.proof__more {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem;
+  margin-top: 1.75rem;
+  font-size: .92rem;
+  color: var(--muted);
+}
+.proof__more a { font-weight: 600; }
+
 /* ---------- anchor offset (sticky header) ---------- */
 section[id] { scroll-margin-top: 84px; }
 

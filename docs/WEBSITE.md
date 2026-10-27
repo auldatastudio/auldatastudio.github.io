@@ -50,15 +50,18 @@ Cadangan:
 1. *Data usaha Anda sudah ada. Yang belum: keputusannya.*
 2. *Dari tumpukan data jadi keputusan: harga, stok, pembiayaan, dampak.*
 
+**Eyebrow:**
+> Konsultan data & training — untuk usaha umum maupun lembaga syariah
+
 **Subheadline:**
-> Saya membangun sistem pelaporan, model proyeksi, dan analitik yang dipakai untuk mengambil keputusan — dari harga dan stok sampai pembiayaan dan dampak program — untuk usaha dan lembaga syariah.
+> Saya membangun sistem pelaporan, model proyeksi, dan analitik untuk usaha dan lembaga: retail, F&B, jasa, koperasi, sampai koperasi syariah, BMT, dan lembaga zakat. Dari harga dan stok sampai pembiayaan dan dampak program.
 
 **CTA primer:** `Konsultasi 30 Menit (Gratis)` → WhatsApp dengan pesan terisi.
 **CTA sekunder:** `Lihat paket & cara kerja` → anchor `#paket`.
 **Trust strip:**
-> *Praktisi data — Senior Data Engineer* · *Latar kuantitatif: model proyeksi, forecast, evaluasi dampak* · *Paham akad & laporan lembaga syariah* · *Remote, seluruh Indonesia* · *Data tetap di akun Anda sendiri*
+> *Praktisi data — Senior Data Engineer* · *Latar kuantitatif: model proyeksi, forecast, evaluasi dampak* · *Paham akad & nisbah — kalau Anda memerlukannya* · *Remote, seluruh Indonesia* · *Akses data lewat akun Anda sendiri*
 
-**Catatan copy:** headline memakai bahasa pembeli (manajer koperasi, direktur LAZ, owner F&B). Label "Senior Data Engineer" tampil di trust strip dan bagian Tentang sebagai **bukti ketahanan sistem**, bukan di headline — alasannya ada di [PLAN.md §3.1](PLAN.md#31-cara-menyebut-latar-belakang).
+**Catatan copy — penting:** hero **tidak boleh** menyebut "khusus syariah" atau membuka dengan istilah syariah. Alasannya ada di [PLAN.md §3.0](PLAN.md#30-kenapa-umum-dan-syariah-bukan-khusus-syariah): usaha yang praktiknya menghindari riba tapi tidak memakai label akan mundur kalau merasa "bukan untuk kami".
 
 ### Masalah (6 kartu, satu baris masing-masing)
 
@@ -74,6 +77,8 @@ Cadangan:
 Penutup section: *"Masalahnya jarang soal kurang data. Biasanya soal data yang tidak pernah diubah jadi keputusan."*
 
 ### Layanan (3 kartu utama)
+
+Daftar sektor dipasang sebagai *chips* di bawah judul section — Retail · F&B · Jasa · Manufaktur kecil · Koperasi · Koperasi syariah / BMT · BPRS & fintech syariah · LAZ / BAZNAS / wakaf · Pesantren & yayasan. Fungsinya: satu pandangan langsung menunjukkan bahwa ini **bukan** layanan khusus syariah.
 
 **1. Dashboard & Laporan Otomatis**
 > Data penjualan, kas, dan stok dalam satu dashboard yang diperbarui otomatis. Laporan bulanan yang tadinya butuh berhari-hari jadi satu klik.
@@ -93,7 +98,13 @@ Penutup section: *"Masalahnya jarang soal kurang data. Biasanya soal data yang t
 > Model proyeksi dengan perhitungan nisbah dan porsi bagi hasil untuk akad mudharabah/musyarakah, lengkap dengan skenario dan tabel sensitivitas — siap dipertanggungjawabkan saat due diligence.
 
 **5. Zakat, Wakaf & Dampak Program**
-> Dashboard penghimpunan–penyaluran–dampak dengan indikator berbasis maqashid yang terukur, plus laporan untuk donatur dan regulator.
+> Dashboard penghimpunan–penyaluran–dampak dengan indikator berbasis maqashid yang terukur, plus laporan untuk donor dan regulator.
+
+Kartu 4 dan 5 diberi subhead **"Bila Anda beroperasi dengan prinsip syariah"** + satu baris: *"Dua pekerjaan di bawah ini spesifik untuk lembaga syariah. Kalau tidak relevan, lewati saja — layanan di atas berlaku untuk semua usaha."*
+
+Lalu ditutup callout hijau (bukan kuning):
+
+> **Label bukan syarat.** Klien beragam: ada yang beroperasi dengan prinsip syariah secara formal, ada yang menghindari riba dan produk haram tanpa memakai label apa pun, dan ada yang tidak membahasnya sama sekali. Ketiganya mendapat layanan dan harga yang sama. Yang perlu ada hanya data, dan satu keputusan yang ingin Anda yakini.
 
 ### Cara kerja (4 langkah)
 
@@ -102,17 +113,20 @@ Penutup section: *"Masalahnya jarang soal kurang data. Biasanya soal data yang t
 3. **Eksekusi 2–4 minggu** — dashboard/analisis/model, plus pelatihan singkat.
 4. **Pendampingan** — laporan bulanan & perawatan agar hasilnya tidak berhenti di serah terima.
 
-### Bukti (3 kartu studi kasus)
+### Bukti (4 kartu)
 
-Format tiap kartu: **Konteks → Yang dikerjakan → Hasil → Screenshot.**
-
-| Studi kasus | Sumber portofolio | Isi |
+| Kartu | Aset | Isi |
 |---|---|---|
-| Dashboard penjualan multi-cabang | Sales Dashboard | Data transaksi → dashboard Power BI, temuan margin per kategori |
-| Pipeline data real-time | btc-price-streaming-pipeline | Kemampuan teknis: streaming, transformasi, penyimpanan — *pakai untuk klien yang butuh skala data* |
-| Aplikasi analitik interaktif | Streamlit app | Demo analitik yang bisa dicoba langsung (link hidup) |
+| **Dashboard penjualan global** | `assets/img/work-superstore.png` (screenshot asli, 1366×716) | Power BI Superstore: penjualan/laba/rasio laba per negara, kota, sub-kategori; penanda margin negatif |
+| **Laporan analisis (PDF)** | `assets/portfolio/diad-final-report.pdf` | Laporan Power BI 3 halaman hasil ekspor — memperlihatkan bentuk laporan yang biasa diminta untuk rapat/pengajuan |
+| **Pipeline data terjadwal** | `assets/img/work-pipeline.svg` (ilustrasi) | Kemampuan teknis: streaming, transformasi, penyimpanan — untuk klien yang butuh skala data |
+| **Aplikasi analitik interaktif** | `assets/img/work-app.svg` (ilustrasi) | Demo analitik yang bisa dicoba langsung |
 
-> Screenshot wajib ada. Website konsultan tanpa bukti visual = tidak dipercaya. Ganti nama klien dengan "sebuah koperasi syariah di Jawa Barat" bila perlu izin.
+Kartu 1 dan 2 adalah aset nyata dan diberi tautan ("Perbesar gambar", "Buka laporan (PDF)"). Kartu 3–4 masih ilustrasi — ganti dengan screenshot asli saat ada.
+
+Di bawah grid ada satu baris: *"Kode dan proyek lain bisa dilihat di GitHub"* → `github.com/chairulaulia1-dev`.
+
+> Aturan kejujuran: jangan pernah menampilkan dashboard buatan orang lain, atau menyebut proyek latihan sebagai pekerjaan klien. Kalau ditanya, jawab apa adanya — "ini proyek latihan dengan dataset publik" tidak mengurangi kredibilitas, tapi ketahuan melebihkan akan menghapusnya.
 
 ### Paket & harga
 
@@ -188,7 +202,7 @@ Mengapa CTA-nya dipisah: pembeli training tidak butuh "konsultasi 30 menit" — 
 
 > Saya [Nama], praktisi data. Sehari-hari saya bekerja sebagai **Senior Data Engineer** — membangun sistem data yang harus akurat, otomatis, dan tidak boleh mati. Latar belakang kuantitatif saya membuat model proyeksi, forecast, dan evaluasi dampak bisa disusun dengan asumsi tertulis dan uji sensitivitas, bukan angka yang dikarang.
 >
-> Saya memilih fokus di usaha dan lembaga syariah karena di sinilah dua hal itu paling dibutuhkan dan paling jarang tersedia: keputusan yang bergantung pada angka, tetapi datanya masih tersebar di Excel, WhatsApp, dan buku manual. Saya menempuh pendidikan Ekonomi Syariah, sehingga nisbah, kolektibilitas, mustahik, dan maqashid saya baca sebagai bahasa kerja — bukan istilah asing.
+> Saya bekerja untuk usaha dan lembaga dari berbagai sektor. Sebagian beroperasi dengan prinsip syariah secara formal; sebagian menghindari riba dan produk haram tanpa memakai label apa pun; sebagian tidak membahasnya sama sekali. Yang menyatukan mereka: keputusan yang bergantung pada angka, sementara datanya masih tersebar di Excel, WhatsApp, dan buku manual. Saya menempuh pendidikan Ekonomi Syariah, jadi untuk lembaga yang memang beroperasi dengan prinsip syariah, nisbah, kolektibilitas, mustahik, dan maqashid sudah menjadi bahasa kerja saya.
 >
 > Yang saya jual bukan laporan. Yang saya jual adalah keyakinan bahwa angka yang Anda bawa ke rapat itu benar.
 
@@ -197,8 +211,9 @@ Mengapa CTA-nya dipisah: pembeli training tidak butuh "konsultasi 30 menit" — 
 **Bagian teknis (lipat/accordion, untuk pembeli teknis):**
 > **Cara kerja teknis.** Data diambil langsung dari sumber Anda (POS, spreadsheet, database, API) lewat pipeline terjadwal; transformasi dan validasi berjalan otomatis; hasilnya masuk ke dashboard atau warehouse. Semua berjalan di akun milik Anda. Untuk kebutuhan skala besar: DuckDB/BigQuery, Python, dan orkestrasi terjadwal. Detail arsitektur tersedia saat diskusi.
 
-### FAQ (8 item — menjawab penghalang, bukan memuji diri)
+### FAQ (9 item — menjawab penghalang, bukan memuji diri)
 
+0. **Apakah saya harus lembaga syariah untuk bekerja dengan Anda?** Tidak. Klien beragam: ada yang beroperasi dengan prinsip syariah secara formal, ada yang menghindari riba dan produk haram tanpa memakai label apa pun, dan ada yang tidak membahasnya sama sekali. Ketiganya mendapat layanan dan harga yang sama.
 1. **Apakah saya harus punya sistem/aplikasi khusus?** Tidak. Mulai dari Excel, Google Sheets, atau export POS/aplikasi koperasi yang sudah ada.
 2. **Data saya berantakan sekali, masih bisa?** Justru itu kasus paling umum. Fase pertama biasanya merapikan data sebelum membuat dashboard.
 3. **Apakah data saya aman?** Akses lewat akun Anda sendiri, jadi data tidak perlu dipindahkan. Salinan data mentah dihapus setelah project selesai. Data tetap milik Anda.
@@ -214,6 +229,8 @@ Mengapa CTA-nya dipisah: pembeli training tidak butuh "konsultasi 30 menit" — 
 > WhatsApp (konsultasi): `wa.me/6281284810608?text=Halo,%20saya%20mau%20konsultasi%2030%20menit%20soal%20data%20usaha%20saya.`
 > WhatsApp (proposal training): `wa.me/6281284810608?text=Halo,%20saya%20mau%20minta%20proposal%20training%20data%20untuk%20lembaga%20saya.`
 > Instagram: `@auldatastudio` → `instagram.com/auldatastudio`
+> LinkedIn: `linkedin.com/in/chairul-aulia-aa380119b`
+> GitHub: `github.com/chairulaulia1-dev`
 
 Tanpa email di halaman. Satu kanal komunikasi (WhatsApp) lebih cepat dijawab dan lebih jujur daripada email yang bisa menganggur berhari-hari.
 
@@ -317,12 +334,14 @@ Website dianggap selesai kalau:
 | Positioning latar belakang | ✅ | Outcome dulu; Senior Data Engineer sebagai bukti; kampus 1 baris di Tentang |
 | Struktur langganan | ✅ | 4 tier: Care / Report / Partner / Fractional Data Lead |
 | Struktur training | ✅ | 5 jalur + capstone + 8 program + Data Academy (lihat [LAYANAN.md §G](LAYANAN.md#g-corporate-training)) |
-| Kontak publik | ✅ | WhatsApp 0812-8481-0608 · Instagram @auldatastudio · tanpa email |
+| Kontak publik | ✅ | WhatsApp 0812-8481-0608 · Instagram @auldatastudio · LinkedIn · GitHub · tanpa email |
+| Portofolio asli | ✅ | Screenshot Power BI (`work-superstore.png`) + laporan PDF (`diad-final-report.pdf`) |
 | Kebijakan bundling | ⏳ | Diskon Rp 1 jt, atau Care 3 bulan sebagai bonus untuk 3 klien pertama |
 | Username GitHub untuk `USERNAME` | ⏳ | Di `index.html`, `robots.txt`, `sitemap.xml` |
 | Domain | ⏳ | Boleh GitHub Pages dulu |
 | Foto profil profesional | ⏳ | 1:1, latar polos |
-| 3 screenshot dashboard | ⏳ | Dari portofolio Sales Dashboard / Power BI / Streamlit |
+| Screenshot dashboard asli | ✅ | `work-superstore.png` (sudah dipasang). Tambah lagi kalau ada. |
+| Laporan PDF | ✅ | `assets/portfolio/diad-final-report.pdf` (sudah dipasang) |
 | Link demo Streamlit | ⏳ | Kalau belum live, cukup GIF/screenshot |
 | 1 foto sesi training | ⏳ | Untuk section training. Kalau belum ada, pakai foto materi/workbook — jangan stok foto |
 | Silabus 1 halaman (PDF) | ⏳ | Diperlukan untuk pembeli HR/L&D; bisa diekspor dari section training |

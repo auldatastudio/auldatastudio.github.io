@@ -12,7 +12,11 @@
     whatsapp: '6281284810608',
 
     /* Username Instagram tanpa "@". Kosongkan ('') untuk menyembunyikan. */
-    instagram: 'auldatastudio'
+    instagram: 'auldatastudio',
+
+    /* Alamat lengkap. Kosongkan ('') untuk menyembunyikan tautannya. */
+    linkedin: 'https://www.linkedin.com/in/chairul-aulia-aa380119b/',
+    github: 'https://github.com/chairulaulia1-dev'
   };
 
   var LANG_KEY = 'auldata-lang';
@@ -78,6 +82,24 @@
       if (CONFIG.instagram) {
         a.setAttribute('href', 'https://www.instagram.com/' + CONFIG.instagram);
         a.innerHTML = 'Instagram @' + CONFIG.instagram;
+        a.hidden = false;
+      } else {
+        a.hidden = true;
+      }
+    });
+
+    document.querySelectorAll('[data-linkedin]').forEach(function (a) {
+      if (CONFIG.linkedin) {
+        a.setAttribute('href', CONFIG.linkedin);
+        a.hidden = false;
+      } else {
+        a.hidden = true;
+      }
+    });
+
+    document.querySelectorAll('[data-github]').forEach(function (a) {
+      if (CONFIG.github) {
+        a.setAttribute('href', CONFIG.github);
         a.hidden = false;
       } else {
         a.hidden = true;
