@@ -1,33 +1,29 @@
 /* =========================================================
-   main.js — Aulia Data Studio
+   main.js — Aul Data Studio
    ---------------------------------------------------------
-   GANTI 3 NILAI DI BAWAH INI sebelum website dipakai.
+   Nomor WhatsApp dan akun Instagram diatur di objek CONFIG.
    ========================================================= */
 
 (function () {
   'use strict';
 
   var CONFIG = {
-    /* Nomor WhatsApp format internasional, tanpa "+" dan tanpa spasi.
-       Contoh: 6281234567890 */
-    whatsapp: '62XXXXXXXXXX',
+    /* Nomor WhatsApp format internasional, tanpa "+" dan tanpa spasi. */
+    whatsapp: '6281284810608',
 
-    /* Email publik untuk ditampilkan di halaman. */
-    email: 'hello@example.com',
-
-    /* URL profil LinkedIn. Kosongkan ('') untuk menyembunyikan tautannya. */
-    linkedin: ''
+    /* Username Instagram tanpa "@". Kosongkan ('') untuk menyembunyikan. */
+    instagram: 'auldatastudio'
   };
 
-  var LANG_KEY = 'aulia-lang';
+  var LANG_KEY = 'auldata-lang';
   var WA_TEXT = {
     id: {
-      consult: 'Halo Aulia Data Studio, saya mau konsultasi 30 menit soal data usaha saya.',
-      training: 'Halo Aulia Data Studio, saya mau minta proposal training data untuk lembaga saya. Bidang usaha: ___. Jumlah peserta: ___. Topik: ___.'
+      consult: 'Halo Aul Data Studio, saya mau konsultasi 30 menit soal data usaha saya.',
+      training: 'Halo Aul Data Studio, saya mau minta proposal training data untuk lembaga saya. Bidang usaha: ___. Jumlah peserta: ___. Topik: ___.'
     }
   };
 
-  var dict = (window.AULIA_I18N && window.AULIA_I18N.en) || {};
+  var dict = (window.AUL_DATA_I18N && window.AUL_DATA_I18N.en) || {};
 
   /* ---------- penyimpan teks asli (Indonesia) ---------- */
   var originals = [];
@@ -55,7 +51,7 @@
 
   document.querySelectorAll('[data-i18n], [data-i18n-html], [data-i18n-attr]').forEach(remember);
 
-  /* ---------- tautan WhatsApp / email / LinkedIn ---------- */
+  /* ---------- tautan WhatsApp & Instagram ---------- */
   function currentLang() {
     return document.documentElement.lang === 'en' ? 'en' : 'id';
   }
@@ -78,23 +74,14 @@
       a.setAttribute('href', waHref(a.dataset.wa, lang));
     });
 
-    document.querySelectorAll('[data-email]').forEach(function (a) {
-      a.setAttribute('href', 'mailto:' + CONFIG.email);
-      if (!a.hasAttribute('data-keep-label')) a.textContent = CONFIG.email;
-    });
-
-    document.querySelectorAll('[data-linkedin]').forEach(function (a) {
-      if (CONFIG.linkedin) {
-        a.setAttribute('href', CONFIG.linkedin);
+    document.querySelectorAll('[data-ig]').forEach(function (a) {
+      if (CONFIG.instagram) {
+        a.setAttribute('href', 'https://www.instagram.com/' + CONFIG.instagram);
+        a.innerHTML = 'Instagram @' + CONFIG.instagram;
         a.hidden = false;
       } else {
         a.hidden = true;
       }
-    });
-
-    /* separator "·" hanya tampil kalau LinkedIn ditampilkan */
-    document.querySelectorAll('[data-li-sep]').forEach(function (el) {
-      el.hidden = !CONFIG.linkedin;
     });
   }
 
@@ -254,9 +241,6 @@
   onScroll();
 
   if (CONFIG.whatsapp.indexOf('X') !== -1) {
-    console.warn('[Aulia Data Studio] Nomor WhatsApp belum diisi. Ganti CONFIG.whatsapp di assets/js/main.js.');
-  }
-  if (CONFIG.email.indexOf('example.com') !== -1) {
-    console.warn('[Aulia Data Studio] Email masih placeholder. Ganti CONFIG.email di assets/js/main.js.');
+    console.warn('[Aul Data Studio] Nomor WhatsApp belum diisi. Ganti CONFIG.whatsapp di assets/js/main.js.');
   }
 })();

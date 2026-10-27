@@ -1,6 +1,6 @@
-# Aulia Data Studio — Website & Business Repo
+# Aul Data Studio — Website & Business Repo
 
-Repo kerja **Aulia Data Studio**, layanan konsultan data dengan positioning **"data + syariah"**: membantu usaha kecil–menengah dan lembaga keuangan/sosial syariah mengubah data yang sudah mereka punya menjadi keputusan yang menguntungkan.
+Repo kerja **Aul Data Studio**, layanan konsultan data dengan positioning **"data + syariah"**: membantu usaha kecil–menengah dan lembaga keuangan/sosial syariah mengubah data yang sudah mereka punya menjadi keputusan yang menguntungkan.
 
 Tiga lini bisnis: **project** (sekali bayar, pintu masuk), **langganan** (berulang, mesin pendapatan), dan **corporate training** (lini kedua + corong termurah ke konsultasi). Langganan selalu dibundel di proposal project, bukan ditawarkan setelah serah terima.
 
@@ -19,17 +19,23 @@ Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan**
 
 ---
 
-## ⚠️ 3 hal yang harus diganti sebelum website dipakai
+## ✅ Yang sudah terisi
 
-Semuanya ditandai dengan komentar `GANTI` di dalam file.
+| Item | Nilai |
+|---|---|
+| Nomor WhatsApp | **0812-8481-0608** (`6281284810608`) — diatur di [assets/js/main.js](assets/js/main.js) |
+| Instagram | **@auldatastudio** |
+| Brand | **Aul Data Studio** |
+| Email | Tidak dipakai. Kontak lewat WhatsApp & Instagram saja |
+
+## ⚠️ Yang masih perlu diganti
 
 | # | Apa | Di mana | Cara |
 |---|---|---|---|
-| 1 | **Nomor WhatsApp** + **email** + **LinkedIn** | [assets/js/main.js](assets/js/main.js) — objek `CONFIG` paling atas | Isi `whatsapp: '6281234567890'` (tanpa `+`, tanpa spasi). Ini satu-satunya tempat yang perlu diubah untuk nomor. |
-| 2 | **Username GitHub** | [index.html](index.html) (`canonical` & `og:url`), [robots.txt](robots.txt), [sitemap.xml](sitemap.xml) | Cari `USERNAME`, ganti dengan username Anda. Boleh dihapus kalau nanti pakai domain sendiri. |
-| 3 | **Screenshot dashboard** | `assets/img/work-*.svg` dan `hero-report.svg` | Ganti dengan screenshot asli. Cara paling mudah: taruh file PNG/JPG di `assets/img/`, lalu ubah `src="assets/img/work-sales.svg"` menjadi nama file baru Anda. |
+| 1 | **Username GitHub** | [index.html](index.html) (`canonical` & `og:url`), [robots.txt](robots.txt), [sitemap.xml](sitemap.xml) | Cari `USERNAME`, ganti dengan username Anda. Boleh dihapus kalau nanti pakai domain sendiri. |
+| 2 | **Screenshot dashboard** | `assets/img/work-*.svg` dan `hero-report.svg` | Ganti dengan screenshot asli. Taruh file PNG/JPG di `assets/img/`, lalu ubah `src="assets/img/work-sales.svg"` menjadi nama file baru Anda. |
 
-Kalau nomor WhatsApp belum diisi, browser akan menampilkan peringatan di console — itu pengingat, bukan error.
+Untuk mengganti nomor WhatsApp atau username Instagram nanti: cukup ubah objek `CONFIG` di baris-baris awal [assets/js/main.js](assets/js/main.js). Semua tombol di halaman ikut menyesuaikan sendiri.
 
 ## Menjalankan secara lokal
 
@@ -59,11 +65,11 @@ Setting Pages biasanya sudah otomatis (`main` / root) untuk repo jenis ini. Kala
 
 ### Cara B — repo dengan nama lain
 
-Hasil: `https://username.github.io/aulia-data-studio/`
+Hasil: `https://username.github.io/aul-data-studio/`
 
-1. Buat repo, misalnya `aulia-data-studio`.
+1. Buat repo, misalnya `aul-data-studio`.
 2. Push seperti di atas, lalu **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**.
-3. Tunggu 1–2 menit, buka `https://username.github.io/aulia-data-studio/`.
+3. Tunggu 1–2 menit, buka `https://username.github.io/aul-data-studio/`.
 
 Semua path di website memakai **path relatif**, jadi dua cara di atas sama-sama jalan tanpa perubahan kode.
 
@@ -102,12 +108,12 @@ data-consultant/
 
 ## Checklist sebelum dibagikan
 
-- [ ] Nomor WhatsApp diisi di `assets/js/main.js` (klik CTA dan pastikan chat terbuka dengan pesan terisi)
-- [ ] Email publik diisi
 - [ ] `USERNAME` diganti di `index.html`, `robots.txt`, `sitemap.xml`
+- [ ] Klik setiap tombol WhatsApp: pastikan chat terbuka ke **0812-8481-0608** dengan pesan terisi
+- [ ] Klik tautan Instagram di bagian kontak
 - [ ] Screenshot dashboard asli menggantikan ilustrasi SVG
 - [ ] Coba di HP: tombol menu, pengalih bahasa, CTA lengket di bawah
-- [ ] `og-image.png` diganti dengan kartu 1200×630 berisi judul (opsional, tapi bagus saat tautan dibagikan di WhatsApp/LinkedIn)
+- [ ] `og-image.png` diganti dengan kartu 1200×630 berisi judul (opsional, tapi bagus saat tautan dibagikan)
 - [ ] Buka `404.html` untuk memastikan halaman error tampil rapi
 
 ## Deploy alternatif

@@ -15,10 +15,10 @@
    - data-i18n-html   -> HTML; tulis &amp; atau tag seperti <strong>
    ========================================================= */
 
-window.AULIA_I18N = {
+window.AUL_DATA_I18N = {
   en: {
     /* ---- meta ---- */
-    "meta.title": "Aulia Data Studio — Data Consulting & Training for Businesses and Sharia Institutions",
+    "meta.title": "Aul Data Studio — Data Consulting & Training for Businesses and Sharia Institutions",
     "meta.description": "Data consulting, automated dashboards, financing models, and corporate training for businesses and Sharia institutions in Indonesia. Monthly reports in one click.",
 
     /* ---- a11y & nav ---- */
@@ -45,7 +45,7 @@ window.AULIA_I18N = {
     "trust.2": "Quantitative background: models, forecasts, impact evaluation",
     "trust.3": "Fluent in akad and Sharia institution reporting",
     "trust.4": "Remote, across Indonesia",
-    "trust.5": "Client data protected under Indonesia's PDP Law",
+    "trust.5": "Your data stays in your own accounts",
 
     /* ---- facts ---- */
     "facts.1.t": "Diagnostic",
@@ -189,7 +189,7 @@ window.AULIA_I18N = {
     "track.3.dur": "1 – 2 days per module",
     "track.4.t": "Engineering & Governance",
     "track.4.who": "IT team, senior analysts",
-    "track.4.d": "Pipelines & warehouse, data quality, KPI dictionary, PDP Law, automation.",
+    "track.4.d": "Pipelines & warehouse, data quality, KPI dictionary, access rights & anonymisation, automation.",
     "track.4.dur": "1 – 3 days",
     "program.1.t": "Data for the Board",
     "program.1.meta": "2 days · board & managers",
@@ -230,7 +230,7 @@ window.AULIA_I18N = {
     "faq.2.q": "My data is a mess — is that still workable?",
     "faq.2.a": "That is the most common case. Phase one is usually tidying the data before building any dashboard.",
     "faq.3.q": "Is my data safe?",
-    "faq.3.a": "Access is through your own accounts, data is stored minimally, and raw data is deleted 30 days after the project ends — in line with Indonesia's PDP Law No. 27/2022. The data stays yours, and we do not withhold access.",
+    "faq.3.a": "Access is through your own accounts, so the data does not need to be moved elsewhere. Copies of raw data are deleted once the project is finished. The data stays yours, and we do not withhold access.",
     "faq.4.q": "How long until I see results?",
     "faq.4.a": "A diagnostic takes 5 working days. The first dashboard takes 2–3 weeks. A focused analysis takes 3–5 days.",
     "faq.5.q": "Am I locked into a monthly retainer?",
@@ -254,12 +254,12 @@ window.AULIA_I18N = {
     "contact.or": "Or via",
     "footer.desc": "Data consulting & training for businesses and Sharia institutions. Remote, across Indonesia.",
     "footer.nav": "Footer navigation",
-    "footer.legal": "Client data is handled in line with Indonesia's PDP Law No. 27/2022. Client names are published only with written permission.",
-    "footer.rights": "© 2026 Aulia Data Studio",
+    "footer.legal": "Client names are published only with written permission. Data stays with the client, in their own accounts.",
+    "footer.rights": "© 2026 Aul Data Studio",
     "sticky.cta": "Book a 30-minute call (free)",
 
     /* ---- WhatsApp message templates (dipakai main.js) ---- */
-    "wa.consult": "Hello Aulia Data Studio, I would like to book a 30-minute consultation about my organisation's data.",
-    "wa.training": "Hello Aulia Data Studio, I would like a data training proposal for my organisation. Sector: ___. Participants: ___. Topics: ___."
+    "wa.consult": "Hello Aul Data Studio, I would like to book a 30-minute consultation about my organisation's data.",
+    "wa.training": "Hello Aul Data Studio, I would like a data training proposal for my organisation. Sector: ___. Participants: ___. Topics: ___."
   }
 };

@@ -44,7 +44,7 @@ Dokumen ini dibagi tiga: **project** (sekali bayar, §A–§E), **langganan** (b
 | **A. Literasi** | Manajer & pengurus membaca angka | 3 | L1 |
 | **B. Tools** | Excel, SQL, Power BI, Looker, Python, visualisasi | 7 | L2–L3 |
 | **C. Statistika & Analitik** | Inferensia, regresi, forecast, A/B, evaluasi dampak, risiko | 7 | L2–L3 |
-| **D. Engineering & Tata Kelola** | Pipeline, data quality, KPI, UU PDP, otomasi | 5 | L1–L3 |
+| **D. Engineering & Tata Kelola** | Pipeline, data quality, KPI, hak akses & anonimisasi, otomasi | 5 | L1–L3 |
 | **E. Syariah & Sektoral** | Zakat/wakaf, pembiayaan, kepatuhan, retail, umroh | 5 | L1–L3 |
 | **X. Capstone** | Proyek end-to-end | 1 | L2–L3 |
 
@@ -416,7 +416,7 @@ Harga dipatok **per kelas per hari**, bukan per peserta. Kelas maksimal 20 orang
 | D1 | Fondasi Data Engineering: Pipeline, ETL/ELT, Warehouse | L3 | 3 hari | Rp 22–35 jt |
 | D2 | Data Quality & Master Data | L2→L3 | 1–2 hari | Rp 10–18 jt |
 | D3 | KPI Dictionary & Tata Kelola Data | L1→L2 | 1 hari | Rp 7–12 jt |
-| D4 | Keamanan & Perlindungan Data (UU PDP) | L1 | 3 jam | Rp 4–6 jt |
+| D4 | Perlindungan Data Praktis: Akses, Anonimisasi, Kebijakan | L1 | 3 jam | Rp 4–6 jt |
 | D5 | Otomasi Laporan (Apps Script / Python) | L2→L3 | 2 hari | Rp 15–22 jt |
 
 **D1 — Fondasi Data Engineering**
@@ -431,9 +431,10 @@ Harga dipatok **per kelas per hari**, bukan per peserta. Kelas maksimal 20 orang
 *Prasyarat:* tidak ada. *Output:* definisi KPI yang disepakati, plus siapa pemilik tiap angka.
 *Isi:* menyusun definisi (formula, sumber, pemilik, frekuensi) · 15 KPI inti per sektor · menyelesaikan konflik definisi antar departemen · tata kelola permintaan data.
 
-**D4 — Keamanan & Perlindungan Data (UU PDP)**
-*Prasyarat:* tidak ada. *Output:* praktik minimum yang bisa langsung diterapkan.
-*Isi:* data pribadi & kewajiban dasar UU PDP 27/2022 · minimalisasi data · anonimisasi & pseudonimisasi · hak akses & pencatatan · insiden kebocoran: langkah pertama · kebijakan 1 halaman untuk lembaga kecil.
+**D4 — Perlindungan Data Praktis**
+*Prasyarat:* tidak ada. *Output:* kebijakan 1 halaman yang bisa langsung dipakai, plus kebiasaan kerja yang aman.
+*Isi:* data mana yang perlu dilindungi dan mana yang tidak · minimalisasi data (minta 6 kolom, bukan 30) · anonimisasi sederhana sebelum data dipakai untuk latihan bersama · hak akses bertingkat & pencatatan siapa membuka apa · menyimpan file klien di tempat yang benar · langkah pertama kalau data bocor · menyusun kebijakan 1 halaman untuk lembaga kecil.
+*Catatan:* modul ini mengajarkan **praktik kerja**, bukan hukum. Kalau peserta menanyakan aspek legal (izin, dasar pemrosesan, kewajiban pelaporan), arahkan ke konsultan hukum — jangan menjawab seolah-olah kita ahlinya.
 
 **D5 — Otomasi Laporan**
 *Prasyarat:* B2. *Output:* laporan yang terbit sendiri sesuai jadwal.

@@ -1,6 +1,6 @@
-# Rencana Bisnis — Aulia Data Studio
+# Rencana Bisnis — Aul Data Studio
 
-> Brand: **Aulia Data Studio**. Website bilingual (Indonesia default + English), harga "mulai dari" ditampilkan.
+> Brand: **Aul Data Studio**. Website bilingual (Indonesia default + English), harga "mulai dari" ditampilkan.
 > Angka harga di dokumen ini adalah **hipotesis** yang wajib divalidasi di 5 percakapan pertama.
 
 ---
@@ -89,7 +89,7 @@ Homepage memakai **bahasa pembeli** (manajer koperasi, direktur LAZ, owner F&B).
 | Paham bahasa syariah | Bicara nisbah, akad mudharabah/musyarakah, kolektibilitas, mustahik, maqashid — tanpa perlu klien menjelaskan |
 | Praktis, bukan akademik | Output: dashboard, template, model, memo 2 halaman — bukan tesis 80 halaman |
 | Harga masuk akal untuk kelas UKM | Harga 10–20% dari konsultan Jakarta, karena kerja remote, solo, dan produk yang sudah terstandarisasi |
-| Amanah data | Kontrak akses data, anonimisasi, patuh UU PDP 27/2022 |
+| Amanah data | Data tetap di akun klien, salinan mentah dihapus setelah project, nama klien hanya tampil dengan izin tertulis. **Tanpa klaim sertifikasi/kepatuhan hukum** — cukup komitmen praktis yang bisa dibuktikan |
 
 **Yang TIDAK kita jual (penting untuk fokus):**
 - Aplikasi/SaaS custom (bukan software house).
@@ -398,7 +398,7 @@ Excel/Sheets dari nol ke analisis · Excel lanjutan (pivot, Power Query, dashboa
 Statistika deskriptif & eksplorasi data · Inferensia: sampling, uji hipotesis, ukuran sampel · Regresi & model prediktif dasar · Forecast & perencanaan · Eksperimen & A/B testing · **Evaluasi dampak program** · Manajemen risiko berbasis data (credit scoring sederhana).
 
 **Jalur D — Data Engineering & Tata Kelola** (L3)
-Fondasi data engineering (pipeline, ETL/ELT, warehouse) · Data quality & master data · KPI dictionary & tata kelola data · Keamanan & perlindungan data (UU PDP) · Otomasi laporan (Apps Script/Python).
+Fondasi data engineering (pipeline, ETL/ELT, warehouse) · Data quality & master data · KPI dictionary & tata kelola data · Perlindungan data praktis (hak akses, anonimisasi, kebijakan 1 halaman) · Otomasi laporan.
 
 **Jalur E — Syariah & Sektoral** (diferensiasi, L1–L3)
 Analitik untuk lembaga zakat & wakaf · Analitik pembiayaan & risiko koperasi/BPRS · Data untuk kepatuhan (DPS, RUPS, OJK) · Analitik retail/F&B halal · Analitik travel umroh.
@@ -612,14 +612,15 @@ Spesifikasi lengkap + draft copy: [WEBSITE.md](WEBSITE.md).
 | Data besar / warehouse | DuckDB, BigQuery sandbox, Postgres |
 | Manajemen klien & project | Notion atau Trello + Google Drive per klien |
 | Invoice | Manual (template PDF/Sheets) dulu, nanti Jurnal/Mekari |
-| Komunikasi | WA Business, Google Meet, Loom untuk handover |
+| Komunikasi | WA Business (0812-8481-0608), Google Meet, Loom untuk handover |
+| Media sosial | Instagram [@auldatastudio](https://www.instagram.com/auldatastudio) — kanal konten & bukti kerja |
 | Website analytics | Plausible/Umami (atau GA4) |
 
 **Template yang harus ada sebelum klien pertama (buat di Minggu 1–2):**
 1. Proposal 3 halaman (masalah → pendekatan → output → timeline → harga 3 opsi), **setiap opsi sudah termasuk langganan**.
 2. SOW/kontrak ringan (lingkup, di luar lingkup, revisi maks 2×, pembayaran, kepemilikan data).
 3. **Perjanjian langganan:** tier, kuota jam, SLA respons, jadwal laporan, klausul keluar bulan 1, perpanjangan otomatis, kenaikan harga tahun kedua.
-4. Akses data & NDA (termasuk komitmen UU PDP).
+4. Akses data & NDA ringan (komitmen praktis, lihat bagian di bawah).
 5. Handover doc: data dictionary, cara update, siapa kontak.
 
 **Ritme operasional langganan (dipasang sebagai checklist tetap):**
@@ -634,8 +635,17 @@ Spesifikasi lengkap + draft copy: [WEBSITE.md](WEBSITE.md).
 
 Checklist ini yang membuat langganan bisa dikerjakan 1,5–2,5 hari/bulan, bukan 5 hari.
 
-**Data & kepatuhan (jangan diremehkan):**
-- UU PDP No. 27/2022 berlaku untuk data pribadi anggota/nasabah/donatur. Praktik minimum: ambil data seminimal mungkin, anonimisasi saat analisis, akses lewat akun klien (bukan simpan salinan), hapus data mentah 30 hari setelah project selesai.
+**Data klien — komitmen praktis, tanpa klaim hukum:**
+
+Website **tidak** menyebut UU PDP atau klaim kepatuhan apa pun. Alasannya: klaim kepatuhan yang tidak bisa dipertanggungjawabkan lebih berbahaya daripada tidak ada klaim — sekali ditanya detail dan tidak bisa menjawab, kredibilitas hilang. Yang dipakai adalah janji yang bisa dibuktikan sendiri:
+
+1. **Akses lewat akun klien**, bukan menyalin database ke laptop sendiri.
+2. **Salinan data mentah dihapus** setelah project selesai — sebutkan ini di SOW, dan lakukan sungguh-sungguh.
+3. **Nama klien hanya tampil dengan izin tertulis**, dan angka di studi kasus boleh diubah skalanya.
+4. **Ambil data seminimal mungkin** — kalau cukup 6 kolom, jangan minta 30.
+
+Kalau klien bertanya soal aspek hukum (izin, dasar pemrosesan, kewajiban pelaporan), jawab jujur: *"Itu ranah konsultan hukum, saya tidak memberi jaminan kepatuhan. Yang saya jamin adalah cara kerja data di atas."* Arahkan ke ahli hukum kalau kebutuhannya formal. Ini jawaban yang aman dan tetap terlihat profesional.
+
 - Simpan file klien **di luar repo** (`.gitignore` sudah memblokir `data/`, `clients/`, `.xlsx/.csv`).
 - Jangan pernah menjanjikan hasil ("penjualan naik 30%"). Janjikan deliverables.
 
@@ -712,7 +722,7 @@ Dua angka pengawal untuk training: **% pendapatan dari training** (kalau >30%, k
 
 | Keputusan | Pilihan |
 |---|---|
-| Nama brand | **Aulia Data Studio** |
+| Nama brand | **Aul Data Studio** |
 | Bahasa website | Bilingual — Indonesia (default) + English, dengan tombol ganti bahasa |
 | Tampilkan harga | Ya, format "mulai dari" untuk Diagnostic, Dashboard Starter, keempat tier langganan, dan Feasibility |
 | Email repo/commit | chairul.aulia1@gmail.com |
@@ -721,17 +731,17 @@ Dua angka pengawal untuk training: **% pendapatan dari training** (kalau >30%, k
 | Bundling | Langganan masuk ke proposal sejak awal sebagai satu paket — **dengan angka perbandingan** di [§6.4](#64-bundling-langganan-dijual-di-penawaran-yang-sama) |
 | Corporate training | Lini bisnis kedua: 28 modul / 5 jalur / 3 level + 8 program siap jual + Data Academy tahunan. Batas kapasitas 25–30%, target ≤25% pendapatan — lihat [§8](#8-corporate-training) |
 | Struktur kurikulum | Jalur A (literasi) · B (tools) · C (statistik & analitik) · D (engineering & tata kelola) · E (syariah & sektoral) + capstone end-to-end |
+| Kontak publik | WhatsApp **0812-8481-0608** (`6281284810608`) · Instagram **@auldatastudio**. Tanpa email di website |
+| Klaim kepatuhan | **Tidak ada.** Website tidak menyebut UU PDP. Retensi dibangun lewat 4 komitmen praktis di [§12](#12-operasional) |
 
 **Belum diputuskan (dibutuhkan sebelum website live):**
 
-1. Nomor WhatsApp bisnis (format `wa.me/62…`) — dipakai di semua CTA.
-2. Email publik bisnis (`hello@…`) — boleh sementara pakai Gmail.
-3. Domain: beli sekarang (`aulia.data.studio` / `aulia-data.com`) atau pakai URL GitHub Pages dulu.
-4. Foto profil profesional + 3 screenshot dashboard untuk section bukti.
-5. Kapasitas: berapa jam/minggu realistis kamu sisihkan (menentukan berapa klien bisa diterima).
-6. Kebijakan bundling final: diskon Rp 1 jt, atau Care 3 bulan sebagai bonus untuk 3 klien pertama (lihat [§6.4](#64-bundling-langganan-dijual-di-penawaran-yang-sama)).
-7. **Format certification untuk training:** sertifikat penyelesaian sendiri, atau sertifikat bersama dengan asosiasi/kampus. Ini memengaruhi daya jual ke pembeli korporat.
-8. **Batas kapasitas training:** 2 atau 3 hari per bulan (makin tinggi, makin sedikit klien langganan yang bisa dilayani).
+1. Domain: beli sekarang (`auldata.studio` / `aul-data.com`) atau pakai URL GitHub Pages dulu.
+2. Foto profil profesional + 3 screenshot dashboard untuk section bukti.
+3. Kapasitas: berapa jam/minggu realistis kamu sisihkan (menentukan berapa klien bisa diterima).
+4. Kebijakan bundling final: diskon Rp 1 jt, atau Care 3 bulan sebagai bonus untuk 3 klien pertama (lihat [§6.4](#64-bundling-langganan-dijual-di-penawaran-yang-sama)).
+5. **Format certification untuk training:** sertifikat penyelesaian sendiri, atau sertifikat bersama dengan asosiasi/kampus. Ini memengaruhi daya jual ke pembeli korporat.
+6. **Batas kapasitas training:** 2 atau 3 hari per bulan (makin tinggi, makin sedikit klien langganan yang bisa dilayani).
 
 ---
 

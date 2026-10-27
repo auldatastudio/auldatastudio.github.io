@@ -1,10 +1,10 @@
-# Spesifikasi Website — Aulia Data Studio
+# Spesifikasi Website — Aul Data Studio
 
 > **Status implementasi:** fase 1 sudah dibangun di [../index.html](../index.html) — semua section, bilingual ID/EN, tanpa build step. Yang masih perlu diganti sebelum rilis: nomor WhatsApp, email, `USERNAME` GitHub, dan screenshot asli (lihat [../README.md](../README.md)).
 
 Website ini bukan company profile. Fungsinya **menyaring dan mengubah prospek hangat jadi percakapan WhatsApp**. Semua keputusan desain mengikuti tujuan itu.
 
-- **Brand:** Aulia Data Studio
+- **Brand:** Aul Data Studio
 - **Bahasa:** bilingual — Indonesia sebagai default, English lewat tombol ganti bahasa (detail di §5)
 - **Tujuan:** 5 percakapan baru/bulan dan 1 proposal per 2 minggu.
 - **Metrik sukses:** rasio klik CTA WhatsApp ≥ 5% dari pengunjung; ≥ 30% pengunjung dari LinkedIn/WA.
@@ -56,7 +56,7 @@ Cadangan:
 **CTA primer:** `Konsultasi 30 Menit (Gratis)` → WhatsApp dengan pesan terisi.
 **CTA sekunder:** `Lihat paket & cara kerja` → anchor `#paket`.
 **Trust strip:**
-> *Praktisi data — Senior Data Engineer* · *Latar kuantitatif: model proyeksi, forecast, evaluasi dampak* · *Paham akad & laporan lembaga syariah* · *Remote, seluruh Indonesia* · *Data klien dijaga sesuai UU PDP*
+> *Praktisi data — Senior Data Engineer* · *Latar kuantitatif: model proyeksi, forecast, evaluasi dampak* · *Paham akad & laporan lembaga syariah* · *Remote, seluruh Indonesia* · *Data tetap di akun Anda sendiri*
 
 **Catatan copy:** headline memakai bahasa pembeli (manajer koperasi, direktur LAZ, owner F&B). Label "Senior Data Engineer" tampil di trust strip dan bagian Tentang sebagai **bukti ketahanan sistem**, bukan di headline — alasannya ada di [PLAN.md §3.1](PLAN.md#31-cara-menyebut-latar-belakang).
 
@@ -160,7 +160,7 @@ Kalimat ini melakukan dua hal: menurunkan hambatan (tidak mengikat) dan menanam 
 | **Literasi Data** | Pengurus, manajer, staf umum | Membaca dashboard, berpikir dengan angka, statistik untuk keputusan | 3 jam – 2 hari |
 | **Tools Praktis** | Staf analis, administrasi, supervisor | Excel & Sheets, SQL, Power BI, Looker Studio, Python | 1 – 4 hari |
 | **Statistika & Analitik** | Analis, tim program, manajemen risiko | Sampling & uji hipotesis, regresi, forecast, A/B testing, evaluasi dampak | 1 – 2 hari per modul |
-| **Engineering & Tata Kelola** | Tim IT, analis senior | Pipeline & warehouse, data quality, KPI dictionary, UU PDP, otomasi | 1 – 3 hari |
+| **Engineering & Tata Kelola** | Tim IT, analis senior | Pipeline & warehouse, data quality, KPI dictionary, hak akses & anonimisasi, otomasi | 1 – 3 hari |
 
 **5 program siap pilih (kartu utama):**
 
@@ -201,7 +201,7 @@ Mengapa CTA-nya dipisah: pembeli training tidak butuh "konsultasi 30 menit" — 
 
 1. **Apakah saya harus punya sistem/aplikasi khusus?** Tidak. Mulai dari Excel, Google Sheets, atau export POS/aplikasi koperasi yang sudah ada.
 2. **Data saya berantakan sekali, masih bisa?** Justru itu kasus paling umum. Fase pertama biasanya merapikan data sebelum membuat dashboard.
-3. **Apakah data saya aman?** Akses lewat akun Anda, data disimpan seminimal mungkin, dihapus 30 hari setelah project selesai, sesuai UU PDP No. 27/2022.
+3. **Apakah data saya aman?** Akses lewat akun Anda sendiri, jadi data tidak perlu dipindahkan. Salinan data mentah dihapus setelah project selesai. Data tetap milik Anda.
 4. **Berapa lama sampai hasilnya kelihatan?** Diagnostic 5 hari kerja; dashboard pertama 2–3 minggu.
 5. **Apakah pendampingan bulanan mengikat?** Minimum 3 bulan, dan Anda bisa berhenti setelah bulan pertama tanpa penalti. Data, dashboard, dan dokumentasi tetap milik Anda — kami tidak menahan akses.
 6. **Apakah bisa kerja jarak jauh?** Ya, seluruh proses remote (Meet + WhatsApp), dengan sesi serah terima online yang direkam.
@@ -211,10 +211,11 @@ Mengapa CTA-nya dipisah: pembeli training tidak butuh "konsultasi 30 menit" — 
 ### Kontak
 
 > **Mulai dari percakapan 30 menit.** Tidak ada biaya, tidak ada kewajiban lanjut.
-> WhatsApp (konsultasi): `wa.me/62xxxxxxxxxx?text=Halo,%20saya%20mau%20konsultasi%2030%20menit%20soal%20data%20usaha%20saya.`
-> WhatsApp (proposal training): `wa.me/62xxxxxxxxxx?text=Halo,%20saya%20mau%20minta%20proposal%20training%20data%20untuk%20lembaga%20saya.`
-> Email: `hello@domain.com`
-> LinkedIn: `/in/username`
+> WhatsApp (konsultasi): `wa.me/6281284810608?text=Halo,%20saya%20mau%20konsultasi%2030%20menit%20soal%20data%20usaha%20saya.`
+> WhatsApp (proposal training): `wa.me/6281284810608?text=Halo,%20saya%20mau%20minta%20proposal%20training%20data%20untuk%20lembaga%20saya.`
+> Instagram: `@auldatastudio` → `instagram.com/auldatastudio`
+
+Tanpa email di halaman. Satu kanal komunikasi (WhatsApp) lebih cepat dijawab dan lebih jujur daripada email yang bisa menganggur berhari-hari.
 
 ---
 
@@ -271,7 +272,7 @@ Mengapa CTA-nya dipisah: pembeli training tidak butuh "konsultasi 30 menit" — 
 
 Checklist rilis:
 
-- [ ] `<title>`: *Konsultan Data & Training untuk Usaha dan Lembaga Syariah | Aulia Data Studio*
+- [ ] `<title>`: *Konsultan Data & Training untuk Usaha dan Lembaga Syariah | Aul Data Studio*
 - [ ] `meta description` ±150 karakter, mengandung "konsultan data", "training data", "lembaga syariah", "dashboard".
 - [ ] Open Graph + Twitter card (`og:image` 1200×630 di `assets/img/og-image.png`).
 - [ ] JSON-LD `ProfessionalService` (nama, areaServed: Indonesia, layanan, harga mulai).
@@ -310,15 +311,15 @@ Website dianggap selesai kalau:
 
 | Aset | Status | Catatan |
 |---|---|---|
-| Nama brand | ✅ | Aulia Data Studio |
+| Nama brand | ✅ | Aul Data Studio |
 | Bahasa | ✅ | Bilingual ID/EN, Indonesia default |
 | Tampilkan harga | ✅ | Ya, format "mulai dari" |
 | Positioning latar belakang | ✅ | Outcome dulu; Senior Data Engineer sebagai bukti; kampus 1 baris di Tentang |
 | Struktur langganan | ✅ | 4 tier: Care / Report / Partner / Fractional Data Lead |
 | Struktur training | ✅ | 5 jalur + capstone + 8 program + Data Academy (lihat [LAYANAN.md §G](LAYANAN.md#g-corporate-training)) |
+| Kontak publik | ✅ | WhatsApp 0812-8481-0608 · Instagram @auldatastudio · tanpa email |
 | Kebijakan bundling | ⏳ | Diskon Rp 1 jt, atau Care 3 bulan sebagai bonus untuk 3 klien pertama |
-| Nomor WhatsApp bisnis | ⏳ | Format `wa.me/62...` |
-| Email bisnis | ⏳ | Boleh Gmail dulu |
+| Username GitHub untuk `USERNAME` | ⏳ | Di `index.html`, `robots.txt`, `sitemap.xml` |
 | Domain | ⏳ | Boleh GitHub Pages dulu |
 | Foto profil profesional | ⏳ | 1:1, latar polos |
 | 3 screenshot dashboard | ⏳ | Dari portofolio Sales Dashboard / Power BI / Streamlit |
