@@ -16,9 +16,13 @@ Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan**
 
 | File | Isi |
 |---|---|
-| [docs/PLAN.md](docs/PLAN.md) | Rencana bisnis: positioning, segmen sasaran, paket & harga, go-to-market 90 hari, metrik, risiko |
-| [docs/LAYANAN.md](docs/LAYANAN.md) | Katalog 14 layanan + 6 layanan fokus awal, lengkap dengan output, durasi, harga indikatif |
-| [docs/WEBSITE.md](docs/WEBSITE.md) | Spesifikasi website: sitemap, draft copy per section, arah desain, tech stack, deploy, checklist rilis |
+| [docs/PLAN.md](docs/PLAN.md) | Rencana bisnis: positioning, segmen sasaran, **arsitektur pendapatan berulang**, paket & harga, go-to-market 90 hari, metrik, risiko |
+| [docs/LAYANAN.md](docs/LAYANAN.md) | Katalog 16 layanan project + **6 produk retainer**, lengkap dengan output, durasi, harga, dan matriks per segmen |
+| [docs/WEBSITE.md](docs/WEBSITE.md) | Spesifikasi website: sitemap, draft copy per section, arah desain, tech stack, bilingual ID/EN, checklist rilis |
+
+## Model bisnis dalam satu paragraf
+
+Project adalah pintu, retainer adalah rumah. Enam produk berulang (board report, data ops, fractional analyst, compliance pack, sector benchmark, capability cohort) dibundel jadi empat paket, dan **setiap proposal project wajib menyertakan baris "Project + Care"** supaya pendapatan bulanan lahir tanpa perlu penjualan baru. Target bulan ke-6: MRR Rp 15–20 jt dengan beban kerja 8–12 hari/bulan. Detail di [PLAN.md §7](docs/PLAN.md).
 
 ## Cara pakai
 
