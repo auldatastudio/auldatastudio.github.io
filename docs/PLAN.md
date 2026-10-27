@@ -161,6 +161,8 @@ Prinsip:
 | **Workshop** | Setengah hari (3–4 jam), materi + latihan pakai data klien, maks 20 orang | 1 hari | Rp 4–8 jt/sesi atau Rp 350–750 rb/peserta |
 | **Ad-hoc / Sprint** | Analisis khusus (mis. "kenapa penjualan cabang X turun") | 3–5 hari | Rp 3–7,5 jt |
 
+**Aturan kredit pintu masuk:** biaya **Diagnostic dikreditkan 50%** ke project atau langganan pertama. Hambatan masuk rendah, dan klien yang lanjut tidak merasa membayar dua kali untuk hal yang sama.
+
 ### 6.2 Langganan (berulang) — mesin pendapatan
 
 Empat tier. **Setiap tier sudah termasuk seluruh isi tier di bawahnya**, jadi jalur upgrade selalu jelas.
@@ -175,9 +177,9 @@ Empat tier. **Setiap tier sudah termasuk seluruh isi tier di bawahnya**, jadi ja
 **Website hanya menampilkan 4 tier ini.** Jangan tampilkan seluruh add-on — itu alat negosiasi, bukan etalase.
 
 **Ketentuan kontrak langganan:**
-- Minimum 3 bulan, ditagih bulanan di muka.
+- Minimum 3 bulan (bulan 1 = setup), ditagih bulanan di muka, lalu **auto-renew** bulanan.
+- Berhenti kapan saja dengan notifikasi 30 hari. Klausul keluar di bulan pertama tanpa penalti — ini yang membuat klien berani masuk.
 - Prepay 12 bulan = **2 bulan gratis** (memperbaiki arus kas & komitmen).
-- Klausul keluar: boleh berhenti setelah bulan pertama tanpa penalti. Ini yang membuat klien berani masuk.
 - Di luar kuota jam → change order Rp 400–750 rb/jam, atau upgrade tier (disarankan upgrade).
 
 **Patokan harga minimum:** harga langganan bulanan ≥ 2× nilai waktu yang dipakai. Kalau satu klien Report Rp 4 jt/bln memakan 2,5 hari kerja, itu setara Rp 1,6 jt/hari — masih di bawah target harian Rp 2–3 jt. Artinya: template, otomasi, dan standarisasi deliverable bukan kemewahan, tapi syarat agar tier ini menguntungkan.
@@ -246,14 +248,22 @@ Kesimpulan: bundling menambah ±Rp 39 jt revenue dengan **nol prospek tambahan**
 
 ### 7.2 Mekanik yang membuat klien sulit lepas
 
+Lima mekanisme, urut dari yang paling kuat.
+
 | Mekanisme | Cara memasang | Kenapa sulit lepas |
 |---|---|---|
-| **Ritual kalender** | Kamu yang memegang tanggal laporan & reminder sesi review | Menghapus kamu = ada agenda rapat yang kosong |
-| **Kepemilikan sistem** | Data tetap milik klien di akun mereka; kamu yang merawat & memonitor | Tidak ada yang bisa memperbaiki saat rusak |
-| **Konteks kumulatif** | Data dictionary, asumsi model, dan log keputusan terus diperbarui di dokumen kerja | Pindah = mulai dari nol |
-| **Benchmark peer** | Laporan kuartalan posisi klien vs peer anonim | Satu-satunya sumber pembanding yang mereka punya |
-| **Deadline eksternal** | Kalender DPS/RUPS/OJK/donatur dipegang oleh kita | Takut telat, bukan takut mahal |
-| **Substitusi kapasitas** | Jam on-demand menggantikan rencana rekrut analis | Sudah tidak punya orang internal |
+| **Kalender eksternal** | Kamu yang memegang tanggal RUPS, laporan DPS, laporan donatur triwulan — deadline yang bukan buatan kita | Kamu yang dihubungi lebih dulu saat ada masalah, dan kamu yang diingat saat anggaran disusun |
+| **Akumulasi konteks** | Data dictionary, asumsi model, dan log keputusan terus diperbarui | Kamu tahu *sejarah* data klien: kenapa angka Maret aneh, kenapa cabang X selalu telat input. Ini tidak bisa dipindahkan lewat satu dokumen |
+| **Ritme, bukan proyek** | Laporan rutin keluar tiap tanggal 5 | Hubungan berubah dari "vendor yang dipanggil kalau ada masalah" jadi "bagian dari operasional" |
+| **Nilai harian** | Monitoring & alert, bukan laporan sekali jadi | Project memberi manfaat sekali; monitoring memberi manfaat setiap hari. Retensi mengikuti frekuensi manfaat |
+| **Benchmark peer** | Laporan kuartalan posisi klien vs peer anonim | Makin banyak klien, makin berharga — moat yang tumbuh sendiri. Tidak ada vendor lain yang bisa bilang "margin Anda 12%, rata-rata koperasi syariah sejenis 18%" |
+
+#### Batas etika — jangan dilewati
+
+- **Jangan menahan dokumentasi, kode, atau akses untuk mengunci klien.** Semua artefak menjadi milik klien begitu dibayar: kode, koneksi data, dokumentasi, aset dashboard.
+- Handover document selalu ada (data dictionary, cara update, siapa kontak). Kalau klien pergi, dia pergi dengan rapi.
+- Alasannya bukan cuma etika: klien di jaringan Tazkia **saling kenal**. Satu klien merasa dijebak = lima prospek mendengar ceritanya. Ketergantungan yang sehat adalah *"susah digantikan karena bagus"*, bukan *"susah keluar karena terkunci"*.
+- Secara komersial pun lebih kuat: klien yang tahu bisa keluar kapan saja justru lebih berani masuk lebih dalam.
 
 ### 7.3 Kalender ekspansi
 
@@ -267,7 +277,20 @@ Kesimpulan: bundling menambah ±Rp 39 jt revenue dengan **nol prospek tambahan**
 
 Satu pertanyaan yang cukup untuk setiap sesi review: *"bulan depan, keputusan apa yang paling Anda ingin yakin dengan angkanya?"* — jawabannya adalah scope bulan berikutnya.
 
-### 7.4 Yang harus dihindari
+### 7.4 Supaya biaya akuisisi klien baru kecil
+
+Ini jawaban langsung untuk tujuan utamanya: langganan harus **mengurangi** usaha mencari klien, bukan menambah. Enam tuas:
+
+1. **Satu produk masuk, satu produk tinggal.** Diagnostic Rp 2,5–5 jt → **50% dikreditkan** ke langganan pertama. Hambatan masuk rendah, jalan keluar sudah disiapkan sejak awal.
+2. **"Project + Care" jadi baris standar di setiap proposal.** Bukan upsell yang ditawarkan malu-malu — bagian dari penawaran. Kalau klien menolak, project tetap jalan. Kalau setuju, MRR lahir tanpa satu pun panggilan jualan baru.
+3. **Scope langganan ditulis tetap, bukan "jam bebas".** Daftar deliverable jelas → bisa diproduktisasi. Setelah bulan ke-3, template, pipeline, dan memo sudah jadi aset → beban turun, margin naik.
+4. **Kalender klien disamakan.** Usahakan tanggal kirim laporan semua klien berdekatan (mis. tanggal 3–7). Eksekusi bisa dibatch: 3 klien Report selesai dalam 5–6 hari, bukan 9.
+5. **Langganan melahirkan referral.** Klien langganan melihat hasil tiap bulan → testimoni paling kuat. Sisipkan satu permintaan referral per kuartal, bukan per bulan.
+6. **Langganan menstabilkan arus kas.** DP 50% project itu bagus, tapi bulan tanpa project = nol. MRR membuat kamu bisa **menolak klien yang salah** — dan menolak klien yang salah adalah cara menjaga kualitas jasa.
+
+**Penyebab churn yang sebenarnya:** langganan berhenti hampir selalu karena satu sebab — **dua bulan berturut-turut tanpa insight yang berguna**. Itu kegagalan delivery, bukan soal harga.
+
+### 7.5 Yang harus dihindari
 
 - Scope tanpa batas di harga tetap → margin habis di bulan ke-3.
 - SLA 24 jam sendirian → burnout dalam 2 bulan. Mulai dari respons 2 hari kerja.
@@ -275,9 +298,18 @@ Satu pertanyaan yang cukup untuk setiap sesi review: *"bulan depan, keputusan ap
 - Menyandera data, password, atau dokumentasi → referral mati, reputasi rusak.
 - Menjual 6 add-on sekaligus di website → klien bingung dan harga terlihat mahal.
 
-### 7.5 Bentuk bisnisnya
+### 7.6 Bentuk bisnisnya
 
-Enam klien Report (Rp 24 jt/bln) memakan ±9–12 hari kerja — **lebih stabil dan lebih ringan daripada 2 project per bulan** (nilai sama, tapi harus dijual ulang setiap bulan). Itulah alasan langganan jadi prioritas, bukan project. Rincian beban per tier ada di [§8](#8-kapasitas--angka).
+Enam klien Report (Rp 24 jt/bln) memakan ±9–12 hari kerja — **lebih stabil dan lebih ringan daripada 2 project per bulan** (nilai sama, tapi harus dijual ulang setiap bulan). Itulah alasan langganan jadi prioritas, bukan project.
+
+Konsekuensi yang harus diterima: kalau 3 klien langganan sudah jalan, sisa kapasitas hanya 3–7 hari — cukup untuk sprint kecil atau workshop, **tidak** cukup untuk satu project dashboard penuh. Jadi pilih satu mode per bulan:
+
+| Mode | Beban | Pendapatan khas |
+|---|---|---|
+| **Mode langganan** — 3 Report + 1 sprint kecil | 10–15 hari | ±Rp 18–23 jt (±85% berulang) |
+| **Mode project** — 2 Report + 1 project dashboard | 13–18 hari | ±Rp 20–25 jt (±55% berulang) |
+
+Itu bukan angka yang salah — itu plafon satu orang. Kalau ingin keduanya sekaligus, jawabannya delegasi (tier Care dan Report paling mudah didelegasikan ke freelancer), bukan menambah jam kerja. Rincian beban per tier ada di [§8](#8-kapasitas--angka).
 
 ---
 
@@ -451,6 +483,7 @@ Tiga angka yang paling menentukan: **attach rate** (apakah bundling benar-benar 
 | **Klien berhenti di bulan ke-3** (churn dini) | Health report + satu temuan gratis di bulan 1; sesi review bulan 3 menampilkan 3 hal yang berubah karena datanya. Klausul keluar bulan 1 ada supaya mereka berani masuk, bukan supaya mereka keluar |
 | **Bundling memperlambat closing** (angka di depan lebih besar) | Tetap sediakan opsi project-only; framing "sudah termasuk 3 bulan", bukan "tambahan Rp 6 jt" |
 | **Kamu jadi "tukang revisi"** dan berhenti jualan | Jam langganan dibatasi; 4–5 hari/bulan dialokasikan untuk jualan dan tidak boleh dipakai untuk delivery |
+| **Langganan berhenti setelah 2 bulan tanpa insight berguna** (penyebab churn paling umum) | Setiap memo wajib punya minimal 1 temuan atau rekomendasi yang belum pernah disampaikan. Kalau tidak ada, ganti sudut analisisnya — jangan kirim laporan kosong |
 | **Data klien berantakan / tidak ada** | Data Health Check dulu; kalau data tidak layak, jual jasa rapikan data sebagai fase 1 terpisah |
 | **Kualitas data rendah → insight salah** | Selalu tulis asumsi & batasan di memo; verifikasi ke 1 sumber kedua |
 | **Klien minta "poles" data untuk pengajuan pembiayaan** | Tolak tegas, tawarkan versi jujur: perbaiki model & narasi asumsi |
