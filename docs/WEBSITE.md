@@ -23,12 +23,15 @@ index.html
 ├── #cara-kerja      4 langkah
 ├── #bukti           3 studi kasus + screenshot
 ├── #paket           Langganan (4 tier) + project, harga "mulai dari"
+├── #training        Program corporate training + kurikulum (untuk HR/L&D)
 ├── #tentang         Kenapa kamu (data + syariah)
-├── #faq             6 pertanyaan yang sering jadi penghalang
-└── #kontak          CTA WhatsApp + email
+├── #faq             8 pertanyaan yang sering jadi penghalang
+└── #kontak          Dua jalur CTA: konsultasi & proposal training
 ```
 
-Fase 2 (setelah 3 klien): `/studi-kasus/`, `/#kalkulator` (kalkulator hemat waktu), halaman English terpisah bila SEO English dianggap penting.
+Fase 2 (setelah 3 klien): `/studi-kasus/`, `/#kalkulator` (kalkulator hemat waktu), halaman kurikulum training terpisah (`/training/`), halaman English terpisah bila SEO English dianggap penting.
+
+**Kenapa `#training` harus ada sejak fase 1:** pembeli training (HR/L&D) mencari lewat kata kunci yang sama sekali berbeda — "training data", "pelatihan Excel perusahaan", "in-house training Power BI". Tanpa section ini, mereka tidak akan pernah menemukan halaman yang isinya 90% konsultasi. Section ini juga melayani pembaca yang salah jalur: orang yang butuh training tidak akan menghubungi untuk konsultasi, dan sebaliknya.
 
 ---
 
@@ -142,6 +145,43 @@ Catatan di bawah tabel: *"Harga final tergantung jumlah sumber data dan kompleks
 
 Kalimat ini melakukan dua hal: menurunkan hambatan (tidak mengikat) dan menanam ekspektasi langganan sejak awal.
 
+### Training (section khusus untuk HR/L&D)
+
+> **Judul:** Data training untuk tim Anda — dari literasi dasar sampai engineering
+
+> **Intro:** Program pelatihan in-house yang dirancang untuk kebutuhan nyata lembaga Anda. Peserta berlatih dengan **data Anda sendiri** (dianonimkan lebih dulu), sehingga yang dihasilkan bukan sekadar pemahaman, tapi juga artefak yang bisa langsung dipakai.
+
+**4 kartu jalur (bukan 28 modul — jangan tampilkan katalog penuh di homepage):**
+
+| Jalur | Untuk siapa | Contoh isi | Durasi |
+|---|---|---|---|
+| **Literasi Data** | Pengurus, manajer, staf umum | Membaca dashboard, berpikir dengan angka, statistik untuk keputusan | 3 jam – 2 hari |
+| **Tools Praktis** | Staf analis, administrasi, supervisor | Excel & Sheets, SQL, Power BI, Looker Studio, Python | 1 – 4 hari |
+| **Statistika & Analitik** | Analis, tim program, manajemen risiko | Sampling & uji hipotesis, regresi, forecast, A/B testing, evaluasi dampak | 1 – 2 hari per modul |
+| **Engineering & Tata Kelola** | Tim IT, analis senior | Pipeline & warehouse, data quality, KPI dictionary, UU PDP, otomasi | 1 – 3 hari |
+
+**5 program siap pilih (kartu utama):**
+
+| Program | Untuk siapa | Durasi | Mulai dari |
+|---|---|---|---|
+| **Data untuk Pengurus** | Pengurus & manajer | 2 hari | Rp 12 jt |
+| **Analis Internal Pertama** | Staf yang akan jadi analis | 8 sesi | Rp 25 jt |
+| **Dashboard Team** | Tim yang akan membangun dashboard | 4 sesi | Rp 15 jt |
+| **Statistika untuk Keputusan** | Analis & manajer | 4–6 sesi | Rp 20 jt |
+| **Zakat & Wakaf Analytics** | LAZ, BAZNAS, lembaga wakaf | 4 sesi | Rp 20 jt |
+
+**Diferensiasi (3 poin, singkat):**
+> **Data Anda, bukan data contoh.** Peserta berlatih dengan ekspor nyata dari sistem Anda.
+> **Ada asesmen.** Pre-test, post-test, dan capstone — bukan sekadar sertifikat kehadiran.
+> **Ada lanjutannya.** Setelah pelatihan, tersedia pendampingan bulanan agar kemampuannya tidak hilang dalam enam bulan.
+
+**Catatan kecil:** *"Tersedia sertifikat penyelesaian. Untuk kelas dalam jumlah besar atau program tahunan, minta proposal khusus."*
+
+**CTA khusus section ini (berbeda dari hero):**
+`Minta Proposal Training` → WhatsApp dengan pesan terisi: *"Halo, saya mau minta proposal training data untuk [nama lembaga], sekitar [jumlah] peserta, topik [topik]."*
+
+Mengapa CTA-nya dipisah: pembeli training tidak butuh "konsultasi 30 menit" — dia butuh dokumen yang bisa dibawa ke atasan. Memberi dia jalur yang salah akan menghilangkannya.
+
 ### Tentang
 
 > Saya [Nama], praktisi data. Sehari-hari saya bekerja sebagai **Senior Data Engineer** — membangun sistem data yang harus akurat, otomatis, dan tidak boleh mati. Latar belakang kuantitatif saya membuat model proyeksi, forecast, dan evaluasi dampak bisa disusun dengan asumsi tertulis dan uji sensitivitas, bukan angka yang dikarang.
@@ -155,7 +195,7 @@ Kalimat ini melakukan dua hal: menurunkan hambatan (tidak mengikat) dan menanam 
 **Bagian teknis (lipat/accordion, untuk pembeli teknis):**
 > **Cara kerja teknis.** Data diambil langsung dari sumber Anda (POS, spreadsheet, database, API) lewat pipeline terjadwal; transformasi dan validasi berjalan otomatis; hasilnya masuk ke dashboard atau warehouse. Semua berjalan di akun milik Anda. Untuk kebutuhan skala besar: DuckDB/BigQuery, Python, dan orkestrasi terjadwal. Detail arsitektur tersedia saat diskusi.
 
-### FAQ (7 item — menjawab penghalang, bukan memuji diri)
+### FAQ (8 item — menjawab penghalang, bukan memuji diri)
 
 1. **Apakah saya harus punya sistem/aplikasi khusus?** Tidak. Mulai dari Excel, Google Sheets, atau export POS/aplikasi koperasi yang sudah ada.
 2. **Data saya berantakan sekali, masih bisa?** Justru itu kasus paling umum. Fase pertama biasanya merapikan data sebelum membuat dashboard.
@@ -164,11 +204,13 @@ Kalimat ini melakukan dua hal: menurunkan hambatan (tidak mengikat) dan menanam 
 5. **Apakah pendampingan bulanan mengikat?** Minimum 3 bulan, dan Anda bisa berhenti setelah bulan pertama tanpa penalti. Data, dashboard, dan dokumentasi tetap milik Anda — kami tidak menahan akses.
 6. **Apakah bisa kerja jarak jauh?** Ya, seluruh proses remote (Meet + WhatsApp), dengan sesi serah terima online yang direkam.
 7. **Bisa tidak hanya menganalisis satu masalah spesifik?** Bisa — pakai format sprint 3–5 hari (blok 5 jam), mulai Rp 1,5 jt.
+8. **Apakah training bisa disesuaikan dengan kebutuhan kami?** Ya. Kurikulum disusun setelah kami tahu level peserta dan data yang tersedia. Kelas dicampur level (mis. direktur dan staf administrasi) tidak kami sarankan — hasilnya biasanya tidak memuaskan keduanya.
 
 ### Kontak
 
 > **Mulai dari percakapan 30 menit.** Tidak ada biaya, tidak ada kewajiban lanjut.
-> WhatsApp: `wa.me/62xxxxxxxxxx?text=Halo,%20saya%20mau%20konsultasi%2030%20menit%20soal%20data%20usaha%20saya.`
+> WhatsApp (konsultasi): `wa.me/62xxxxxxxxxx?text=Halo,%20saya%20mau%20konsultasi%2030%20menit%20soal%20data%20usaha%20saya.`
+> WhatsApp (proposal training): `wa.me/62xxxxxxxxxx?text=Halo,%20saya%20mau%20minta%20proposal%20training%20data%20untuk%20lembaga%20saya.`
 > Email: `hello@domain.com`
 > LinkedIn: `/in/username`
 
@@ -217,8 +259,9 @@ Kalimat ini melakukan dua hal: menurunkan hambatan (tidak mengikat) dan menanam 
 - Nominal rupiah tetap `Rp 7,5 jt` di versi ID; versi EN tulis `IDR 7.5M` dengan catatan *indicative, excl. tax*.
 - Tanggal, angka, dan format mata uang mengikuti locale (`id-ID` / `en-US`).
 - Jangan menerjemahkan nama paket (Diagnostic, Dashboard Starter, Care, Report, Partner, Fractional Data Lead) — konsisten di dua bahasa.
+- Nama program training: beri nama Inggris yang berdampingan, karena pembeli korporat sering mencarinya dalam Inggris — *"Data for Board & Management"*, *"First Internal Analyst"*, *"Dashboard Team"*, *"Statistics for Decisions"*, *"Zakat & Waqf Analytics"*.
 
-**Cakupan minimum fase 1:** seluruh section di §1 harus punya versi EN. Kalau waktu terbatas, prioritas terjemahan: hero → layanan → paket → kontak; FAQ boleh menyusul.
+**Cakupan minimum fase 1:** seluruh section di §1 harus punya versi EN. Kalau waktu terbatas, prioritas terjemahan: hero → layanan → paket → **training** → kontak; FAQ boleh menyusul.
 
 ---
 
@@ -226,16 +269,23 @@ Kalimat ini melakukan dua hal: menurunkan hambatan (tidak mengikat) dan menanam 
 
 Checklist rilis:
 
-- [ ] `<title>`: *Konsultan Data untuk Usaha & Lembaga Syariah | Dashboard, Analitik, Model Pembiayaan*
-- [ ] `meta description` ±150 karakter, mengandung "dashboard", "lembaga syariah", "konsultan data".
+- [ ] `<title>`: *Konsultan Data & Training untuk Usaha dan Lembaga Syariah | Aulia Data Studio*
+- [ ] `meta description` ±150 karakter, mengandung "konsultan data", "training data", "lembaga syariah", "dashboard".
 - [ ] Open Graph + Twitter card (`og:image` 1200×630 di `assets/img/og-image.png`).
 - [ ] JSON-LD `ProfessionalService` (nama, areaServed: Indonesia, layanan, harga mulai).
+- [ ] **JSON-LD `Course` untuk section training** (nama program, penyedia, durasi, mode) — ini yang membuat program muncul di hasil pencarian "training data".
 - [ ] `robots.txt` + `sitemap.xml`.
 - [ ] `lang="id"`, heading hierarkis (satu `h1`), semua gambar punya `alt`.
 - [ ] Kontras teks ≥ 4.5:1, target klik ≥ 44px, fokus keyboard terlihat.
 - [ ] Total halaman < 500 KB tanpa screenshot; gambar `webp`/`avif` + `loading="lazy"`.
 - [ ] Uji Lighthouse: Performance ≥ 90, Accessibility ≥ 95 (mobile).
-- [ ] Analytics ringan (Plausible/Umami) + event `cta_click` dengan parameter posisi CTA.
+- [ ] Analytics ringan (Plausible/Umami) + event `cta_click` dengan parameter posisi CTA **dan** jenis (`konsultasi` vs `training`).
+
+**Kata kunci yang perlu dilayani** (satu halaman harus bisa menangkap keduanya):
+
+| Niat konsultasi | Niat training |
+|---|---|
+| konsultan data, dashboard Power BI, laporan otomatis, analisis penjualan | training data perusahaan, pelatihan Excel in-house, training Power BI, pelatihan SQL, training statistika, in-house training data analyst |
 
 ---
 
@@ -243,13 +293,14 @@ Checklist rilis:
 
 Website dianggap selesai kalau:
 
-1. Semua 9 section terisi **copy asli** (bukan lorem ipsum), tanpa placeholder nama/WA.
+1. Semua 10 section terisi **copy asli** (bukan lorem ipsum), tanpa placeholder nama/WA.
 2. Section `#paket` menampilkan **4 tier langganan + 6 project**, dengan tier Report ditandai "paling dipilih".
-3. Ada minimal **3 screenshot dashboard** asli dan 1 link demo hidup.
-4. Semua CTA WhatsApp berfungsi dengan pesan terisi otomatis.
-5. Tampil rapi di 360px, 768px, dan 1440px.
-6. Lighthouse mobile ≥ 90 (performance) dan ≥ 95 (accessibility).
-7. Sudah live di GitHub Pages dengan URL yang bisa dibagikan.
+3. Section `#training` menampilkan 4 jalur + 5 program siap pilih, dengan CTA "Minta Proposal Training" yang terpisah.
+4. Ada minimal **3 screenshot dashboard** asli dan 1 link demo hidup.
+5. Semua CTA WhatsApp berfungsi dengan pesan terisi otomatis (dua varian pesan).
+6. Tampil rapi di 360px, 768px, dan 1440px.
+7. Lighthouse mobile ≥ 90 (performance) dan ≥ 95 (accessibility).
+8. Sudah live di GitHub Pages dengan URL yang bisa dibagikan.
 
 ---
 
@@ -262,6 +313,7 @@ Website dianggap selesai kalau:
 | Tampilkan harga | ✅ | Ya, format "mulai dari" |
 | Positioning latar belakang | ✅ | Outcome dulu; Senior Data Engineer sebagai bukti; kampus 1 baris di Tentang |
 | Struktur langganan | ✅ | 4 tier: Care / Report / Partner / Fractional Data Lead |
+| Struktur training | ✅ | 5 jalur + capstone + 8 program + Data Academy (lihat [LAYANAN.md §G](LAYANAN.md#g-corporate-training)) |
 | Kebijakan bundling | ⏳ | Diskon Rp 1 jt, atau Care 3 bulan sebagai bonus untuk 3 klien pertama |
 | Nomor WhatsApp bisnis | ⏳ | Format `wa.me/62...` |
 | Email bisnis | ⏳ | Boleh Gmail dulu |
@@ -269,4 +321,6 @@ Website dianggap selesai kalau:
 | Foto profil profesional | ⏳ | 1:1, latar polos |
 | 3 screenshot dashboard | ⏳ | Dari portofolio Sales Dashboard / Power BI / Streamlit |
 | Link demo Streamlit | ⏳ | Kalau belum live, cukup GIF/screenshot |
+| 1 foto sesi training | ⏳ | Untuk section training. Kalau belum ada, pakai foto materi/workbook — jangan stok foto |
+| Silabus 1 halaman (PDF) | ⏳ | Diperlukan untuk pembeli HR/L&D; bisa diekspor dari section training |
 | Testimoni | — | Menyusul setelah klien pertama |

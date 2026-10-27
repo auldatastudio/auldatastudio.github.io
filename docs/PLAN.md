@@ -11,14 +11,22 @@
 
 **Wedge (kenapa kamu, bukan orang lain):** dua hal yang jarang bertemu di satu orang. Pertama, **kedalaman teknis**: praktisi Senior Data Engineer dengan pengalaman panjang di industri data — membangun sistem yang harus akurat, otomatis, dan tidak boleh mati; plus latar kuantitatif untuk model proyeksi, forecast, dan evaluasi dampak. Kedua, **literasi domain syariah**: membaca nisbah, akad, kolektibilitas, mustahik, dan maqashid sebagai bahasa kerja. Kompetitor generik bisa salah satu, hampir tidak pernah keduanya.
 
-**Model bisnis:** dua keluarga produk — *project* (sekali bayar, pintu masuk) dan *langganan* (berulang, mesin pendapatan). Langganan **selalu dibundel di proposal project**, bukan ditawarkan setelah serah terima. Empat tier: Care → Report → Partner → Fractional Data Lead.
+**Model bisnis:** tiga lini, dua di antaranya berulang.
 
-**Target 6 bulan:** 4 klien Report + 2 klien Care (MRR ±Rp 20 jt) + 0,5 project/bulan. Bukan target "jadi konsultan besar", tapi **cukup menguntungkan untuk paruh waktu serius** dan tahan terhadap bulan yang sepi jualan.
+| Lini | Sifat | Peran |
+|---|---|---|
+| **Project** (Diagnostic, Dashboard, Model, Feasibility) | Sekali bayar | Pintu masuk; menghasilkan aset yang melahirkan langganan |
+| **Langganan** (Care → Report → Partner → Fractional Data Lead) | Berulang, bulanan | **Mesin pendapatan utama** |
+| **Corporate Training** (28 modul, 8 program, Data Academy) | Sebagian berulang (tahunan) | **Lini kedua + corong termurah** ke konsultasi |
+
+Langganan **selalu dibundel di proposal project**, bukan ditawarkan setelah serah terima.
+
+**Target 6 bulan:** 4 klien Report + 2 klien Care (MRR ±Rp 20 jt) + training 1–2 kelas + 0,5 project/bulan. Bukan target "jadi konsultan besar", tapi **cukup menguntungkan untuk paruh waktu serius** dan tahan terhadap bulan yang sepi jualan.
 
 **Aset yang sudah kamu punya:**
 - Portofolio teknis nyata: Sales Dashboard, Power BI report, Streamlit app, pipeline streaming (Kafka/Spark), AptaFlask.
-- Pengalaman industri sebagai Senior Data Engineer + latar kuantitatif (model, forecast, evaluasi dampak).
-- Jaringan alumni S2 Ekonomi Syariah Tazkia: koperasi syariah, BMT, LAZ/BAZNAS, BPRS, pesantren, halal F&B, travel umroh — dipakai sebagai **pintu masuk**, bukan sebagai argumen jualan (lihat [§3](#3-positioning)).
+- Pengalaman industri sebagai Senior Data Engineer + latar kuantitatif (model, forecast, evaluasi dampak) — modal utama untuk mengajar statistik dan engineering, bukan cuma memakainya.
+- Jaringan alumni S2 Ekonomi Syariah Tazkia: koperasi syariah, BMT, LAZ/BAZNAS, BPRS, pesantren, halal F&B, travel umroh — dipakai sebagai **pintu masuk**, bukan sebagai argumen jualan (lihat [§3](#3-positioning)). Jaringan ini juga sumber peserta training dan bisa jadi mitra sertifikat.
 
 ---
 
@@ -111,7 +119,7 @@ Urutan berdasarkan **kecepatan closing dari jaringan**, bukan ukuran pasar.
 
 ## 5. Katalog layanan (ringkas)
 
-Detail per layanan ada di [LAYANAN.md](LAYANAN.md). Lima klaster project + satu keluarga langganan:
+Detail per layanan ada di [LAYANAN.md](LAYANAN.md). Enam klaster project, satu keluarga langganan, dan satu lini training:
 
 | Klaster | Layanan | Peran dalam bisnis |
 |---|---|---|
@@ -119,12 +127,15 @@ Detail per layanan ada di [LAYANAN.md](LAYANAN.md). Lima klaster project + satu 
 | **B. Dashboard & Otomasi** | Dashboard Operasional · Otomasi Laporan | Menghasilkan aset yang **melahirkan langganan** |
 | **C. Analitik Keputusan** | Profitabilitas Produk & Harga · RFM & Customer Analytics · Inventory/Forecast | Nilai paling terasa, harga lebih tinggi |
 | **D. Syariah & Kelembagaan** | Model Bagi Hasil & Pembiayaan · Feasibility Study & Proposal Pendanaan · Dashboard Zakat/Wakaf & Dampak · Analitik Risiko Anggota · Data Pack Kepatuhan | **Diferensiasi**, kompetitor generik tidak bisa masuk |
-| **E. Kapabilitas & AI** | Training/Workshop · Otomasi AI (OCR, rekap WA) · Interim Analyst | Lead-gen + revenue tambahan |
+| **E. Kapabilitas & AI** | Otomasi AI (OCR, rekap WA) · Interim Analyst | Revenue tambahan |
 | **F. Langganan** ⭐ | Care · Report · Partner · Fractional Data Lead + add-on berulang | **Mesin pendapatan utama** — lihat [§6.2](#62-langganan-berulang--mesin-pendapatan) |
+| **G. Corporate Training** ⭐ | 28 modul dalam 5 jalur + 8 program siap jual + Data Academy tahunan | **Lini pendapatan kedua + corong termurah** ke konsultasi — lihat [§8](#8-corporate-training) |
 
-### 6 layanan project yang dijual di 90 hari pertama
+### Yang dijual di 90 hari pertama
 
-Menjual 17 layanan ke satu orang = tidak ada yang diingat. 90 hari pertama, jual **project ini saja** — dan setiap satunya dijual dengan **pasangan langganannya**:
+Menjual 30+ layanan ke satu orang = tidak ada yang diingat. Ada dua jalur masuk, dan **keduanya harus jalan** karena pembelinya berbeda:
+
+**Jalur 1 — Konsultasi (pembeli: pemilik masalah).** Enam project ini saja, masing-masing dengan pasangan langganannya:
 
 | Project | Pasangan langganan yang dibundel | Harga project |
 |---|---|---|
@@ -135,7 +146,15 @@ Menjual 17 layanan ke satu orang = tidak ada yang diingat. 90 hari pertama, jual
 | **Dashboard Zakat/Wakaf & Dampak** | **Report** (laporan triwulan donatur) | Rp 10–25 jt |
 | **Otomasi Laporan Rutin** | **Report** (karena laporannya sudah otomatis, tinggal insight-nya) | Rp 5–12 jt |
 
-Sisanya jadi **upsell** setelah klien percaya.
+**Jalur 2 — Training (pembeli: HR/L&D, anggaran pengembangan SDM).** Tiga program ini saja:
+
+| Program | Untuk siapa | Harga |
+|---|---|---|
+| **"Data untuk Pengurus"** — 2 hari | Manajer, pengurus, direktur | Rp 12–18 jt |
+| **"Analis Internal Pertama"** — 8 sesi | Staf yang akan jadi analis | Rp 25–40 jt |
+| **In-house workshop 1 hari** (modul tunggal) | Tim mana pun | Rp 7–12 jt |
+
+Sisanya jadi **upsell** setelah klien percaya. Detail lengkap training: [§8](#8-corporate-training).
 
 ---
 
@@ -158,7 +177,7 @@ Prinsip:
 | **Financing Model** | Model Excel/Sheet bagi hasil, proyeksi 3–5 tahun, skenario sensitivitas, dokumentasi asumsi | 2 minggu | Rp 7,5–15 jt |
 | **Feasibility Study** | Studi kelayakan pasar/keuangan, laporan PDF siap lampir proposal bank syariah/investor | 3–5 minggu | Rp 10–30 jt |
 | **Impact Dashboard** | Dashboard donasi–penyaluran–dampak, framework indikator (maqashid), laporan donatur | 3–4 minggu | Rp 10–25 jt |
-| **Workshop** | Setengah hari (3–4 jam), materi + latihan pakai data klien, maks 20 orang | 1 hari | Rp 4–8 jt/sesi atau Rp 350–750 rb/peserta |
+| **Workshop / In-house Training** | Setengah hari sampai multi-sesi; lihat format & kurikulum lengkap di [§8](#8-corporate-training) | 1 hari – 8 minggu | Rp 4–8 jt/sesi · Rp 12–60 jt/program |
 | **Ad-hoc / Sprint** | Analisis khusus (mis. "kenapa penjualan cabang X turun") | 3–5 hari | Rp 3–7,5 jt |
 
 **Aturan kredit pintu masuk:** biaya **Diagnostic dikreditkan 50%** ke project atau langganan pertama. Hambatan masuk rendah, dan klien yang lanjut tidak merasa membayar dua kali untuk hal yang sama.
@@ -194,6 +213,7 @@ Empat tier. **Setiap tier sudah termasuk seluruh isi tier di bawahnya**, jadi ja
 | **Data Literacy Program** — sesi bulanan untuk staf + materi + kanal tanya | Rp 3–5 jt/bln, atau Rp 250–500 rb/orang/bln | Koperasi, pesantren, retail multi-cabang |
 | **Analyst Block** — 5 jam on-demand, tanpa komitmen bulanan | Rp 1,5–3 jt/blok | Pintu masuk ke langganan, bukan produk utama |
 | **Cabang tambahan** — dashboard/laporan per cabang | +Rp 750 rb–1,5 jt/bln per cabang | Retail, F&B, travel umroh |
+| **Data Academy** — program training tahunan, kurikulum naik level, 4 kuartal | Rp 35–60 jt/tahun (ditagih tahunan) | Klien training yang stafnya berganti; lihat [§8.5](#85-data-academy--pendapatan-berulang-dari-training) |
 
 ### 6.4 Bundling: langganan dijual di penawaran yang sama
 
@@ -309,11 +329,168 @@ Konsekuensi yang harus diterima: kalau 3 klien langganan sudah jalan, sisa kapas
 | **Mode langganan** — 3 Report + 1 sprint kecil | 10–15 hari | ±Rp 18–23 jt (±85% berulang) |
 | **Mode project** — 2 Report + 1 project dashboard | 13–18 hari | ±Rp 20–25 jt (±55% berulang) |
 
-Itu bukan angka yang salah — itu plafon satu orang. Kalau ingin keduanya sekaligus, jawabannya delegasi (tier Care dan Report paling mudah didelegasikan ke freelancer), bukan menambah jam kerja. Rincian beban per tier ada di [§8](#8-kapasitas--angka).
+Itu bukan angka yang salah — itu plafon satu orang. Kalau ingin keduanya sekaligus, jawabannya delegasi (tier Care dan Report paling mudah didelegasikan ke freelancer), bukan menambah jam kerja. Rincian beban per tier ada di [§9](#9-kapasitas--angka).
 
 ---
 
-## 8. Kapasitas & angka
+## 8. Corporate Training
+
+Lini bisnis kedua, dan sengaja dipisahkan dari katalog project karena **pembelinya beda, anggarannya beda, dan cara menjualnya beda**. Detail 28 modul + 8 program siap jual ada di [LAYANAN.md §G](LAYANAN.md#g-corporate-training).
+
+### 8.1 Kenapa training masuk akal (bukan sekadar menambah layanan)
+
+Enam alasan komersial, urut dari yang paling praktis:
+
+1. **Anggarannya berbeda.** Training dibayar dari anggaran **pengembangan SDM**, bukan anggaran IT/proyek. Di banyak lembaga, anggaran SDM punya sisa di Q4 karena tidak terserap, dan sisa itu hangus kalau tidak dipakai. Ini akses ke kolam uang yang sama sekali berbeda dari konsultasi.
+2. **Pembelinya lebih mudah.** HR, L&D, atau Manajer Umum bisa menyetujui Rp 10–30 jt **tanpa komite** dan tanpa harus membuktikan ROI proyek. Bandingkan dengan dashboard yang harus bersaing dengan kebutuhan operasional.
+3. **Siklus lebih pendek.** 2–4 minggu dari penawaran ke pelaksanaan, vs 1–3 bulan untuk konsultasi. Cocok untuk bulan yang tipis project.
+4. **Margin tinggi setelah materi jadi.** Materi dibuat sekali, dipakai berulang. Hari delivery ke-2 dan seterusnya punya margin ±85%, dan biaya marginalnya hampir nol.
+5. **Corong termurah ke pekerjaan konsultasi.** Peserta melihat kualitas kerjamu selama 4–8 jam penuh — jauh lebih meyakinkan daripada satu proposal. Setelah training, kamu jadi orang yang diingat saat data mereka kacau.
+6. **Pintu ke recurring.** Program tahunan (Data Academy) membuat training ikut jadi pendapatan berulang, bukan transaksi sekali.
+
+**Perbandingan ekonomi per hari kerja:**
+
+| Aktivitas | Imbalan per hari input | Berulang? |
+|---|---|---|
+| Training in-house (full day, materi sudah ada) | Rp 5–7 jt | Tidak (kecuali Data Academy) |
+| Klien Report (Rp 4 jt / 2 hari) | Rp 2 jt | **Ya** |
+| Project dashboard (Rp 12 jt / 9 hari) | Rp 1,3 jt | Tidak |
+
+Training menang per hari, tapi **tidak otomatis berulang**. Itu sebabnya training **bukan** pengganti langganan — dia pelengkap yang mengisi kapasitas kosong dan memasok prospek ke langganan.
+
+### 8.2 Format & harga
+
+Harga dipatok **per kelas per hari**, bukan per peserta. Ini penting: kalau klien menawar "harga per orang", kelas 8 orang jadi tidak masuk akal.
+
+| Format | Peserta | Durasi | Harga | Peran |
+|---|---|---|---|---|
+| **Open class / public workshop** | 10–25 individu | 1 hari | Rp 350–750 rb/orang | Lead-gen; klien datang sendiri |
+| **In-house workshop** | 10–20 | 3–4 jam | Rp 4–8 jt/kelas | **Pintu masuk termudah** |
+| **In-house full-day** | 10–20 | 7–8 jam | Rp 7–12 jt/kelas | Modul tunggal |
+| **Bootcamp** | 8–15 | 2–3 hari | Rp 15–30 jt | Trek teknis (SQL, Python, Power BI) |
+| **Multi-session program** | 8–20 | 4–8 sesi × 3 jam | Rp 15–30 jt | Trek berjenjang |
+| **Cohort program** | 10–20 | 6–8 minggu | Rp 30–60 jt | Ada pre/post test, capstone, sertifikat |
+| **Train-the-trainer** | 1–3 orang | 2 hari + 4 sesi pendampingan | Rp 15–25 jt | Bikin *data champion* internal |
+| **Assessment & curriculum design** | — | 1–2 minggu | Rp 8–15 jt | Tanpa delivery: audit skill gap + susun kurikulum |
+| **Data Academy (tahunan)** | 10–20 | 4 kuartal | Rp 35–60 jt/tahun (Rp 7–10 jt/kuartal) | **Recurring** — lihat [§8.5](#85-data-academy--pendapatan-berulang-dari-training) |
+
+**Biaya tambahan (jangan dimasukkan ke harga dasar):** transport & akomodasi kalau onsite, cetak workbook, sertifikat fisik, dan biaya platform kalau diminta hosting rekaman.
+
+**Diskon yang boleh diberikan:** hanya untuk volume (mis. 4 sesi dibayar di muka) atau untuk batch asosiasi (30–50 peserta sekaligus, harga per orang lebih rendah karena satu kali delivery).
+
+### 8.3 Kurikulum
+
+28 modul dalam 5 jalur, tiga level. Prinsipnya: **jangan jual modul, jual jalur** — modul tunggal mudah ditawar, jalur tidak.
+
+| Level | Untuk siapa | Kemampuan akhir |
+|---|---|---|
+| **L1 Literasi** | Semua staf, manajer, pengurus | Bisa membaca, menanyakan, dan memakai angka |
+| **L2 Praktisi** | Analis, staf administrasi, supervisor | Bisa mengolah data dan membuat laporan sendiri |
+| **L3 Lanjutan** | Analis senior, tim IT, manajer data | Bisa membangun pipeline, model, dan tata kelola |
+
+**Jalur A — Literasi Data untuk Manajer & Pengurus** (L1)
+Membaca data & dashboard tanpa latar IT · Berpikir dengan angka untuk keputusan manajerial · Apa yang harus ditanyakan pengurus/DPS ke sebuah laporan.
+
+**Jalur B — Tools Praktis** (L2→L3)
+Excel/Sheets dari nol ke analisis · Excel lanjutan (pivot, Power Query, dashboard) · SQL untuk analis · Power BI · Looker Studio untuk laporan murah · Python untuk analis data · Visualisasi & storytelling.
+
+**Jalur C — Statistika & Analitik** (L2→L3)
+Statistika deskriptif & eksplorasi data · Inferensia: sampling, uji hipotesis, ukuran sampel · Regresi & model prediktif dasar · Forecast & perencanaan · Eksperimen & A/B testing · **Evaluasi dampak program** · Manajemen risiko berbasis data (credit scoring sederhana).
+
+**Jalur D — Data Engineering & Tata Kelola** (L3)
+Fondasi data engineering (pipeline, ETL/ELT, warehouse) · Data quality & master data · KPI dictionary & tata kelola data · Keamanan & perlindungan data (UU PDP) · Otomasi laporan (Apps Script/Python).
+
+**Jalur E — Syariah & Sektoral** (diferensiasi, L1–L3)
+Analitik untuk lembaga zakat & wakaf · Analitik pembiayaan & risiko koperasi/BPRS · Data untuk kepatuhan (DPS, RUPS, OJK) · Analitik retail/F&B halal · Analitik travel umroh.
+
+**Capstone — End-to-End** (semua level)
+Satu modul yang menjual seluruh program: data mentah → dibersihkan → dianalisis → divisualisasikan → direkomendasikan → dipresentasikan ke manajemen. Ini yang membuat peserta merasa "saya sudah bisa", bukan "saya sudah tahu teorinya".
+
+### 8.4 Pembeda: dataset klien sendiri sebagai bahan latihan
+
+Ini keunggulan yang sulit ditiru trainer generik: **peserta berlatih dengan data mereka sendiri** (dianonimkan lebih dulu).
+
+Kenapa ini kuat:
+- Peserta langsung melihat masalah nyata mereka, bukan dataset Iris atau Titanic.
+- Hasil latihan bukan sekadar pemahaman — sering langsung menjadi **draft dashboard atau temuan awal** yang bisa dipakai.
+- Klien melihat nilai dua kali: staf terlatih **dan** artefak yang berguna.
+- Menciptakan ketergantungan yang sehat: setelah training, mereka tahu siapa yang paham data mereka.
+
+**Konsekuensi operasional:** setiap training butuh 0,5–1 hari persiapan data tambahan. Hitung itu dalam harga.
+
+### 8.5 Data Academy — pendapatan berulang dari training
+
+Cara membuat training tidak berhenti sebagai transaksi sekali:
+
+| Model | Isi | Harga |
+|---|---|---|
+| **Data Academy tahunan** | 4 program/kuartal, kurikulum naik level, peserta 10–20 orang, laporan kemajuan ke manajemen | Rp 35–60 jt/tahun |
+| **Kuartalan saja** | 1 program per kuartal, bisa berhenti kapan saja | Rp 7–10 jt/kuartal |
+| **Refresh tahunan** | Ulang 1 program untuk angkatan baru staf | Rp 10–15 jt/tahun |
+
+Data Academy masuk ke keluarga langganan sebagai add-on berulang di [§6.3](#63-add-on-berulang), dengan siklus penagihan tahunan — bukan bulanan.
+
+**Kenapa klien mau berlangganan training:** staf berganti (terutama di koperasi dan pesantren yang pengurusnya periodik), dan kemampuan yang tidak dilatih ulang akan hilang dalam 6–12 bulan. Itu argumen paling jujur, dan alasannya nyata.
+
+### 8.6 Aset yang harus dibuat (investasi awal)
+
+Jangan bikin 28 modul sebelum ada pembeli. Urutan yang masuk akal:
+
+| Tahap | Modul | Waktu |
+|---|---|---|
+| **Sebelum klien pertama** | A1, B1, B2, B4, Capstone (5 modul inti) | 40–80 jam per modul untuk pertama kali |
+| **Setelah 3 klien training** | Tambah sesuai permintaan pasar — biasanya B3 (SQL), C1, D3, E1 | 20–40 jam per modul (setengahnya bisa pakai ulang) |
+| **Setelah 6 klien** | Jalur C lengkap + D1/D2 untuk klien dengan tim IT | 20–40 jam per modul |
+
+Setiap set modul berisi: slide, workbook peserta, dataset latihan, kunci jawaban, pre/post test, dan panduan fasilitator. **Refresh 4–8 jam per tahun** sudah cukup.
+
+### 8.7 Batasan kapasitas
+
+**Maksimum 2–3 hari training per bulan (±25–30% kapasitas).** Lebih dari itu, kamu berhenti jadi konsultan dan jadi trainer — dan kehilangan sumber pekerjaan bernilai tinggi.
+
+Beban nyata: 1 hari delivery = 1 hari + 0,5–1 hari persiapan (data klien, kustomisasi materi, administrasi).
+
+Kalau permintaan training melebihi kapasitas, ada dua jawaban sebelum menambah jam kerja: **naikkan harga** (cara terbaik), atau **delegasikan** ke trainer freelance dengan materi milikmu dan bagi hasil.
+
+### 8.8 Risiko training & mitigasi
+
+| Risiko | Mitigasi |
+|---|---|
+| **Kualitas materi jelek = 20 orang tahu sekaligus** | Dry run setiap modul baru ke 2–3 orang dulu; minta rating ≥4,5/5 sebelum dijual luas |
+| **Peserta campur level** (direktur & staf admin satu kelas) → semua tidak puas | Wajib tiering: L1 dan L2 tidak digabung. Sampaikan ini saat penawaran, bukan saat hari-H |
+| **Klien menawar harga per orang** padahal in-house | Tegaskan harga per kelas; kalau maunya per orang, arahkan ke open class |
+| **Materi disebar/dijual ulang peserta** | Beri workbook dan slide versi ringkas, bukan file mentah. Untuk aset teknis, gunakan dataset contoh, bukan dataset asli klien lain |
+| **Kamu jadi trainer, bukan konsultan** | Batas kapasitas 25–30%; evaluasi tiap kuartal: kalau training >40% pendapatan, tolak permintaan |
+| **Mengklaim sertifikasi yang tidak diakui** | Sebut "sertifikat penyelesaian". Kalau ingin kredibilitas lebih, gandeng asosiasi/kampus untuk sertifikat bersama — jangan mengarang akreditasi |
+| **Training membuka data klien ke risiko** | Anonimisasi sebelum dipakai sebagai bahan latihan; klien menandatangani izin pemakaian data untuk training |
+| **Klien merasa "sudah cukup" setelah training** | Kurikulum harus berakhir dengan pekerjaan yang belum selesai (mis. "dashboard ini baru 40% jadi"), bukan dengan rasa tuntas |
+
+### 8.9 Corong training → konsultasi
+
+| Tahap | Yang dilakukan | Target konversi |
+|---|---|---|
+| Peserta training | Kumpulkan kontak + satu pertanyaan di akhir: "apa satu masalah data yang paling mengganggu Anda?" | 100% |
+| Hari +3 | Kirim ringkasan materi + tawaran **Analyst Block 5 jam** (Rp 1,5–3 jt) | 25% ambil blok |
+| Hari +14 | Tawarkan **Data Health Check** atau **Diagnostic** | 15% |
+| Bulan 2–3 | Tawarkan project dashboard + Care bundle | 8–10% menjadi klien project |
+| Bulan 6 | Tawarkan **Report** untuk yang sudah punya dashboard | 5% menjadi klien langganan |
+
+Angka ini estimasi, bukan janji. Yang penting: **setiap training harus punya jalur lanjutan tertulis**, karena corong inilah alasan utama training ada di katalog.
+
+### 8.10 Metrik
+
+| Metrik | Target |
+|---|---|
+| Rating pasca-training | ≥ 4,5/5 |
+| Repeat rate (klien training ambil training lagi dalam 12 bulan) | ≥ 30% |
+| Konversi training → pekerjaan konsultasi (dalam 6 bulan) | ≥ 15% |
+| Revenue per hari delivery (materi sudah ada) | ≥ Rp 5 jt |
+| % kapasitas untuk training | 25–30% (jangan lebih) |
+| % pendapatan dari training | ≤ 25% (kalau lebih, bisnis bergeser jadi training provider) |
+
+---
+
+## 9. Kapasitas & angka
 
 Solo consultant punya ±15 hari kerja produktif per bulan (sisanya jualan, admin, belajar). Ini plafon nyata:
 
@@ -325,10 +502,13 @@ Solo consultant punya ±15 hari kerja produktif per bulan (sisanya jualan, admin
 | 1 klien **Fractional Data Lead** | 6–8 |
 | 1 project dashboard | 8–10 |
 | 1 feasibility/model | 8–12 |
-| 1 workshop | 2 (termasuk persiapan) |
+| 1 hari training (delivery + persiapan) | 1,5–2 |
+| 1 program multi-sesi (4–8 sesi) | 8–16 |
 | Jualan, konten, admin, follow-up | 4–5 |
 
 **Kapasitas maksimum realistis:** 5–6 klien langganan (campuran Care/Report) **atau** 2 klien berat (Partner/Fractional) + 1 project berjalan. Di atas itu wajib delegasi (freelancer dashboard/analis junior, Rp 150–300 rb/jam atau bagi hasil 30–40%).
+
+**Plafon training:** maksimum 25–30% kapasitas (±2–3 hari/bulan). Kalau training melebihi itu, delivery konsultasi mulai gagal — dan konsultasi adalah sumber margin tertinggi.
 
 **Skenario pendapatan bulan ke-6:**
 
@@ -337,17 +517,21 @@ Solo consultant punya ±15 hari kerja produktif per bulan (sisanya jualan, admin
 | Langganan Report | 4 klien × Rp 4 jt | Rp 16 jt |
 | Langganan Care | 2 klien × Rp 2 jt | Rp 4 jt |
 | Project | 0,5 × Rp 12 jt | Rp 6 jt |
-| Workshop | 0,5 × Rp 6 jt | Rp 3 jt |
-| **Bruto** | | **± Rp 29 jt** |
-| Biaya (tools, freelancer, domain) | | −Rp 4–6 jt |
+| Training | 1,5 hari × Rp 8 jt | Rp 12 jt |
+| **Bruto** | | **± Rp 38 jt** |
+| Biaya (tools, freelancer, domain) | | −Rp 5–7 jt |
 
-Skenario ini bukan janji; ini uji kelayakan. Perhatikan komposisinya: **Rp 20 jt dari langganan, hanya Rp 6 jt dari project.** Kalau bulan ke-6 komposisinya masih didominasi project, masalahnya bukan di jumlah klien — tapi di bundling yang tidak dijalankan.
+Beban kerja skenario ini: 4×2,5 (Report) + 2×0,75 (Care) + 4,5 (project) + 3 (training) + 4,5 (jualan/admin) = **± 24 hari** — sudah di atas 15 hari produktif. Artinya skenario ini **tidak bisa dikerjakan sendiri**; butuh delegasi 8–10 hari, atau pilih salah satu: turunkan jumlah klien Report, atau turunkan training.
+
+Versi yang realistis untuk solo tanpa delegasi di bulan ke-6: **3 Report + 1 Care + 1 hari training** = Rp 12 jt + Rp 2 jt + Rp 8 jt = **± Rp 22 jt** dengan beban ±13 hari. Ini angka yang jujur.
+
+Perhatikan komposisinya: mayoritas dari langganan, bukan project. Kalau bulan ke-6 komposisinya masih didominasi project, masalahnya bukan di jumlah klien — tapi di bundling yang tidak dijalankan.
 
 Kalau bulan ke-6 hanya 1 langganan + 1 project (± Rp 10 jt), bisnis masih sehat untuk sambilan — lanjutkan, perbaiki corong jualan.
 
 ---
 
-## 9. Go-to-market 90 hari
+## 10. Go-to-market 90 hari
 
 Fokus: **jaringan hangat dulu, konten belakangan.** Konten berfungsi sebagai pembenaran, bukan sumber lead utama.
 
@@ -358,7 +542,7 @@ Fokus: **jaringan hangat dulu, konten belakangan.** Konten berfungsi sebagai pem
 - [ ] Siapkan 1-pager PDF (boleh diekspor dari website nanti) + template proposal 3 halaman.
 
 ### Minggu 2 — Website & profil
-- [ ] Build website sesuai [WEBSITE.md](WEBSITE.md), deploy GitHub Pages.
+- [ ] Build website sesuai [WEBSITE.md](WEBSITE.md), deploy GitHub Pages. Sertakan section **Training** sejak awal, bukan menyusul — HR/L&D mencari lewat kata kunci "training data".
 - [ ] Update LinkedIn: headline berbasis outcome ("Membangun pelaporan & model analitik untuk usaha dan lembaga syariah"), dengan Senior Data Engineer tampil di bagian pengalaman dan ringkasan — bukan di judul. Featured: 3 studi kasus + link website.
 - [ ] Nomor WA bisnis terpisah (atau label jelas) + link `wa.me` dengan pesan otomatis.
 
@@ -366,19 +550,34 @@ Fokus: **jaringan hangat dulu, konten belakangan.** Konten berfungsi sebagai pem
 - [ ] 10 **curiosity call** (30 menit, tanpa jualan): "lagi sibuk apa?", "laporan bulanannya gimana?", "kalau ada satu angka yang bisa kamu lihat tiap hari, apa?"
 - [ ] Klasifikasikan temuan → perbaiki daftar layanan & harga kalau perlu.
 - [ ] Tawarkan **2 Data Health Check** gratis (atau Rp 1 jt) dengan syarat: testimoni + izin studi kasus.
-- [ ] Satu sesi sharing/webinar 45 menit bareng komunitas alumni ("Membaca Data untuk Keputusan Usaha") → sumber lead berikutnya.
+- [ ] **Uji permintaan training:** tanyakan ke 5 kontak yang punya tim — "kalau ada pelatihan data untuk staf, anggarannya ada tidak? biasanya dari pos mana?" Jawaban ini menentukan apakah training dijadikan prioritas atau pelengkap.
+- [ ] Satu sesi sharing/webinar 45 menit bareng komunitas alumni ("Membaca Data untuk Keputusan Usaha") → sumber lead berikutnya, sekaligus **sampel gratis** dari kemampuan mengajar.
 
 ### Minggu 5–8 — Proposal & closing
 - [ ] Kirim 5 proposal (bukan 1). Target: 1–2 closing.
 - [ ] Setiap proposal: 3 opsi harga (kecil / disarankan / lengkap) — opsi tengah paling sering dipilih.
 - [ ] **Setiap opsi menyertakan langganan sejak awal** (lihat [§6.4](#64-bundling-langganan-dijual-di-penawaran-yang-sama)). Jangan pernah mengirim proposal project tanpa pasangan langganannya.
+- [ ] Bangun 3 modul training inti (A1, B1, B4) + satu capstone sederhana — cukup untuk menjual in-house workshop pertama.
 - [ ] Setelah project selesai: minta testimoni + referral ("siapa 2 orang di jaringanmu yang punya masalah serupa?").
 
 ### Minggu 9–12 — Ulangi & naikkan harga
 - [ ] Jalankan **kalender ekspansi** ([§7.3](#73-kalender-ekspansi)): bulan 1 health report, bulan 3 tawarkan Care → Report.
+- [ ] Jual **1 in-house workshop** (target: 1 kelas pertama bulan ke-3). Syaratnya bukan nilai kontrak, tapi **satu sesi berjalan baik + 15 kontak peserta** untuk corong berikutnya.
 - [ ] Program referral: 10% nilai project atau 1 workshop gratis.
 - [ ] Konten 2×/minggu di LinkedIn/IG: 1 mini case + 1 tips praktis ("3 cara cek kebocoran margin dari export POS").
 - [ ] Naikkan harga 20% untuk klien baru.
+
+### Target training di 90 hari pertama
+
+Jangan jadikan training lini utama sebelum terbukti. Target realistis:
+
+| Target | Angka |
+|---|---|
+| Modul siap pakai | 3–5 |
+| Webinar/sesi gratis sebagai sampel | 1–2 |
+| Kelas berbayar pertama | 1 |
+| Peserta terkumpul (kontak) | 20–30 |
+| Konversi peserta → percakapan konsultasi | 3–5 |
 
 ### Skrip outreach (WA — hangat, singkat, tanpa pitch)
 
@@ -390,19 +589,20 @@ Fokus: **jaringan hangat dulu, konten belakangan.** Konten berfungsi sebagai pem
 
 ---
 
-## 10. Website (ringkas)
+## 11. Website (ringkas)
 
 Spesifikasi lengkap + draft copy: [WEBSITE.md](WEBSITE.md).
 
 - **Bentuk:** satu halaman (`index.html`) statis, mobile-first, tanpa build step.
-- **Alur konversi:** hero (janji spesifik) → masalah → layanan (3 paket project utama) → **4 tier langganan** → cara kerja 4 langkah → bukti (studi kasus) → FAQ → CTA WhatsApp.
+- **Alur konversi:** hero (janji spesifik) → masalah → layanan (3 paket project utama) → **4 tier langganan** → cara kerja 4 langkah → bukti (studi kasus) → **program training** → FAQ → CTA WhatsApp.
 - **CTA utama:** "Konsultasi 30 Menit (Gratis)" → `wa.me` dengan pesan terisi.
+- **CTA sekunder (untuk HR/L&D):** "Minta proposal training" → WhatsApp dengan pesan berbeda, supaya pembeli training tidak masuk ke jalur konsultasi.
 - **Tech:** HTML/CSS/JS murni, deploy GitHub Pages.
 - **Fase 2 (opsional):** kalkulator "berapa jam/bulan yang bisa dihemat" sebagai lead magnet, halaman studi kasus terpisah.
 
 ---
 
-## 11. Operasional
+## 12. Operasional
 
 **Tool stack (mulai gratis):**
 
@@ -443,7 +643,7 @@ Checklist ini yang membuat langganan bisa dikerjakan 1,5–2,5 hari/bulan, bukan
 
 ---
 
-## 12. Metrik & target
+## 13. Metrik & target
 
 **Leading (kamu kendalikan):**
 - 25 pesan outreach/minggu
@@ -465,14 +665,21 @@ Checklist ini yang membuat langganan bisa dikerjakan 1,5–2,5 hari/bulan, bukan
 | Nilai project rata-rata | Rp 8 jt | Rp 12 jt | Rp 15 jt |
 | Closing rate proposal | 20% | 30% | 35% |
 | % lead dari referral | 30% | 50% | 50% |
+| **Kelas training terjual** (kumulatif) | 1 | 4 | 10 |
+| **Peserta training** (kumulatif) | 15 | 70 | 200 |
+| **Konversi training → konsultasi** | 10% | 15% | 20% |
+| **% pendapatan dari training** | 15% | 25% | 25% (jangan lebih) |
+| Rating pasca-training | ≥ 4,5/5 | ≥ 4,5/5 | ≥ 4,7/5 |
 
 Tiga angka yang paling menentukan: **attach rate** (apakah bundling benar-benar dijalankan), **churn** (apakah nilainya nyata), dan **% pendapatan dari langganan** (apakah kamu masih menjual ulang setiap bulan).
+
+Dua angka pengawal untuk training: **% pendapatan dari training** (kalau >30%, kamu sudah jadi training provider, bukan konsultan — itu bisnis yang berbeda dan marginnya lebih rapuh) dan **konversi training → konsultasi** (kalau <5%, training cuma menghabiskan kapasitas tanpa memasok prospek).
 
 **Ritual mingguan (Jumat, 30 menit):** hitung 5 angka — outreach terkirim, percakapan terjadi, proposal keluar, **bundle yang diterima**, uang masuk. Kalau percakapan < 5, masalahnya di outreach. Kalau percakapan cukup tapi bundle rendah, masalahnya di penawaran.
 
 ---
 
-## 13. Risiko & mitigasi
+## 14. Risiko & mitigasi
 
 | Risiko | Mitigasi |
 |---|---|
@@ -491,10 +698,15 @@ Tiga angka yang paling menentukan: **attach rate** (apakah bundling benar-benar 
 | **Pendapatan tidak stabil, jadi berhenti sebelum jalan** | Target minimum realistis (1 klien Report = Rp 4 jt/bulan) sebelum menambah ambisi |
 | **Etika metrik dampak** (maqashid jadi stempel kosong) | Indikator harus terukur & bisa diaudit; jangan mengarang skor dampak |
 | **Menyandera data untuk menahan klien** (dorongan yang muncul saat churn naik) | Jangan. Data, akun, dan dokumentasi tetap milik klien. Retensi dibangun lewat ritual & konteks, bukan lewat sandera |
+| **Training menggerus waktu konsultasi** (permintaan kelas terus naik, margin per hari terlihat lebih baik) | Batas keras 25–30% kapasitas. Evaluasi tiap kuartal; kalau training >30% pendapatan, naikkan harga training dan tolak permintaan baru |
+| **Reputasi rusak karena satu kelas buruk** (20 orang tahu sekaligus) | Dry run setiap modul baru, rating ≥4,5/5 sebelum dijual luas, dan feedback form anonim di akhir sesi |
+| **Peserta campur level → semua tidak puas** | Tiering L1/L2/L3 wajib, disepakati saat penawaran. Tolak permintaan mencampur direktur dengan staf admin |
+| **Materi training dibajak/disebar** | Slide & workbook versi ringkas; dataset contoh generik; jangan berikan file mentah yang bisa dijual ulang |
+| **Klien training merasa "sudah selesai" lalu tidak lanjut** | Akhiri program dengan pekerjaan yang belum tuntas + tawarkan Analyst Block sebagai langkah berikutnya |
 
 ---
 
-## 14. Keputusan
+## 15. Keputusan
 
 **Sudah diputuskan:**
 
@@ -507,6 +719,8 @@ Tiga angka yang paling menentukan: **attach rate** (apakah bundling benar-benar 
 | Positioning latar belakang | Outcome dulu; Senior Data Engineer sebagai bukti (trust strip + Tentang), **bukan** headline; kampus satu baris di Tentang |
 | Struktur langganan | **4 tier:** Care / Report / Partner / Fractional Data Lead + add-on |
 | Bundling | Langganan masuk ke proposal sejak awal sebagai satu paket — **dengan angka perbandingan** di [§6.4](#64-bundling-langganan-dijual-di-penawaran-yang-sama) |
+| Corporate training | Lini bisnis kedua: 28 modul / 5 jalur / 3 level + 8 program siap jual + Data Academy tahunan. Batas kapasitas 25–30%, target ≤25% pendapatan — lihat [§8](#8-corporate-training) |
+| Struktur kurikulum | Jalur A (literasi) · B (tools) · C (statistik & analitik) · D (engineering & tata kelola) · E (syariah & sektoral) + capstone end-to-end |
 
 **Belum diputuskan (dibutuhkan sebelum website live):**
 
@@ -516,13 +730,16 @@ Tiga angka yang paling menentukan: **attach rate** (apakah bundling benar-benar 
 4. Foto profil profesional + 3 screenshot dashboard untuk section bukti.
 5. Kapasitas: berapa jam/minggu realistis kamu sisihkan (menentukan berapa klien bisa diterima).
 6. Kebijakan bundling final: diskon Rp 1 jt, atau Care 3 bulan sebagai bonus untuk 3 klien pertama (lihat [§6.4](#64-bundling-langganan-dijual-di-penawaran-yang-sama)).
+7. **Format certification untuk training:** sertifikat penyelesaian sendiri, atau sertifikat bersama dengan asosiasi/kampus. Ini memengaruhi daya jual ke pembeli korporat.
+8. **Batas kapasitas training:** 2 atau 3 hari per bulan (makin tinggi, makin sedikit klien langganan yang bisa dilayani).
 
 ---
 
-## 15. Setelah 90 hari
+## 16. Setelah 90 hari
 
 - Naikkan harga & persempit niche ke **2 segmen paling profitable** (kemungkinan: koperasi syariah dan LAZ/BAZNAS).
 - **Benchmark Report jadi produk:** setelah 10 klien, laporan benchmark anonim lintas klien bisa dijual ke seluruh pasar — termasuk ke lembaga yang belum jadi klien. Ini satu-satunya aset yang nilainya naik seiring jumlah klien, dan yang tidak bisa ditiru kompetitor baru.
-- Rekrut 1 analis junior freelance untuk delivery langganan tier Care/Report, sementara kamu naik ke Partner/Fractional.
+- **Training jadi sekolah kecil:** setelah 4 kelas berbayar, buka **open class berjadwal** (1×/bulan) dan gandeng asosiasi untuk sertifikat bersama. Open class memasok kontak tanpa biaya jualan.
+- Rekrut 1 trainer/analis freelance untuk delivery tier Care/Report dan modul L1–L2, sementara kamu mengambil Partner/Fractional dan modul L3.
 - Buat 2 studi kasus ber-angka (dengan izin klien) → ini yang menaikkan harga, bukan daftar layanan yang lebih panjang.
-- Target komposisi pendapatan tahun ke-2: **80% langganan, 20% project.**
+- Target komposisi pendapatan tahun ke-2: **65% langganan, 20% training, 15% project.**

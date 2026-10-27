@@ -2,7 +2,7 @@
 
 Repo kerja **Aulia Data Studio**, layanan konsultan data dengan positioning **"data + syariah"**: membantu usaha kecil–menengah dan lembaga keuangan/sosial syariah mengubah data yang sudah mereka punya menjadi keputusan yang menguntungkan.
 
-Model bisnisnya dua keluarga produk: **project** (sekali bayar, pintu masuk) dan **langganan** (berulang, mesin pendapatan). Langganan selalu dibundel di proposal project, bukan ditawarkan setelah serah terima.
+Tiga lini bisnis: **project** (sekali bayar, pintu masuk), **langganan** (berulang, mesin pendapatan), dan **corporate training** (lini kedua + corong termurah ke konsultasi). Langganan selalu dibundel di proposal project, bukan ditawarkan setelah serah terima.
 
 Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan** (static site, bilingual ID/EN, tanpa build step).
 
@@ -12,15 +12,16 @@ Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan**
 |---|---|
 | Fase 1 — Rencana bisnis, katalog layanan, spesifikasi website | ✅ Selesai |
 | Fase 1b — Arsitektur langganan 4 tier + positioning ulang | ✅ Selesai |
+| Fase 1c — Program corporate training (28 modul, 8 program, Data Academy) | ✅ Selesai |
 | Fase 2 — Build website (`index.html`) | ⏳ Belum dimulai |
-| Fase 3 — Aset jualan (1-pager PDF, studi kasus, deck) | ⏳ Belum dimulai |
+| Fase 3 — Aset jualan (1-pager PDF, silabus training, studi kasus, deck) | ⏳ Belum dimulai |
 
 ## Isi repo
 
 | File | Isi |
 |---|---|
-| [docs/PLAN.md](docs/PLAN.md) | Rencana bisnis: positioning, segmen sasaran, paket & harga, **arsitektur langganan & retensi**, go-to-market 90 hari, metrik, risiko |
-| [docs/LAYANAN.md](docs/LAYANAN.md) | Katalog 16 layanan project + keluarga langganan 4 tier (Care/Report/Partner/Fractional Data Lead) + add-on |
+| [docs/PLAN.md](docs/PLAN.md) | Rencana bisnis: positioning, segmen sasaran, paket & harga, **arsitektur langganan & retensi**, **strategi corporate training**, go-to-market 90 hari, metrik, risiko |
+| [docs/LAYANAN.md](docs/LAYANAN.md) | Katalog 16 layanan project + keluarga langganan 4 tier + **katalog training 28 modul / 5 jalur / 8 program siap jual / Data Academy** |
 | [docs/WEBSITE.md](docs/WEBSITE.md) | Spesifikasi website: sitemap, draft copy per section, arah desain, bilingual ID/EN, tech stack, deploy, checklist rilis |
 
 ## Cara pakai
