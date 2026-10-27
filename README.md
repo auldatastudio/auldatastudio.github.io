@@ -2,6 +2,8 @@
 
 Repo kerja **Aulia Data Studio**, layanan konsultan data dengan positioning **"data + syariah"**: membantu usaha kecil–menengah dan lembaga keuangan/sosial syariah mengubah data yang sudah mereka punya menjadi keputusan yang menguntungkan.
 
+Model bisnisnya dua keluarga produk: **project** (sekali bayar, pintu masuk) dan **langganan** (berulang, mesin pendapatan). Langganan selalu dibundel di proposal project, bukan ditawarkan setelah serah terima.
+
 Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan** (static site, bilingual ID/EN, tanpa build step).
 
 ## Status
@@ -9,6 +11,7 @@ Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan**
 | Tahap | Status |
 |---|---|
 | Fase 1 — Rencana bisnis, katalog layanan, spesifikasi website | ✅ Selesai |
+| Fase 1b — Arsitektur langganan 4 tier + positioning ulang | ✅ Selesai |
 | Fase 2 — Build website (`index.html`) | ⏳ Belum dimulai |
 | Fase 3 — Aset jualan (1-pager PDF, studi kasus, deck) | ⏳ Belum dimulai |
 
@@ -16,13 +19,9 @@ Repo ini menampung dua hal sekaligus: **rencana bisnis** dan **website layanan**
 
 | File | Isi |
 |---|---|
-| [docs/PLAN.md](docs/PLAN.md) | Rencana bisnis: positioning, segmen sasaran, **arsitektur pendapatan berulang**, paket & harga, go-to-market 90 hari, metrik, risiko |
-| [docs/LAYANAN.md](docs/LAYANAN.md) | Katalog 16 layanan project + **6 produk retainer**, lengkap dengan output, durasi, harga, dan matriks per segmen |
-| [docs/WEBSITE.md](docs/WEBSITE.md) | Spesifikasi website: sitemap, draft copy per section, arah desain, tech stack, bilingual ID/EN, checklist rilis |
-
-## Model bisnis dalam satu paragraf
-
-Project adalah pintu, retainer adalah rumah. Enam produk berulang (board report, data ops, fractional analyst, compliance pack, sector benchmark, capability cohort) dibundel jadi empat paket, dan **setiap proposal project wajib menyertakan baris "Project + Care"** supaya pendapatan bulanan lahir tanpa perlu penjualan baru. Target bulan ke-6: MRR Rp 15–20 jt dengan beban kerja 8–12 hari/bulan. Detail di [PLAN.md §7](docs/PLAN.md).
+| [docs/PLAN.md](docs/PLAN.md) | Rencana bisnis: positioning, segmen sasaran, paket & harga, **arsitektur langganan & retensi**, go-to-market 90 hari, metrik, risiko |
+| [docs/LAYANAN.md](docs/LAYANAN.md) | Katalog 16 layanan project + keluarga langganan 4 tier (Care/Report/Partner/Fractional Data Lead) + add-on |
+| [docs/WEBSITE.md](docs/WEBSITE.md) | Spesifikasi website: sitemap, draft copy per section, arah desain, bilingual ID/EN, tech stack, deploy, checklist rilis |
 
 ## Cara pakai
 

@@ -17,19 +17,16 @@ Satu halaman untuk fase 1 (memaksa fokus, cepat rilis), halaman tambahan menyusu
 ```
 index.html
 ├── <header>         logo + nav + toggle ID/EN
-├── #hero            Janji spesifik + CTA + kredensial praktisi
+├── #hero            Janji spesifik + CTA
 ├── #masalah         "Apakah ini terdengar familiar?" (6 gejala)
-├── #layanan         3 layanan project inti + 2 layanan syariah
-├── #berlangganan    "Setelah dashboard jadi, lalu apa?" — 3 paket retainer
-├── #cara-kerja      4 langkah (berakhir di langganan, bukan di serah terima)
+├── #layanan         3 layanan inti + 2 layanan syariah
+├── #cara-kerja      4 langkah
 ├── #bukti           3 studi kasus + screenshot
-├── #paket           Harga "mulai dari" per paket (project + retainer)
-├── #tentang         Kenapa kamu (praktisi data + kefasihan syariah)
-├── #faq             8 pertanyaan yang sering jadi penghalang
+├── #paket           Langganan (4 tier) + project, harga "mulai dari"
+├── #tentang         Kenapa kamu (data + syariah)
+├── #faq             6 pertanyaan yang sering jadi penghalang
 └── #kontak          CTA WhatsApp + email
 ```
-
-`#berlangganan` adalah section yang paling sering dilewatkan konsultan — dan justru yang membuat bisnis ini hidup. Jangan digabung ke `#paket`: retainer butuh penjelasan sendiri karena konsepnya belum familiar bagi klien.
 
 Fase 2 (setelah 3 klien): `/studi-kasus/`, `/#kalkulator` (kalkulator hemat waktu), halaman English terpisah bila SEO English dianggap penting.
 
@@ -41,26 +38,22 @@ Fase 2 (setelah 3 klien): `/studi-kasus/`, `/#kalkulator` (kalkulator hemat wakt
 
 ### Hero
 
-**Eyebrow (di atas headline, kecil):**
-> Senior Data Engineer · Konsultan Data
+**Headline (terpilih):**
+> **Laporan bulanan Anda selesai dalam satu klik. Keputusannya tetap di tangan Anda.**
 
-*Ini kredensial utama. Taruh paling atas, jangan disembunyikan di section Tentang.*
-
-**Opsi headline:**
+Cadangan:
 1. *Data usaha Anda sudah ada. Yang belum: keputusannya.*
 2. *Dari tumpukan data jadi keputusan: harga, stok, pembiayaan, dampak.*
-3. *Laporan bulanan beres dalam 1 klik. Insight-nya yang bikin beda.*
 
 **Subheadline:**
-> Saya praktisi data dengan pengalaman bertahun-tahun membangun sistem data di industri. Sekarang saya membantu usaha dan lembaga syariah mengubah data yang sudah menumpuk menjadi keputusan — dari harga produk sampai laporan ke pengurus dan donatur.
+> Saya membangun sistem pelaporan, model proyeksi, dan analitik yang dipakai untuk mengambil keputusan — dari harga dan stok sampai pembiayaan dan dampak program — untuk usaha dan lembaga syariah.
 
 **CTA primer:** `Konsultasi 30 Menit (Gratis)` → WhatsApp dengan pesan terisi.
-**CTA sekunder:** `Lihat contoh dashboard` → anchor `#bukti`.
-**Trust strip:** *"[X] tahun di industri data"* · *"Latar Ekonomi Syariah"* · *"Remote, seluruh Indonesia"* · *"Data klien dijaga sesuai UU PDP"*
+**CTA sekunder:** `Lihat paket & cara kerja` → anchor `#paket`.
+**Trust strip:**
+> *Praktisi data — Senior Data Engineer* · *Latar kuantitatif: model proyeksi, forecast, evaluasi dampak* · *Paham akad & laporan lembaga syariah* · *Remote, seluruh Indonesia* · *Data klien dijaga sesuai UU PDP*
 
-> Catatan: "Latar Ekonomi Syariah" sengaja pendek — satu klausa, bukan headline. Prospek dari jaringanmu sudah tahu; prospek dingin cukup tahu bahwa kamu tidak perlu dijelaskan soal nisbah atau mustahik. Detail lengkapnya ada di `#tentang`.
->
-> Jangan tulis "kemampuan matematis mumpuni" atau "menguasai statistik". Itu klaim yang tidak bisa diverifikasi dalam 5 detik. Buktinya ada di portfolio dan di memo yang kamu kirim ke klien.
+**Catatan copy:** headline memakai bahasa pembeli (manajer koperasi, direktur LAZ, owner F&B). Label "Senior Data Engineer" tampil di trust strip dan bagian Tentang sebagai **bukti ketahanan sistem**, bukan di headline — alasannya ada di [PLAN.md §3.1](PLAN.md#31-cara-menyebut-latar-belakang).
 
 ### Masalah (6 kartu, satu baris masing-masing)
 
@@ -86,8 +79,8 @@ Penutup section: *"Masalahnya jarang soal kurang data. Biasanya soal data yang t
 > *Output:* analisis + rekomendasi aksi, bukan sekadar grafik. **Mulai Rp 5 jt.**
 
 **3. Pendampingan Bulanan**
-> Setiap bulan: laporan siap saji, memo insight 2 halaman, sesi review dengan manajemen, dan dashboard yang terus dirawat.
-> **Mulai Rp 3 jt/bulan.** — detail di [Berlangganan bulanan](#berlangganan-bulanan)
+> Setiap bulan: laporan siap saji, memo insight 2 halaman, sesi review dengan manajemen, dan dashboard yang terus dirawat. Mulai dari perawatan ringan sampai peran kepala data paruh waktu.
+> **Mulai Rp 1,5 jt/bulan.** → anchor ke `#paket`
 
 ### Layanan syariah (2 kartu pembeda)
 
@@ -102,40 +95,7 @@ Penutup section: *"Masalahnya jarang soal kurang data. Biasanya soal data yang t
 1. **Konsultasi 30 menit** — gratis. Kita petakan masalah & data yang sudah ada.
 2. **Diagnostic 5 hari** — temuan, prioritas, dan roadmap. Baru bicara solusi.
 3. **Eksekusi 2–4 minggu** — dashboard/analisis/model, plus pelatihan singkat.
-4. **Pendampingan bulanan** — laporan, insight, dan perawatan agar hasilnya tidak berhenti di serah terima.
-
----
-
-### Berlangganan bulanan
-
-Section `#berlangganan`.
-
-Ini section terpenting untuk kesehatan bisnis. Framing-nya **bukan** "jualan langganan", tapi menjawab pertanyaan yang memang ada di kepala klien: *"setelah dashboard-nya jadi, siapa yang jaga?"*
-
-**Headline:**
-> Dashboard yang tidak dirawat akan berhenti dipercaya dalam 3 bulan.
-
-**Paragraf pembuka:**
-> Ini pola yang paling sering terjadi: dashboard selesai, dipakai dua minggu, lalu angkanya mulai tidak cocok karena ada kolom baru di file kasir. Bulan ketiga, tidak ada yang membukanya lagi. Bukan karena dashboard-nya buruk — tapi karena tidak ada yang bertanggung jawab setelah serah terima.
-
-**Tiga kartu:**
-
-**1. Perawatan** — `mulai Rp 1,5 jt/bulan`
-> Dashboard dan datanya tetap hidup: refresh terjadwal, perbaikan error, dan notifikasi otomatis kalau ada angka aneh (penjualan drop, stok negatif, transaksi kosong). Termasuk 1 perubahan kecil per bulan.
-> *Untuk: siapa pun yang sudah punya dashboard.*
-
-**2. Laporan Bulanan + Insight** — `mulai Rp 3 jt/bulan`
-> Tiap tanggal 5: laporan siap dibagikan ke pengurus, memo 2 halaman berisi apa yang berubah, kenapa, dan 3 rekomendasi aksi, plus sesi review 60 menit.
-> *Untuk: koperasi, LAZ, pesantren, BPRS yang punya rapat rutin.*
-
-**3. Analis Bulanan (kuota hari)** — `mulai Rp 4 jt/bulan`
-> 2–4 hari kerja analis setiap bulan untuk pertanyaan apa pun: "kenapa cabang ini turun?", "kalau harga naik 5% bagaimana?", "produk mana yang harus dihentikan?"
-> *Untuk: yang butuh analis tapi belum siap merekrut.*
-
-**Kalimat penutup section (wajib ada — ini yang menghapus keraguan):**
-> Semua paket bulanan: minimum 3 bulan, lalu bisa berhenti kapan saja dengan kabar 30 hari sebelumnya. Tidak ada penalti, dan seluruh dokumentasi, kode, serta akses tetap menjadi milik lembaga Anda — kapan pun Anda memintanya.
-
-> Alasan kalimat itu penting: hambatan terbesar klien pada langganan bukan harga, tapi takut terjebak. Menyebut jalan keluar **lebih dulu** justru menaikkan konversi — dan mencegah kamu diceritakan buruk di jaringan yang saling kenal.
+4. **Pendampingan** — laporan bulanan & perawatan agar hasilnya tidak berhenti di serah terima.
 
 ### Bukti (3 kartu studi kasus)
 
@@ -151,43 +111,59 @@ Format tiap kartu: **Konteks → Yang dikerjakan → Hasil → Screenshot.**
 
 ### Paket & harga
 
-| Paket | Jenis | Untuk siapa | Mulai dari |
+Section ini dibagi dua blok: **project** dan **langganan**. Langganan ditempatkan **di atas** project, karena itulah yang ingin dijual.
+
+**Blok 1 — Langganan (4 kartu, tier Report ditandai "paling dipilih")**
+
+| Tier | Untuk siapa | Yang didapat | Mulai dari |
 |---|---|---|---|
-| **Diagnostic** | project | Belum tahu harus mulai dari mana | Rp 2,5 jt |
-| **Dashboard Starter** | project | Butuh visibilitas operasional | Rp 7,5 jt |
-| **Feasibility / Model Pembiayaan** | project | Butuh dokumen siap pendanaan | Rp 7,5 jt |
-| **Perawatan Dashboard** | bulanan | Sudah punya dashboard, ingin tetap akurat | Rp 1,5 jt/bln |
-| **Laporan Bulanan + Insight** | bulanan | Butuh laporan & insight rutin | Rp 3 jt/bln |
-| **Analis Bulanan** | bulanan | Butuh analis, belum siap merekrut | Rp 4 jt/bln |
+| **Care** | "Sistem saya jangan sampai rusak" | Dashboard dirawat, data dipantau, perbaikan, perubahan kecil 3 jam/bln, health report | Rp 1,5 jt/bln |
+| **Report** ⭐ *paling dipilih* | "Saya butuh laporan & insight tiap bulan" | Semua Care + laporan bulanan + memo insight 2 halaman + sesi review 60 menit | Rp 3 jt/bln |
+| **Partner** | "Saya butuh kapasitas analitik kapan saja" | Semua Report + 15–20 jam permintaan/bln + board pack kuartalan + benchmark peer | Rp 8 jt/bln |
+| **Fractional Data Lead** | "Saya butuh kepala data, tapi belum bisa rekrut" | Semua Partner + ikut rapat manajemen bulanan + roadmap data tahunan + supervisi staf | Rp 15 jt/bln |
 
-Catatan di bawah tabel: *"Harga final tergantung jumlah sumber data dan kompleksitas. Semua paket sudah termasuk pelatihan dan dokumentasi. Paket bulanan minimum 3 bulan, bisa berhenti kapan saja dengan kabar 30 hari sebelumnya."*
+Catatan: *"Semua tier minimum 3 bulan. Berhenti setelah bulan pertama tanpa penalti."*
 
-> Baris bulanan wajib ada di tabel yang sama, bukan di halaman terpisah — supaya retainer terlihat sebagai **pilihan normal**, bukan penawaran khusus.
+**Blok 2 — Project (sekali bayar)**
+
+| Paket | Untuk siapa | Mulai dari |
+|---|---|---|
+| **Diagnostic** | Belum tahu harus mulai dari mana | Rp 2,5 jt |
+| **Dashboard Starter** | Butuh visibilitas operasional | Rp 7,5 jt |
+| **Dashboard Pro** | Multi-cabang / multi-sumber data | Rp 15 jt |
+| **Model Pembiayaan & Bagi Hasil** | Butuh proyeksi nisbah siap due diligence | Rp 7,5 jt |
+| **Feasibility Study** | Butuh dokumen siap pendanaan | Rp 10 jt |
+| **Impact Dashboard** | Lembaga zakat/wakaf yang harus membuktikan dampak | Rp 10 jt |
+
+Catatan di bawah tabel: *"Harga final tergantung jumlah sumber data dan kompleksitas. Semua paket sudah termasuk pelatihan dan dokumentasi."*
+
+**Copy penghubung (penting, jangan dihapus):**
+> Paket project sudah termasuk 3 bulan pendampingan. Setelah itu Anda bisa lanjut bulanan, atau berhenti — data dan dashboard tetap milik Anda.
+
+Kalimat ini melakukan dua hal: menurunkan hambatan (tidak mengikat) dan menanam ekspektasi langganan sejak awal.
 
 ### Tentang
 
-Perhatikan strukturnya: **praktisi dulu, jembatan domain kedua, kampus disebut sekali sebagai keterangan** — bukan pembuka.
-
-> Saya [Nama]. Sehari-hari saya bekerja sebagai Senior Data Engineer — membangun pipeline, menyimpan data dalam skala besar, dan memastikan angkanya bisa dipercaya oleh orang yang mengambil keputusan.
+> Saya [Nama], praktisi data. Sehari-hari saya bekerja sebagai **Senior Data Engineer** — membangun sistem data yang harus akurat, otomatis, dan tidak boleh mati. Latar belakang kuantitatif saya membuat model proyeksi, forecast, dan evaluasi dampak bisa disusun dengan asumsi tertulis dan uji sensitivitas, bukan angka yang dikarang.
 >
-> Beberapa tahun terakhir saya melihat pola yang sama berulang: koperasi, lembaga zakat, pesantren, dan usaha kecil sudah punya datanya — di aplikasi kasir, di spreadsheet, di buku besar — tapi belum ada yang mengubahnya menjadi keputusan. Bukan karena tidak butuh, tapi karena orang yang paham data jarang yang paham cara kerja lembaga syariah.
+> Saya memilih fokus di usaha dan lembaga syariah karena di sinilah dua hal itu paling dibutuhkan dan paling jarang tersedia: keputusan yang bergantung pada angka, tetapi datanya masih tersebar di Excel, WhatsApp, dan buku manual. Saya menempuh pendidikan Ekonomi Syariah, sehingga nisbah, kolektibilitas, mustahik, dan maqashid saya baca sebagai bahasa kerja — bukan istilah asing.
 >
-> Di situlah posisi saya: saya paham nisbah, kolektibilitas, dan mustahik tanpa perlu dijelaskan, dan saya juga yang menulis kodenya. Latar belakang saya Ekonomi Syariah (S2), ditambah pengalaman praktik di industri data.
->
-> Prinsip kerja saya sederhana: **angka harus bisa dipertanggungjawabkan.** Setiap model yang saya serahkan punya asumsi tertulis, sensitivitas yang diuji, dan batasan yang saya nyatakan sendiri. Anda harus bisa mempertahankannya di depan pengurus, DPS, atau bank — tanpa saya di ruangan itu.
+> Yang saya jual bukan laporan. Yang saya jual adalah keyakinan bahwa angka yang Anda bawa ke rapat itu benar.
 
-> Jangan tambahkan "kemampuan matematis mumpuni", "detail dan analitis", atau "passionate". Ketiganya tidak menambah informasi dan menurunkan kesan profesional. Paragraf terakhir (asumsi tertulis, sensitivitas, batasan) melakukan pekerjaan yang sama, tapi bisa dipercaya.
+**Catatan copy:** nama kampus **tidak** muncul di headline atau hero. Satu baris di bagian Tentang sudah cukup untuk yang mau mengecek, dan fungsinya membuktikan pemahaman domain itu formal — bukan memamerkan ijazah. Alasan lengkap: [PLAN.md §3.1](PLAN.md#31-cara-menyebut-latar-belakang).
 
-### FAQ (8 item — menjawab penghalang, bukan memuji diri)
+**Bagian teknis (lipat/accordion, untuk pembeli teknis):**
+> **Cara kerja teknis.** Data diambil langsung dari sumber Anda (POS, spreadsheet, database, API) lewat pipeline terjadwal; transformasi dan validasi berjalan otomatis; hasilnya masuk ke dashboard atau warehouse. Semua berjalan di akun milik Anda. Untuk kebutuhan skala besar: DuckDB/BigQuery, Python, dan orkestrasi terjadwal. Detail arsitektur tersedia saat diskusi.
+
+### FAQ (7 item — menjawab penghalang, bukan memuji diri)
 
 1. **Apakah saya harus punya sistem/aplikasi khusus?** Tidak. Mulai dari Excel, Google Sheets, atau export POS/aplikasi koperasi yang sudah ada.
 2. **Data saya berantakan sekali, masih bisa?** Justru itu kasus paling umum. Fase pertama biasanya merapikan data sebelum membuat dashboard.
 3. **Apakah data saya aman?** Akses lewat akun Anda, data disimpan seminimal mungkin, dihapus 30 hari setelah project selesai, sesuai UU PDP No. 27/2022.
 4. **Berapa lama sampai hasilnya kelihatan?** Diagnostic 5 hari kerja; dashboard pertama 2–3 minggu.
-5. **Apakah bisa kerja jarak jauh?** Ya, seluruh proses remote (Meet + WhatsApp), dengan sesi serah terima online yang direkam.
-6. **Bisa tidak hanya menganalisis satu masalah spesifik?** Bisa — pakai format sprint 3–5 hari, mulai Rp 3 jt.
-7. **Kalau saya berhenti berlangganan, apakah dashboard-nya jadi tidak bisa dipakai?** Tidak. Dashboard, kode, dokumentasi, dan akses sepenuhnya milik lembaga Anda. Yang berhenti hanyalah perawatan dan pendampingannya. Saya juga menyediakan sesi serah terima agar staf Anda bisa menjalankannya sendiri.
-8. **Kenapa harus bulanan, tidak sekali jadi saja?** Karena masalah yang diselesaikan bukan "membuat dashboard", tapi "memastikan angkanya dipakai untuk mengambil keputusan". Itu butuh ritme, bukan sekali kirim. Tapi kalau Anda hanya butuh dashboard-nya saja, itu juga tersedia — dan tetap saya serahkan lengkap dengan dokumentasinya.
+5. **Apakah pendampingan bulanan mengikat?** Minimum 3 bulan, dan Anda bisa berhenti setelah bulan pertama tanpa penalti. Data, dashboard, dan dokumentasi tetap milik Anda — kami tidak menahan akses.
+6. **Apakah bisa kerja jarak jauh?** Ya, seluruh proses remote (Meet + WhatsApp), dengan sesi serah terima online yang direkam.
+7. **Bisa tidak hanya menganalisis satu masalah spesifik?** Bisa — pakai format sprint 3–5 hari (blok 5 jam), mulai Rp 1,5 jt.
 
 ### Kontak
 
@@ -222,6 +198,7 @@ Perhatikan strukturnya: **praktisi dulu, jembatan domain kedua, kampus disebut s
 ## 5. Bilingual (Indonesia / English)
 
 **Perilaku:** Indonesia = default. Tombol `ID / EN` di header (juga terlihat di mobile). Pilihan disimpan di `localStorage`, dan bisa dipaksa lewat URL `?lang=en` (berguna untuk link yang dibagikan ke klien internasional/lembaga donor).
+
 **Mekanisme (tanpa framework, tanpa build):**
 - Semua teks yang berubah diberi atribut `data-i18n="kunci"`, mis. `<h1 data-i18n="hero.title">…</h1>`.
 - Kamus terjemahan di `assets/js/i18n.js`:
@@ -239,11 +216,9 @@ Perhatikan strukturnya: **praktisi dulu, jembatan domain kedua, kampus disebut s
 - English = *professional business English*, bukan terjemahan kata-per-kata. Istilah syariah dipertahankan dengan penjelasan singkat: *nisbah (profit-sharing ratio)*, *mudharabah (profit-sharing partnership)*, *maqashid (objectives of Sharia)*, *mustahik (zakat recipients)*.
 - Nominal rupiah tetap `Rp 7,5 jt` di versi ID; versi EN tulis `IDR 7.5M` dengan catatan *indicative, excl. tax*.
 - Tanggal, angka, dan format mata uang mengikuti locale (`id-ID` / `en-US`).
-- Jangan menerjemahkan nama paket (**Diagnostic, Dashboard Starter, Maintenance, Monthly Insight, Monthly Analyst**) — konsisten di dua bahasa. Ini juga memudahkan rujukan di invoice dan kontrak.
-- Eyebrow hero versi EN: *Senior Data Engineer · Data Consultant*.
-- Untuk section `#berlangganan`, judul versi EN: *"A dashboard nobody maintains stops being trusted in three months."* Jangan diterjemahkan menjadi "subscription" di judul — kata itu terasa biaya, bukan manfaat. Pakai *"ongoing support"* / *"monthly retainer"* di badan teks.
+- Jangan menerjemahkan nama paket (Diagnostic, Dashboard Starter, Care, Report, Partner, Fractional Data Lead) — konsisten di dua bahasa.
 
-**Cakupan minimum fase 1:** seluruh section di §1 harus punya versi EN. Kalau waktu terbatas, prioritas terjemahan: hero → layanan → berlangganan → paket → kontak; FAQ boleh menyusul.
+**Cakupan minimum fase 1:** seluruh section di §1 harus punya versi EN. Kalau waktu terbatas, prioritas terjemahan: hero → layanan → paket → kontak; FAQ boleh menyusul.
 
 ---
 
@@ -268,16 +243,13 @@ Checklist rilis:
 
 Website dianggap selesai kalau:
 
-1. Semua **10 section** terisi copy asli (bukan lorem ipsum), tanpa placeholder nama/WA.
-2. Ada minimal **3 screenshot dashboard** asli dan 1 link demo hidup.
-3. Semua CTA WhatsApp berfungsi dengan pesan terisi otomatis.
-4. Section `#berlangganan` sudah ada dengan **3 kartu retainer** dan kalimat "bisa berhenti kapan saja" — ini bukan opsional.
-5. Tabel harga memuat **baris bulanan dan baris project dalam satu tabel**.
-6. FAQ memuat pertanyaan "kalau saya berhenti berlangganan, apakah dashboard-nya jadi tidak bisa dipakai?" beserta jawaban yang jujur.
-7. Toggle ID/EN berfungsi, pilihan tersimpan, `?lang=en` bisa dipakai.
-8. Tampil rapi di 360px, 768px, dan 1440px.
-9. Lighthouse mobile ≥ 90 (performance) dan ≥ 95 (accessibility).
-10. Sudah live di GitHub Pages dengan URL yang bisa dibagikan.
+1. Semua 9 section terisi **copy asli** (bukan lorem ipsum), tanpa placeholder nama/WA.
+2. Section `#paket` menampilkan **4 tier langganan + 6 project**, dengan tier Report ditandai "paling dipilih".
+3. Ada minimal **3 screenshot dashboard** asli dan 1 link demo hidup.
+4. Semua CTA WhatsApp berfungsi dengan pesan terisi otomatis.
+5. Tampil rapi di 360px, 768px, dan 1440px.
+6. Lighthouse mobile ≥ 90 (performance) dan ≥ 95 (accessibility).
+7. Sudah live di GitHub Pages dengan URL yang bisa dibagikan.
 
 ---
 
@@ -287,10 +259,10 @@ Website dianggap selesai kalau:
 |---|---|---|
 | Nama brand | ✅ | Aulia Data Studio |
 | Bahasa | ✅ | Bilingual ID/EN, Indonesia default |
-| Tampilkan harga | ✅ | Ya, format "mulai dari" — project **dan** bulanan |
-| Posisi latar belakang | ✅ | Praktisi dulu, kampus satu klausa |
-| Arsitektur retainer | ✅ | 6 produk, 4 bundling ([PLAN.md §7](PLAN.md#7-arsitektur-pendapatan-berulang)) |
-| Angka pengalaman ("[X] tahun") | ⏳ | Dipakai di trust strip hero — harus akurat |
+| Tampilkan harga | ✅ | Ya, format "mulai dari" |
+| Positioning latar belakang | ✅ | Outcome dulu; Senior Data Engineer sebagai bukti; kampus 1 baris di Tentang |
+| Struktur langganan | ✅ | 4 tier: Care / Report / Partner / Fractional Data Lead |
+| Kebijakan bundling | ⏳ | Diskon Rp 1 jt, atau Care 3 bulan sebagai bonus untuk 3 klien pertama |
 | Nomor WhatsApp bisnis | ⏳ | Format `wa.me/62...` |
 | Email bisnis | ⏳ | Boleh Gmail dulu |
 | Domain | ⏳ | Boleh GitHub Pages dulu |
