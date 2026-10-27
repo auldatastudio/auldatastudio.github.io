@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# GANTI: sesuaikan dengan URL GitHub Pages Anda setelah situs aktif.
+Sitemap: https://USERNAME.github.io/aulia-data-studio/sitemap.xml

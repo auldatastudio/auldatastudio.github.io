@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aulia Data Studio — Konsultan Data &amp; Training untuk Usaha dan Lembaga Syariah</title>
+<meta name="description" content="Konsultasi data, dashboard otomatis, model pembiayaan, dan corporate training untuk usaha dan lembaga syariah. Laporan bulanan selesai dalam satu klik.">
+<meta name="theme-color" content="#0F5132">
+<meta name="robots" content="index,follow">
+
+<!-- GANTI: ganti USERNAME dengan username GitHub Anda, atau hapus dua baris ini kalau memakai domain sendiri. -->
+<link rel="canonical" href="https://USERNAME.github.io/aulia-data-studio/">
+<meta property="og:url" content="https://USERNAME.github.io/aulia-data-studio/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aulia Data Studio — Konsultan Data & Training untuk Usaha dan Lembaga Syariah">
+<meta property="og:description" content="Laporan bulanan selesai dalam satu klik. Dashboard, model pembiayaan, analitik, dan corporate training untuk usaha dan lembaga syariah.">
+<meta property="og:image" content="assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aulia Data Studio">
+<meta name="twitter:description" content="Konsultan data & training untuk usaha dan lembaga syariah.">
+<meta name="twitter:image" content="assets/img/og-image.png">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "name": "Aulia Data Studio",
+      "description": "Konsultasi data, dashboard, analitik, dan corporate training untuk usaha serta lembaga syariah di Indonesia.",
+      "areaServed": { "@type": "Country", "name": "Indonesia" },
+      "serviceType": [
+        "Konsultasi data",
+        "Dashboard dan pelaporan otomatis",
+        "Model pembiayaan dan bagi hasil",
+        "Analitik keputusan",
+        "Corporate training data"
+      ],
+      "priceRange": "Rp2.500.000-Rp60.000.000",
+      "email": "hello@example.com",
+      "knowsLanguage": ["id", "en"]
+    },
+    {
+      "@type": "Course",
+      "name": "Data untuk Pengurus",
+      "description": "Pelatihan dua hari agar pengurus dan manajer bisa membaca dashboard, menilai klaim berbasis angka, dan mengajukan pertanyaan yang tepat atas laporan manajemen.",
+      "inLanguage": "id",
+      "provider": { "@type": "Organization", "name": "Aulia Data Studio" },
+      "offers": { "@type": "Offer", "price": "12000000", "priceCurrency": "IDR" },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "onsite",
+        "courseWorkload": "PT16H"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Analis Internal Pertama",
+      "description": "Program delapan sesi untuk membentuk analis data internal: dari Excel dan SQL sampai statistika dasar, visualisasi, dan proyek akhir end-to-end.",
+      "inLanguage": "id",
+      "provider": { "@type": "Organization", "name": "Aulia Data Studio" },
+      "offers": { "@type": "Offer", "price": "25000000", "priceCurrency": "IDR" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Langsung ke konten</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="32" height="32" role="presentation">
+          <rect width="32" height="32" rx="9" fill="#0F5132"/>
+          <rect x="8" y="18" width="3.6" height="7" rx="1.4" fill="#F3F7F4"/>
+          <rect x="14.2" y="14" width="3.6" height="11" rx="1.4" fill="#D9A404"/>
+          <rect x="20.4" y="9" width="3.6" height="16" rx="1.4" fill="#F3F7F4"/>
+        </svg>
+      </span>
+      <span class="brand__text">Aulia<span> Data Studio</span></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navigasi utama" data-i18n-attr="aria-label:nav.label">
+      <ul class="nav__list">
+        <li><a href="#masalah" data-i18n="nav.problems">Masalah</a></li>
+        <li><a href="#layanan" data-i18n="nav.services">Layanan</a></li>
+        <li><a href="#paket" data-i18n="nav.pricing">Paket</a></li>
+        <li><a href="#training" data-i18n="nav.training">Training</a></li>
+        <li><a href="#bukti" data-i18n="nav.proof">Bukti</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-tools">
+      <div class="lang" role="group" aria-label="Bahasa" data-i18n-attr="aria-label:nav.lang">
+        <button type="button" data-lang="id" aria-pressed="true">ID</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn--primary btn--sm js-wa" data-wa="consult" href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="nav.cta">Konsultasi</a>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Buka menu" data-i18n-attr="aria-label:nav.menu">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="wrap hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Konsultan data untuk usaha &amp; lembaga syariah</p>
+        <h1 data-i18n="hero.title">Laporan bulanan Anda selesai dalam satu klik. Keputusannya tetap di tangan Anda.</h1>
+        <p class="lede" data-i18n="hero.lede">Saya membangun sistem pelaporan, model proyeksi, dan analitik yang dipakai untuk mengambil keputusan — dari harga dan stok sampai pembiayaan dan dampak program.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary js-wa" data-wa="consult" href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="hero.cta1">Konsultasi 30 Menit (Gratis)</a>
+          <a class="btn btn--ghost" href="#paket" data-i18n="hero.cta2">Lihat paket &amp; cara kerja</a>
+        </div>
+        <ul class="trust">
+          <li data-i18n="trust.1">Praktisi data — Senior Data Engineer</li>
+          <li data-i18n="trust.2">Latar kuantitatif: model, forecast, evaluasi dampak</li>
+          <li data-i18n="trust.3">Paham akad &amp; laporan lembaga syariah</li>
+          <li data-i18n="trust.4">Remote, seluruh Indonesia</li>
+          <li data-i18n="trust.5">Data klien dijaga sesuai UU PDP</li>
+        </ul>
+      </div>
+
+      <figure class="hero__visual">
+        <img src="assets/img/hero-report.svg" alt="Ilustrasi laporan bulanan: kartu ringkasan, tren penjualan, dan komposisi margin" width="640" height="520" loading="eager" decoding="async">
+        <figcaption data-i18n="hero.illus">Ilustrasi tampilan laporan bulanan</figcaption>
+      </figure>
+    </div>
+
+    <div class="wrap">
+      <dl class="facts">
+        <div>
+          <dt data-i18n="facts.1.t">Diagnostic</dt>
+          <dd data-i18n-html="facts.1.d"><strong>5 hari kerja</strong> — temuan &amp; roadmap</dd>
+        </div>
+        <div>
+          <dt data-i18n="facts.2.t">Dashboard pertama</dt>
+          <dd data-i18n-html="facts.2.d"><strong>2–3 minggu</strong> siap dipakai</dd>
+        </div>
+        <div>
+          <dt data-i18n="facts.3.t">Mulai dari</dt>
+          <dd data-i18n-html="facts.3.d"><strong>Rp 2,5 jt</strong> untuk diagnostic</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============ MASALAH ============ -->
+  <section class="section" id="masalah">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">01 — <span data-i18n="problems.kicker">Masalah</span></p>
+        <h2 data-i18n="problems.title">Kalau dua atau lebih terasa familiar, kita perlu bicara.</h2>
+      </header>
+
+      <div class="grid grid--3">
+        <article class="card card--problem">
+          <h3 data-i18n="problems.1.t">Laporan bulanan 3–5 hari kerja</h3>
+          <p data-i18n="problems.1.d">Dikerjakan manual dari beberapa file, sering telat sampai ke pengurus.</p>
+        </article>
+        <article class="card card--problem">
+          <h3 data-i18n="problems.2.t">Produk laris, uang tidak bertambah</h3>
+          <p data-i18n="problems.2.d">Tidak ada yang tahu SKU atau menu mana yang sebenarnya menanggung biaya.</p>
+        </article>
+        <article class="card card--problem">
+          <h3 data-i18n="problems.3.t">Stok mati &amp; stok kosong bersamaan</h3>
+          <p data-i18n="problems.3.d">Tidak ada data perputaran yang dipakai untuk memutuskan pembelian.</p>
+        </article>
+        <article class="card card--problem">
+          <h3 data-i18n="problems.4.t">Proposal pembiayaan ditolak</h3>
+          <p data-i18n="problems.4.d">Proyeksi dan asumsinya lemah saat diuji oleh bank atau investor.</p>
+        </article>
+        <article class="card card--problem">
+          <h3 data-i18n="problems.5.t">Donatur minta bukti dampak</h3>
+          <p data-i18n="problems.5.d">Yang tersedia hanya foto kegiatan, bukan angka yang bisa diaudit.</p>
+        </article>
+        <article class="card card--problem">
+          <h3 data-i18n="problems.6.t">Pemeriksaan atau DPS datang, data panik</h3>
+          <p data-i18n="problems.6.d">Angka tersebar di banyak file dan tidak konsisten antar laporan.</p>
+        </article>
+      </div>
+
+      <p class="section__note" data-i18n="problems.note">Masalahnya jarang soal kurang data. Biasanya soal data yang tidak pernah diubah menjadi keputusan.</p>
+    </div>
+  </section>
+
+  <!-- ============ LAYANAN ============ -->
+  <section class="section section--alt" id="layanan">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">02 — <span data-i18n="services.kicker">Layanan</span></p>
+        <h2 data-i18n="services.title">Tiga pekerjaan inti, plus dua yang jarang ditawarkan orang lain.</h2>
+        <p class="lede" data-i18n="services.lede">Setiap project berakhir dengan sesuatu yang bisa dipakai — bukan slide yang berhenti di folder.</p>
+      </header>
+
+      <div class="grid grid--3">
+        <article class="card card--service">
+          <span class="card__num">1</span>
+          <h3 data-i18n="services.1.t">Dashboard &amp; Laporan Otomatis</h3>
+          <p data-i18n="services.1.d">Data penjualan, kas, dan stok dalam satu dashboard yang diperbarui otomatis. Laporan bulanan yang tadinya butuh berhari-hari jadi satu klik.</p>
+          <p class="card__meta" data-i18n="services.1.meta">Koperasi · retail · F&amp;B · travel umroh</p>
+          <p class="card__price" data-i18n-html="services.1.price">Mulai <strong>Rp 7,5 jt</strong></p>
+        </article>
+
+        <article class="card card--service">
+          <span class="card__num">2</span>
+          <h3 data-i18n="services.2.t">Analitik untuk Keputusan</h3>
+          <p data-i18n="services.2.d">Analisis yang menjawab pertanyaan mahal: produk mana yang menggerus margin, pelanggan mana yang layak dipertahankan, berapa stok bulan depan.</p>
+          <p class="card__meta" data-i18n="services.2.meta">Output: temuan + rekomendasi aksi</p>
+          <p class="card__price" data-i18n-html="services.2.price">Mulai <strong>Rp 5 jt</strong></p>
+        </article>
+
+        <article class="card card--service">
+          <span class="card__num">3</span>
+          <h3 data-i18n="services.3.t">Pendampingan Bulanan</h3>
+          <p data-i18n="services.3.d">Setiap bulan: laporan siap saji, memo insight, sesi review dengan manajemen, dan dashboard yang terus dirawat — dari perawatan ringan sampai peran kepala data paruh waktu.</p>
+          <p class="card__meta" data-i18n="services.3.meta">Berhenti kapan saja dengan notifikasi 30 hari</p>
+          <p class="card__price" data-i18n-html="services.3.price">Mulai <strong>Rp 1,5 jt</strong>/bulan</p>
+        </article>
+      </div>
+
+      <div class="grid grid--2 grid--spaced">
+        <article class="card card--syariah">
+          <h3 data-i18n="services.4.t">Pembiayaan &amp; Bagi Hasil</h3>
+          <p data-i18n="services.4.d">Model proyeksi dengan perhitungan nisbah dan porsi bagi hasil untuk akad mudharabah/musyarakah, lengkap dengan skenario dan tabel sensitivitas — siap dipertanggungjawabkan saat due diligence.</p>
+        </article>
+        <article class="card card--syariah">
+          <h3 data-i18n="services.5.t">Zakat, Wakaf &amp; Dampak Program</h3>
+          <p data-i18n="services.5.d">Dashboard penghimpunan–penyaluran–dampak dengan indikator berbasis maqashid yang terukur, plus laporan untuk donatur dan regulator.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CARA KERJA ============ -->
+  <section class="section" id="cara-kerja">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">03 — <span data-i18n="steps.kicker">Cara kerja</span></p>
+        <h2 data-i18n="steps.title">Empat langkah, tanpa lompat ke solusi.</h2>
+      </header>
+
+      <ol class="steps">
+        <li>
+          <h3 data-i18n="steps.1.t">Konsultasi 30 menit</h3>
+          <p data-i18n="steps.1.d">Gratis. Kita petakan masalah dan data yang sudah ada. Tanpa kewajiban lanjut.</p>
+        </li>
+        <li>
+          <h3 data-i18n="steps.2.t">Diagnostic 5 hari</h3>
+          <p data-i18n="steps.2.d">Temuan, prioritas, dan roadmap. Baru setelah itu bicara solusi.</p>
+        </li>
+        <li>
+          <h3 data-i18n="steps.3.t">Eksekusi 2–4 minggu</h3>
+          <p data-i18n="steps.3.d">Dashboard, analisis, atau model — plus pelatihan singkat agar tim Anda bisa memakainya.</p>
+        </li>
+        <li>
+          <h3 data-i18n="steps.4.t">Pendampingan</h3>
+          <p data-i18n="steps.4.d">Laporan bulanan dan perawatan agar hasilnya tidak berhenti di serah terima.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ BUKTI ============ -->
+  <section class="section section--alt" id="bukti">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">04 — <span data-i18n="proof.kicker">Bukti</span></p>
+        <h2 data-i18n="proof.title">Contoh pekerjaan</h2>
+        <p class="lede" data-i18n="proof.lede">Portofolio teknis yang bisa diperiksa, bukan klaim. Studi kasus klien akan ditambahkan setelah klien pertama menyetujui publikasi.</p>
+      </header>
+
+      <div class="grid grid--3">
+        <article class="card card--work">
+          <div class="card__media"><img src="assets/img/work-sales.svg" alt="Ilustrasi dashboard penjualan multi-cabang dengan grafik tren dan tabel kategori" width="560" height="340" loading="lazy" decoding="async"></div>
+          <h3 data-i18n="proof.1.t">Dashboard penjualan multi-cabang</h3>
+          <p data-i18n="proof.1.d">Data transaksi dari beberapa sumber digabung, dibersihkan, lalu disajikan sebagai dashboard per kategori dan per cabang — termasuk temuan margin yang tidak terlihat di laporan lama.</p>
+          <p class="card__meta" data-i18n="proof.1.meta">Power BI · pemodelan data · analisis margin</p>
+        </article>
+
+        <article class="card card--work">
+          <div class="card__media"><img src="assets/img/work-pipeline.svg" alt="Ilustrasi alur pipeline data: sumber, transformasi, penyimpanan, dan dashboard" width="560" height="340" loading="lazy" decoding="async"></div>
+          <h3 data-i18n="proof.2.t">Pipeline data terjadwal</h3>
+          <p data-i18n="proof.2.d">Alur otomatis dari sumber ke tabel siap analisis, dengan validasi dan pemantauan — supaya laporan tidak bergantung pada satu orang yang ingat memperbarui file.</p>
+          <p class="card__meta" data-i18n="proof.2.meta">Python · streaming · orkestrasi · kualitas data</p>
+        </article>
+
+        <article class="card card--work">
+          <div class="card__media"><img src="assets/img/work-app.svg" alt="Ilustrasi aplikasi analitik interaktif dengan filter dan grafik" width="560" height="340" loading="lazy" decoding="async"></div>
+          <h3 data-i18n="proof.3.t">Aplikasi analitik interaktif</h3>
+          <p data-i18n="proof.3.d">Analisis yang bisa dicoba sendiri oleh pengguna: pilih segmen, lihat dampaknya pada angka, lalu ambil kesimpulan tanpa menunggu analis.</p>
+          <p class="card__meta" data-i18n="proof.3.meta">Python · Streamlit · eksplorasi data</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PAKET ============ -->
+  <section class="section" id="paket">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">05 — <span data-i18n="pricing.kicker">Paket</span></p>
+        <h2 data-i18n="pricing.title">Dua cara bekerja: pendampingan bulanan, atau project sekali jadi.</h2>
+        <p class="lede" data-i18n="pricing.lede">Harga di bawah adalah titik awal, bukan angka final. Yang menentukan adalah jumlah sumber data dan kompleksitasnya.</p>
+      </header>
+
+      <h3 class="subhead" data-i18n="pricing.subs">Pendampingan bulanan</h3>
+      <div class="grid grid--4">
+        <article class="card card--tier">
+          <h4 data-i18n="tier.care.t">Care</h4>
+          <p class="card__meta" data-i18n="tier.care.lede">Sistem saya jangan sampai rusak</p>
+          <p class="card__price" data-i18n-html="tier.care.price"><strong>Rp 1,5 jt</strong><span>/bulan</span></p>
+          <ul class="ticks">
+            <li data-i18n="tier.care.f1">Dashboard dirawat &amp; dipantau</li>
+            <li data-i18n="tier.care.f2">Perbaikan saat ada yang rusak</li>
+            <li data-i18n="tier.care.f3">3 jam perubahan kecil/bulan</li>
+            <li data-i18n="tier.care.f4">Health report bulanan</li>
+          </ul>
+        </article>
+
+        <article class="card card--tier card--featured">
+          <span class="badge" data-i18n="tier.popular">Paling dipilih</span>
+          <h4 data-i18n="tier.report.t">Report</h4>
+          <p class="card__meta" data-i18n="tier.report.lede">Saya butuh laporan &amp; insight tiap bulan</p>
+          <p class="card__price" data-i18n-html="tier.report.price"><strong>Rp 3 jt</strong><span>/bulan</span></p>
+          <ul class="ticks">
+            <li data-i18n="tier.report.f1">Semua isi Care</li>
+            <li data-i18n="tier.report.f2">Laporan bulanan otomatis (PDF)</li>
+            <li data-i18n="tier.report.f3">Memo insight 2 halaman</li>
+            <li data-i18n="tier.report.f4">Sesi review 60 menit</li>
+            <li data-i18n="tier.report.f5">4 jam perubahan/bulan</li>
+          </ul>
+        </article>
+
+        <article class="card card--tier">
+          <h4 data-i18n="tier.partner.t">Partner</h4>
+          <p class="card__meta" data-i18n="tier.partner.lede">Saya butuh kapasitas analitik kapan saja</p>
+          <p class="card__price" data-i18n-html="tier.partner.price"><strong>Rp 8 jt</strong><span>/bulan</span></p>
+          <ul class="ticks">
+            <li data-i18n="tier.partner.f1">Semua isi Report</li>
+            <li data-i18n="tier.partner.f2">15–20 jam permintaan bebas/bulan</li>
+            <li data-i18n="tier.partner.f3">Board pack kuartalan</li>
+            <li data-i18n="tier.partner.f4">Benchmark peer</li>
+            <li data-i18n="tier.partner.f5">Respons 1 hari kerja</li>
+          </ul>
+        </article>
+
+        <article class="card card--tier">
+          <h4 data-i18n="tier.lead.t">Fractional Data Lead</h4>
+          <p class="card__meta" data-i18n="tier.lead.lede">Saya butuh kepala data, belum bisa rekrut</p>
+          <p class="card__price" data-i18n-html="tier.lead.price"><strong>Rp 15 jt</strong><span>/bulan</span></p>
+          <ul class="ticks">
+            <li data-i18n="tier.lead.f1">Semua isi Partner</li>
+            <li data-i18n="tier.lead.f2">Ikut rapat manajemen bulanan</li>
+            <li data-i18n="tier.lead.f3">Roadmap data tahunan</li>
+            <li data-i18n="tier.lead.f4">Supervisi staf &amp; seleksi vendor</li>
+            <li data-i18n="tier.lead.f5">Representasi ke pengurus/DPS</li>
+          </ul>
+        </article>
+      </div>
+      <p class="fineprint" data-i18n="pricing.terms">Minimum 3 bulan. Berhenti setelah bulan pertama tanpa penalti. Data, dashboard, dan dokumentasi tetap milik Anda — kami tidak menahan akses.</p>
+
+      <h3 class="subhead" data-i18n="pricing.projects">Project sekali jadi</h3>
+      <div class="proj-list">
+        <div class="proj"><span class="proj__name" data-i18n="proj.1">Diagnostic — audit data, temuan &amp; roadmap</span><span class="proj__price">Rp 2,5 jt</span></div>
+        <div class="proj"><span class="proj__name" data-i18n="proj.2">Dashboard Starter — 1 dashboard, 1 sumber data</span><span class="proj__price">Rp 7,5 jt</span></div>
+        <div class="proj"><span class="proj__name" data-i18n="proj.3">Dashboard Pro — multi-sumber, per peran</span><span class="proj__price">Rp 15 jt</span></div>
+        <div class="proj"><span class="proj__name" data-i18n="proj.4">Model Pembiayaan &amp; Bagi Hasil</span><span class="proj__price">Rp 7,5 jt</span></div>
+        <div class="proj"><span class="proj__name" data-i18n="proj.5">Feasibility Study — siap lampir pendanaan</span><span class="proj__price">Rp 10 jt</span></div>
+        <div class="proj"><span class="proj__name" data-i18n="proj.6">Impact Dashboard — zakat, wakaf &amp; dampak</span><span class="proj__price">Rp 10 jt</span></div>
+      </div>
+
+      <div class="callout">
+        <p data-i18n="pricing.callout">Paket project sudah termasuk 3 bulan pendampingan. Setelah itu Anda bisa lanjut bulanan, atau berhenti — data dan dashboard tetap milik Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRAINING ============ -->
+  <section class="section section--dark" id="training">
+    <div class="wrap">
+      <header class="section__head">
+        <p class="kicker">06 — <span data-i18n="training.kicker">Corporate training</span></p>
+        <h2 data-i18n="training.title">Data training untuk tim Anda — dari literasi dasar sampai engineering.</h2>
+        <p class="lede" data-i18n="training.lede">Program in-house yang dirancang untuk kebutuhan nyata lembaga Anda. Peserta berlatih dengan data Anda sendiri (dianonimkan lebih dulu), sehingga yang dihasilkan bukan sekadar pemahaman, tapi juga artefak yang bisa langsung dipakai.</p>
+      </header>
+
+      <div class="grid grid--4">
+        <article class="card card--track">
+          <h3 data-i18n="track.1.t">Literasi Data</h3>
+          <p class="card__meta" data-i18n="track.1.who">Pengurus, manajer, staf umum</p>
+          <p data-i18n="track.1.d">Membaca dashboard, berpikir dengan angka, statistika untuk keputusan manajerial.</p>
+          <p class="card__meta" data-i18n="track.1.dur">3 jam – 2 hari</p>
+        </article>
+        <article class="card card--track">
+          <h3 data-i18n="track.2.t">Tools Praktis</h3>
+          <p class="card__meta" data-i18n="track.2.who">Staf analis, administrasi, supervisor</p>
+          <p data-i18n="track.2.d">Excel &amp; Sheets, SQL, Power BI, Looker Studio, Python, visualisasi.</p>
+          <p class="card__meta" data-i18n="track.2.dur">1 – 4 hari</p>
+        </article>
+        <article class="card card--track">
+          <h3 data-i18n="track.3.t">Statistika &amp; Analitik</h3>
+          <p class="card__meta" data-i18n="track.3.who">Analis, tim program, manajemen risiko</p>
+          <p data-i18n="track.3.d">Sampling &amp; uji hipotesis, regresi, forecast, A/B testing, evaluasi dampak.</p>
+          <p class="card__meta" data-i18n="track.3.dur">1 – 2 hari per modul</p>
+        </article>
+        <article class="card card--track">
+          <h3 data-i18n="track.4.t">Engineering &amp; Tata Kelola</h3>
+          <p class="card__meta" data-i18n="track.4.who">Tim IT, analis senior</p>
+          <p data-i18n="track.4.d">Pipeline &amp; warehouse, data quality, KPI dictionary, UU PDP, otomasi.</p>
+          <p class="card__meta" data-i18n="track.4.dur">1 – 3 hari</p>
+        </article>
+      </div>
+
+      <h3 class="subhead subhead--light" data-i18n="training.programs">Program siap pilih</h3>
+      <div class="grid grid--5">
+        <article class="card card--program">
+          <h4 data-i18n="program.1.t">Data untuk Pengurus</h4>
+          <p class="card__meta" data-i18n="program.1.meta">2 hari · pengurus &amp; manajer</p>
+          <p class="card__price" data-i18n-html="program.1.price">Mulai <strong>Rp 12 jt</strong></p>
+        </article>
+        <article class="card card--program">
+          <h4 data-i18n="program.2.t">Analis Internal Pertama</h4>
+          <p class="card__meta" data-i18n="program.2.meta">8 sesi · staf yang akan jadi analis</p>
+          <p class="card__price" data-i18n-html="program.2.price">Mulai <strong>Rp 25 jt</strong></p>
+        </article>
+        <article class="card card--program">
+          <h4 data-i18n="program.3.t">Dashboard Team</h4>
+          <p class="card__meta" data-i18n="program.3.meta">4 sesi · tim yang membangun dashboard</p>
+          <p class="card__price" data-i18n-html="program.3.price">Mulai <strong>Rp 15 jt</strong></p>
+        </article>
+        <article class="card card--program">
+          <h4 data-i18n="program.4.t">Statistika untuk Keputusan</h4>
+          <p class="card__meta" data-i18n="program.4.meta">4–6 sesi · analis &amp; manajer</p>
+          <p class="card__price" data-i18n-html="program.4.price">Mulai <strong>Rp 20 jt</strong></p>
+        </article>
+        <article class="card card--program">
+          <h4 data-i18n="program.5.t">Zakat &amp; Wakaf Analytics</h4>
+          <p class="card__meta" data-i18n="program.5.meta">4 sesi · LAZ, BAZNAS, lembaga wakaf</p>
+          <p class="card__price" data-i18n-html="program.5.price">Mulai <strong>Rp 20 jt</strong></p>
+        </article>
+      </div>
+
+      <ul class="diff">
+        <li>
+          <strong data-i18n="diff.1.t">Data Anda, bukan data contoh.</strong>
+          <span data-i18n="diff.1.d">Peserta berlatih dengan ekspor nyata dari sistem Anda.</span>
+        </li>
+        <li>
+          <strong data-i18n="diff.2.t">Ada asesmen.</strong>
+          <span data-i18n="diff.2.d">Pre-test, post-test, dan capstone — bukan sekadar sertifikat kehadiran.</span>
+        </li>
+        <li>
+          <strong data-i18n="diff.3.t">Ada lanjutannya.</strong>
+          <span data-i18n="diff.3.d">Tersedia pendampingan bulanan agar kemampuannya tidak hilang dalam enam bulan.</span>
+        </li>
+      </ul>
+
+      <div class="training__cta">
+        <a class="btn btn--accent js-wa" data-wa="training" href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="training.cta">Minta Proposal Training</a>
+        <p class="fineprint fineprint--light" data-i18n="training.note">Tersedia sertifikat penyelesaian. Untuk kelas dalam jumlah besar atau program tahunan, minta proposal khusus.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TENTANG ============ -->
+  <section class="section" id="tentang">
+    <div class="wrap wrap--narrow">
+      <header class="section__head">
+        <p class="kicker">07 — <span data-i18n="about.kicker">Tentang</span></p>
+        <h2 data-i18n="about.title">Siapa yang akan mengerjakan ini</h2>
+      </header>
+
+      <div class="prose">
+        <p data-i18n="about.p1">Saya praktisi data. Sehari-hari saya bekerja sebagai <strong>Senior Data Engineer</strong> — membangun sistem data yang harus akurat, otomatis, dan tidak boleh mati. Latar belakang kuantitatif saya membuat model proyeksi, forecast, dan evaluasi dampak bisa disusun dengan asumsi tertulis dan uji sensitivitas, bukan angka yang dikarang.</p>
+        <p data-i18n="about.p2">Saya memilih fokus di usaha dan lembaga syariah karena di sinilah dua hal itu paling dibutuhkan dan paling jarang tersedia: keputusan yang bergantung pada angka, tetapi datanya masih tersebar di Excel, WhatsApp, dan buku manual. Saya menempuh pendidikan Ekonomi Syariah, sehingga nisbah, kolektibilitas, mustahik, dan maqashid saya baca sebagai bahasa kerja — bukan istilah asing.</p>
+        <p class="prose__punch" data-i18n="about.p3">Yang saya jual bukan laporan. Yang saya jual adalah keyakinan bahwa angka yang Anda bawa ke rapat itu benar.</p>
+      </div>
+
+      <details class="accordion">
+        <summary data-i18n="about.tech.t">Cara kerja teknis</summary>
+        <div class="accordion__body">
+          <p data-i18n="about.tech.d">Data diambil langsung dari sumber Anda (POS, spreadsheet, database, API) lewat pipeline terjadwal; transformasi dan validasi berjalan otomatis; hasilnya masuk ke dashboard atau warehouse. Semua berjalan di akun milik Anda. Untuk kebutuhan skala besar: DuckDB, BigQuery, Python, dan orkestrasi terjadwal. Detail arsitektur tersedia saat diskusi.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section--alt" id="faq">
+    <div class="wrap wrap--narrow">
+      <header class="section__head">
+        <p class="kicker">08 — <span data-i18n="faq.kicker">Pertanyaan</span></p>
+        <h2 data-i18n="faq.title">Yang biasanya ditanyakan lebih dulu</h2>
+      </header>
+
+      <div class="faq">
+        <details>
+          <summary data-i18n="faq.1.q">Apakah saya harus punya sistem atau aplikasi khusus?</summary>
+          <p data-i18n="faq.1.a">Tidak. Mulai dari Excel, Google Sheets, atau export dari POS dan aplikasi koperasi yang sudah ada.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.2.q">Data saya berantakan sekali, masih bisa?</summary>
+          <p data-i18n="faq.2.a">Justru itu kasus paling umum. Fase pertama biasanya merapikan data sebelum membuat dashboard.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.3.q">Apakah data saya aman?</summary>
+          <p data-i18n="faq.3.a">Akses lewat akun Anda, data disimpan seminimal mungkin, dan dihapus 30 hari setelah project selesai — sesuai UU PDP No. 27/2022. Data tetap milik Anda, dan kami tidak menahan akses.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.4.q">Berapa lama sampai hasilnya kelihatan?</summary>
+          <p data-i18n="faq.4.a">Diagnostic 5 hari kerja. Dashboard pertama 2–3 minggu. Analisis khusus 3–5 hari.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.5.q">Apakah pendampingan bulanan mengikat?</summary>
+          <p data-i18n="faq.5.a">Minimum 3 bulan, dan Anda bisa berhenti setelah bulan pertama tanpa penalti. Data, dashboard, dan dokumentasi tetap milik Anda.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.6.q">Apakah bisa kerja jarak jauh?</summary>
+          <p data-i18n="faq.6.a">Ya, seluruh proses remote lewat Google Meet dan WhatsApp, dengan sesi serah terima online yang direkam.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.7.q">Bisa tidak hanya menganalisis satu masalah spesifik?</summary>
+          <p data-i18n="faq.7.a">Bisa — pakai format sprint 3–5 hari atau blok 5 jam, mulai Rp 1,5 juta.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.8.q">Apakah training bisa disesuaikan dengan kebutuhan kami?</summary>
+          <p data-i18n="faq.8.a">Ya. Kurikulum disusun setelah kami tahu level peserta dan data yang tersedia. Kelas yang mencampur level (misalnya direktur dan staf administrasi) tidak kami sarankan — hasilnya biasanya tidak memuaskan keduanya.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KONTAK ============ -->
+  <section class="section" id="kontak">
+    <div class="wrap">
+      <header class="section__head section__head--center">
+        <p class="kicker">09 — <span data-i18n="contact.kicker">Kontak</span></p>
+        <h2 data-i18n="contact.title">Dua jalur, pilih yang sesuai kebutuhan Anda</h2>
+      </header>
+
+      <div class="grid grid--2">
+        <article class="card card--cta">
+          <h3 data-i18n="contact.1.t">Butuh bantuan dengan data usaha</h3>
+          <p data-i18n="contact.1.d">Mulai dari percakapan 30 menit. Tidak ada biaya, tidak ada kewajiban lanjut.</p>
+          <a class="btn btn--primary js-wa" data-wa="consult" href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="contact.1.btn">Konsultasi via WhatsApp</a>
+        </article>
+        <article class="card card--cta">
+          <h3 data-i18n="contact.2.t">Butuh proposal training untuk tim</h3>
+          <p data-i18n="contact.2.d">Sampaikan jumlah peserta dan topik yang diinginkan, saya kirimkan proposal dan silabus.</p>
+          <a class="btn btn--accent js-wa" data-wa="training" href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="contact.2.btn">Minta Proposal Training</a>
+        </article>
+      </div>
+
+      <p class="contact__alt">
+        <span data-i18n="contact.or">Atau lewat</span>
+        <a class="js-email" data-email href="mailto:hello@example.com">hello@example.com</a>
+        <span class="contact__sep" data-li-sep aria-hidden="true">·</span>
+        <a class="js-linkedin" data-linkedin href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="footer__brand">Aulia Data Studio</p>
+      <p class="footer__desc" data-i18n="footer.desc">Konsultan data &amp; training untuk usaha dan lembaga syariah. Remote, seluruh Indonesia.</p>
+    </div>
+    <nav aria-label="Navigasi footer" data-i18n-attr="aria-label:footer.nav">
+      <ul class="footer__links">
+        <li><a href="#layanan" data-i18n="nav.services">Layanan</a></li>
+        <li><a href="#paket" data-i18n="nav.pricing">Paket</a></li>
+        <li><a href="#training" data-i18n="nav.training">Training</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap footer-fine">
+    <p data-i18n="footer.legal">Data klien diperlakukan sesuai UU PDP No. 27/2022. Nama klien hanya dipublikasikan dengan izin tertulis.</p>
+    <p><span data-i18n="footer.rights">© 2026 Aulia Data Studio</span></p>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <a class="btn btn--primary js-wa" data-wa="consult" href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener" data-i18n="sticky.cta">Konsultasi 30 Menit (Gratis)</a>
+</div>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

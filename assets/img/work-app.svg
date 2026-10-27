@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340" role="img" aria-label="Ilustrasi aplikasi analitik interaktif dengan panel filter dan grafik hasil">
+  <defs>
+    <linearGradient id="appArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D9A404" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#D9A404" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="340" fill="#F3F7F4"/>
+  <g font-family="'Plus Jakarta Sans', Segoe UI, Arial, sans-serif">
+
+    <rect x="24" y="24" width="512" height="292" rx="14" fill="#FFFFFF" stroke="#E1E7E3"/>
+
+    <g>
+      <rect x="24" y="24" width="512" height="34" rx="14" fill="#F7FAF8"/>
+      <rect x="24" y="44" width="512" height="14" fill="#F7FAF8"/>
+      <line x1="24" y1="58" x2="536" y2="58" stroke="#E1E7E3"/>
+      <circle cx="44" cy="41" r="3.4" fill="#E1E7E3"/>
+      <circle cx="56" cy="41" r="3.4" fill="#E1E7E3"/>
+      <circle cx="68" cy="41" r="3.4" fill="#E1E7E3"/>
+      <text x="530" y="45" font-size="9" fill="#8A929E" text-anchor="end">analitik.app</text>
+    </g>
+
+    <g>
+      <rect x="44" y="76" width="132" height="220" rx="10" fill="#FAFAF7" stroke="#EDEDE6"/>
+      <text x="58" y="98" font-size="9.5" font-weight="700" fill="#8A929E" letter-spacing=".7">FILTER</text>
+
+      <g>
+        <rect x="58" y="112" width="104" height="24" rx="6" fill="#FFFFFF" stroke="#E1E7E3"/>
+        <text x="68" y="128" font-size="9.5" fill="#55606E">Semua cabang</text>
+        <path d="M148 122l4 4 4-4" stroke="#8A929E" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+      </g>
+      <g>
+        <rect x="58" y="144" width="104" height="24" rx="6" fill="#FFFFFF" stroke="#E1E7E3"/>
+        <text x="68" y="160" font-size="9.5" fill="#55606E">Feb 2026</text>
+        <path d="M148 154l4 4 4-4" stroke="#8A929E" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+      </g>
+
+      <text x="58" y="190" font-size="9.5" font-weight="700" fill="#8A929E" letter-spacing=".7">KATEGORI</text>
+      <g>
+        <rect x="58" y="200" width="12" height="12" rx="3" fill="#0F5132"/>
+        <path d="M60.5 206l2 2 3.5-4" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <text x="78" y="210" font-size="10" fill="#111827">Sembako</text>
+
+        <rect x="58" y="222" width="12" height="12" rx="3" fill="#0F5132"/>
+        <path d="M60.5 228l2 2 3.5-4" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <text x="78" y="232" font-size="10" fill="#111827">Minuman</text>
+
+        <rect x="58" y="244" width="12" height="12" rx="3" fill="#FFFFFF" stroke="#CFD6D1"/>
+        <text x="78" y="254" font-size="10" fill="#55606E">Alat tulis</text>
+      </g>
+
+      <rect x="58" y="272" width="104" height="14" rx="7" fill="#EAF1EC"/>
+      <text x="110" y="282" font-size="8.5" font-weight="700" fill="#0F5132" text-anchor="middle">TERAPKAN</text>
+    </g>
+
+    <g>
+      <text x="196" y="98" font-size="11.5" font-weight="700" fill="#111827">Dampak pada laba kotor</text>
+      <text x="196" y="116" font-size="9.5" fill="#8A929E">Perubahan relatif terhadap baseline</text>
+
+      <rect x="196" y="128" width="320" height="112" rx="10" fill="#FAFAF7" stroke="#EDEDE6"/>
+      <line x1="216" y1="220" x2="496" y2="220" stroke="#E1E7E3"/>
+      <path d="M216 210 Q266 206 306 196 T396 178 T496 166 L496 220 L216 220 Z" fill="url(#appArea)"/>
+      <path d="M216 210 Q266 206 306 196 T396 178 T496 166" fill="none" stroke="#D9A404" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="496" cy="166" r="3.6" fill="#D9A404" stroke="#FFFFFF" stroke-width="1.5"/>
+      <text x="496" y="154" font-size="9.5" font-weight="700" fill="#B07400" text-anchor="end">+12,4%</text>
+
+      <g>
+        <rect x="196" y="254" width="152" height="42" rx="10" fill="#EAF1EC"/>
+        <text x="212" y="272" font-size="9" fill="#3E5A48">Margin tertinggi</text>
+        <text x="212" y="288" font-size="12" font-weight="800" fill="#0F5132">Sembako</text>
+
+        <rect x="364" y="254" width="152" height="42" rx="10" fill="#FBF3DC"/>
+        <text x="380" y="272" font-size="9" fill="#8A6B15">Perlu perhatian</text>
+        <text x="380" y="288" font-size="12" font-weight="800" fill="#B07400">Alat tulis</text>
+      </g>
+    </g>
+  </g>
+</svg>

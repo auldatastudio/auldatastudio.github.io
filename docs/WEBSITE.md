@@ -1,5 +1,7 @@
 # Spesifikasi Website — Aulia Data Studio
 
+> **Status implementasi:** fase 1 sudah dibangun di [../index.html](../index.html) — semua section, bilingual ID/EN, tanpa build step. Yang masih perlu diganti sebelum rilis: nomor WhatsApp, email, `USERNAME` GitHub, dan screenshot asli (lihat [../README.md](../README.md)).
+
 Website ini bukan company profile. Fungsinya **menyaring dan mengubah prospek hangat jadi percakapan WhatsApp**. Semua keputusan desain mengikuti tujuan itu.
 
 - **Brand:** Aulia Data Studio
